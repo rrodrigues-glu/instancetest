@@ -253,5 +253,7 @@
     "name": "test",
     "detectedOs": "ios",
     "detectedSoftwareVersion": "16.12.1a",
-    "detectedSku": "CSR1000V"
+    "detectedSku": "CSR1000V",
+    "@id": "699c0ebc-718c-463d-a1b9-18de44f74a1a",
+    "@lastCommitHash": "c00de866a3e660d499047e0c6b1a34305a281afa"
 }
