@@ -6,9 +6,6 @@
         "credentials": {
             "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
         },
-        "enablePassword": {
-            "@ref": null
-        },
         "port": 22,
         "sshParam": "",
         "type": "ssh"
@@ -46,10 +43,11 @@
     "wanRouter": {
         "enabled": true
     },
+    "@exportedInstanceId": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
     "@id": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
-    "@name": "Cisco CSR_1",
-    "@description": "Test RPA",
     "@type": {
         "ref": "/sys/type/construct/node/iosRouter.jtype"
-    }
+    },
+    "@name": "Cisco CSR_1",
+    "@description": "Test RPA"
 }

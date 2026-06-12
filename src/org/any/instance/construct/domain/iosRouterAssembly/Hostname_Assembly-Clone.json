@@ -8,21 +8,15 @@
             }
         }
     },
-    "interfaces": {
-        "portMap": {
-            "@ref": null
-        },
-        "ipNumbering": {
-            "@ref": null
-        }
-    },
+    "interfaces": {},
     "state": {
         "assessment": {}
     },
+    "@exportedInstanceId": "5bc53d04-9d35-4aac-901a-57b9c62668ba",
     "@id": "5bc53d04-9d35-4aac-901a-57b9c62668ba",
-    "@name": "Hostname_Assembly-Clone",
-    "@description": "",
     "@type": {
         "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
-    }
+    },
+    "@name": "Hostname_Assembly-Clone",
+    "@description": ""
 }

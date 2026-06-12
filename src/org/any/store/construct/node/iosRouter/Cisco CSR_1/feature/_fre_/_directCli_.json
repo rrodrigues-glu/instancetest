@@ -1,0 +1,109 @@
+{
+    "version": "3.0.0",
+    "actionInfo": {
+        "typeName": "directCli",
+        "actionKey": "/org/Romualdo/instance/construct/script/directCli/CLI.json",
+        "jnib": "/org/jnib/script/directCli.jnib",
+        "phaseNumber": "100",
+        "actionTypeKey": "/org/Romualdo/type/construct/script/directCli.jtype",
+        "startObj": {
+            "script": {
+                "self": {
+                    "@source": {
+                        "instanceKey": "/org/Romualdo/instance/construct/script/directCli/CLI.json",
+                        "typeKey": "/org/Romualdo/type/construct/script/directCli.jtype",
+                        "type": "directCli",
+                        "typeId": "d0e1cca8-54b2-491c-aed3-5d1c8521b0e4",
+                        "typeVersionId": "41b57820-9788-4cf6-b195-86a3ad84e19c",
+                        "instanceName": "CLI",
+                        "instanceId": "0e00f45e-a713-43d2-bb66-0f68b76e9d51",
+                        "construct": "script",
+                        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                        "instanceVersionId": "da3c8dab-c1d2-499e-ab38-e3a1421ea4f7",
+                        "instanceVersion": "1.0.1"
+                    },
+                    "cliCommands": [
+                        "conf term",
+                        "ip access-list standard 80",
+                        "no deny   any log ",
+                        "deny   any log",
+                        "no remark VTY access",
+                        "10 remark VTY access",
+                        "end"
+                    ]
+                }
+            }
+        },
+        "@Info": {
+            "displayName": "Direct CLI",
+            "description": "Allows sending CLI commands directly to device",
+            "preLoadJnib": true,
+            "scriptDependencies": {
+                "jnib": {
+                    "/org/jnib/script/directCli.jnib": {}
+                }
+            },
+            "domainDependencies": {},
+            "nodeDependencies": {}
+        }
+    },
+    "configRefs": {
+        "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR",
+                "typeKey": "/org/Romualdo/type/construct/node/iosRouter.jtype",
+                "type": "iosRouter",
+                "typeId": "0f070ae1-6250-4907-9437-490509b37999",
+                "typeVersionId": "fe76b335-aab4-4090-b3d2-d9df3ff29409",
+                "instanceName": "Cisco CSR",
+                "instanceId": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+                "construct": "node",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "924d8c75-f965-403e-a06c-fd332d2e60e8",
+                "instanceVersion": "1.0.48",
+                "deviceId": "e98cdffc-2847-4aa9-91cf-32096322b4e9"
+            }
+        },
+        "/org/Romualdo/instance/construct/domain/location/RU001.json": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR.site"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/domain/location/RU001.json",
+                "typeKey": "/org/Romualdo/type/construct/domain/location.jtype",
+                "type": "location",
+                "typeId": "af9fc3eb-4258-4543-a19e-836068e88586",
+                "typeVersionId": "11682fca-1f8f-418a-89e8-00c1332d5019",
+                "instanceName": "RU001",
+                "instanceId": "9682be58-2589-4168-8c14-ae928a3ef041",
+                "construct": "domain",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "875e8cec-95ba-4e8b-9b3b-aacb4a4c78e5",
+                "instanceVersion": "1.0.2"
+            }
+        },
+        "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Username_Assembly.json": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR.associations.assembly"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Username_Assembly.json",
+                "typeKey": "/org/Romualdo/type/construct/domain/iosRouterAssembly.jtype",
+                "type": "iosRouterAssembly",
+                "typeId": "fa0a6eee-c52c-4890-94b8-c49377d6aaa8",
+                "typeVersionId": "aa72da76-bf42-4fbf-a436-2cb9bbef0e89",
+                "instanceName": "Username_Assembly",
+                "instanceId": "530d914c-0747-4192-9ea8-95b9bc015db7",
+                "construct": "domain",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "34d67fd4-572f-424c-9563-de1467f8477d",
+                "instanceVersion": "1.0.4"
+            }
+        }
+    },
+    "@id": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+    "@lastCommitHash": ""
+}

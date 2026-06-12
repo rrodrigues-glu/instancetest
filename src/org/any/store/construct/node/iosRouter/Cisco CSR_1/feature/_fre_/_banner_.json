@@ -1,0 +1,267 @@
+{
+    "version": "3.0.0",
+    "actionInfo": {
+        "typeName": "banner",
+        "actionKey": "/org/Romualdo/instance/construct/feature/banner/ios_banner.json",
+        "jnib": "/sys/jnib/features/banner/cm_banner.template.jnib",
+        "phaseNumber": "10",
+        "actionTypeKey": "/org/Romualdo/type/construct/feature/banner.jtype",
+        "startObj": {
+            "feature": {
+                "self": {
+                    "@source": {
+                        "instanceKey": "/org/Romualdo/instance/construct/feature/banner/ios_banner.json",
+                        "typeKey": "/org/Romualdo/type/construct/feature/banner.jtype",
+                        "type": "banner",
+                        "typeId": "5c64ba1d-277a-4b08-ae71-2acb8b3ef7c0",
+                        "typeVersionId": "9ab36794-72ac-4969-a19c-c6c84cbf5be9",
+                        "instanceName": "ios_banner",
+                        "instanceId": "cafb24b1-0469-455e-92f4-59236f25b049",
+                        "construct": "feature",
+                        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                        "instanceVersionId": "7564f7e5-6974-4f78-96b8-039fc3f558f9",
+                        "instanceVersion": "1.1.0"
+                    },
+                    "@type": {
+                        "ref": "/sys/type/construct/feature/banner.jtype"
+                    },
+                    "featureConcept": {
+                        "name": "Cisco IOS/IOSXE Banner",
+                        "cliCommandGroups": [
+                            {
+                                "@type": {
+                                    "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+                                },
+                                "regEx": ".+",
+                                "ignoreDelete": false,
+                                "cliBlocks": [
+                                    {
+                                        "item": {
+                                            "@type": {
+                                                "ref": "/sys/type/construct/global/conceptItem.jtype"
+                                            },
+                                            "@description": "Displays the running configuration beginning at the banner section.",
+                                            "name": "Banner",
+                                            "vendors": {
+                                                "cisco": {
+                                                    "type": [
+                                                        "ios"
+                                                    ]
+                                                }
+                                            },
+                                            "showCmds": [
+                                                "sh run | beg banner"
+                                            ],
+                                            "mode": "advanced",
+                                            "keyCliLine": "banner (motd|login|exec) .+",
+                                            "rootEntryFlag": true,
+                                            "keyLineDepth": 1,
+                                            "keyGroup": 1,
+                                            "regEx": "",
+                                            "metadata": {
+                                                "@type": {
+                                                    "ref": "/sys/type/construct/global/cliMetadata.jtype"
+                                                },
+                                                "META-DATA": {
+                                                    "reset": {
+                                                        "type": "anyChange"
+                                                    },
+                                                    "writeRawWhenSending": true
+                                                },
+                                                "@source": {
+                                                    "instanceKey": "/org/Romualdo/instance/construct/global/cliMetadata/IOS_Banner_cliMetadata",
+                                                    "typeKey": "/org/Romualdo/type/construct/global/cliMetadata.jtype",
+                                                    "type": "cliMetadata",
+                                                    "typeName": "CLI Metadata",
+                                                    "typeId": "59c72da4-2a5e-4bfe-9337-a64663c3137d",
+                                                    "typeVersionId": "d557c11f-db29-4fb0-88f1-d8a8cab4be71",
+                                                    "typeVersion": "1.0.0",
+                                                    "instanceName": "IOS_Banner_cliMetadata",
+                                                    "instanceId": "cfb833a1-fcf2-49ae-a61d-45343aed3667",
+                                                    "construct": "global",
+                                                    "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                                                    "instanceVersionId": "d18c8b87-46df-4436-ac4f-1f2ad4167f56",
+                                                    "instanceVersion": "1.2.0"
+                                                }
+                                            },
+                                            "boundaries": {
+                                                "start": null
+                                            },
+                                            "discover": {
+                                                "content": {
+                                                    "expressions": [
+                                                        "(^((?!\\^|^banner).)+)"
+                                                    ]
+                                                }
+                                            },
+                                            "removeSyntax": {},
+                                            "@source": {
+                                                "instanceKey": "/org/Romualdo/instance/construct/global/conceptItem/IOS_Banner",
+                                                "typeKey": "/org/Romualdo/type/construct/global/conceptItem.jtype",
+                                                "type": "conceptItem",
+                                                "typeName": "Concept Item",
+                                                "typeId": "255393ab-956c-4b29-a250-8c266c164f9c",
+                                                "typeVersionId": "1efe4339-d86b-47d3-8e90-3e739710440b",
+                                                "typeVersion": "1.0.2",
+                                                "instanceName": "IOS_Banner",
+                                                "instanceId": "ef99ae02-e221-4c40-8ba0-a72497c63802",
+                                                "construct": "global",
+                                                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                                                "instanceVersionId": "6115560b-9430-42c5-84aa-cd520c4a9dbe",
+                                                "instanceVersion": "1.2.0"
+                                            }
+                                        },
+                                        "cliCommands": [
+                                            "banner login ^",
+                                            "  ######################################################",
+                                            "  #                                                    #",
+                                            "  # UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED   #",
+                                            "  # You must have explicit, authorized permission to   #",
+                                            "  # access or configure this device. Unauthorized      #",
+                                            "  # attempts and actions to access or use this system  #",
+                                            "  # may result in civil and/or criminal penalties.     #",
+                                            "  # All activities performed on this device are logged #",
+                                            "  # and monitored.                                     #",
+                                            "  #                                                    #",
+                                            "  ######################################################",
+                                            "^"
+                                        ],
+                                        "advanced": {
+                                            "filter": null
+                                        },
+                                        "@source": {
+                                            "instanceKey": "/org/Romualdo/instance/construct/global/cliCommands/ios_banner_cli",
+                                            "typeKey": "/org/Romualdo/type/construct/global/cliCommands.jtype",
+                                            "type": "cliCommands",
+                                            "typeName": "CLI Command List",
+                                            "typeId": "6520a829-6447-4962-afcd-f5ebe97c3f63",
+                                            "typeVersionId": "951f0722-b161-47a7-a55e-26fcb56e0465",
+                                            "typeVersion": "1.0.0",
+                                            "instanceName": "ios_banner_cli",
+                                            "instanceId": "a1d107f2-dc81-440e-99c3-99e1b68e36ff",
+                                            "construct": "global",
+                                            "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                                            "instanceVersionId": "2d5245a5-6634-4804-bf41-f9a659e0b28c",
+                                            "instanceVersion": "1.0.2"
+                                        }
+                                    }
+                                ],
+                                "advanced": {},
+                                "maskCommands": [],
+                                "@source": {
+                                    "instanceKey": "/org/Romualdo/instance/construct/global/cliCommandGroup/ios_banner_grp",
+                                    "typeKey": "/org/Romualdo/type/construct/global/cliCommandGroup.jtype",
+                                    "type": "cliCommandGroup",
+                                    "typeName": "CLI Command Group",
+                                    "typeId": "d65d52d9-86ac-4d11-9341-ff0e9ca4ca10",
+                                    "typeVersionId": "d85c53aa-3351-40e5-8b6d-6117e10c57d4",
+                                    "typeVersion": "1.0.2",
+                                    "instanceName": "ios_banner_grp",
+                                    "instanceId": "e64044bc-ab6a-4be9-b4df-8ada9c86f6e4",
+                                    "construct": "global",
+                                    "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                                    "instanceVersionId": "b9d0059f-9883-4ebf-ae17-8444bbec96fd",
+                                    "instanceVersion": "1.0.0"
+                                },
+                                "removeSyntax": {
+                                    "list": []
+                                }
+                            }
+                        ]
+                    },
+                    "form": {
+                        "banner": {
+                            "comment": null
+                        }
+                    }
+                }
+            }
+        },
+        "@Info": {
+            "phaseNumber": 10,
+            "displayName": "Banner Feature",
+            "description": "Banner Feature",
+            "featureDependencies": {
+                "jnib": {
+                    "/sys/jnib/features/banner/cm_banner.template.jnib": {}
+                },
+                "preRequiredFeatures": {}
+            },
+            "domainDependencies": {},
+            "nodeDependencies": {},
+            "augments": {
+                "targets": [
+                    "/sys/type/construct/domain/aireosWirelessControllerAssembly",
+                    "/sys/type/construct/domain/arubaosWirelessControllerAssembly",
+                    "/sys/type/construct/domain/arubaoscxSwitchAssembly",
+                    "/sys/type/construct/domain/arubaosSwitchAssembly",
+                    "/sys/type/construct/domain/provisionSwitchAssembly",
+                    "/sys/type/construct/domain/sgosWanOptimizerAssembly",
+                    "/sys/type/construct/domain/dnosSwitchAssembly",
+                    "/sys/type/construct/domain/gaiaFirewallAssembly",
+                    "/sys/type/construct/domain/eosSwitchAssembly",
+                    "/sys/type/construct/domain/exSwitchAssembly",
+                    "/sys/type/construct/domain/srxRouterAssembly",
+                    "/sys/type/construct/domain/qfxSwitchAssembly",
+                    "/sys/type/construct/domain/mxRouterAssembly",
+                    "/sys/type/construct/domain/iosSwitchAssembly",
+                    "/sys/type/construct/domain/nxosSwitchAssembly",
+                    "/sys/type/construct/domain/iosRouterAssembly",
+                    "/sys/type/construct/domain/asaFirewallAssembly"
+                ],
+                "blocks": {
+                    "expertFeatureOption": {
+                        "properties": {
+                            "name": "banner",
+                            "featureLabel": "Banner Feature",
+                            "policyLabel": "Banner Policy",
+                            "policyPath": "/org/instance/construct/feature/banner/*"
+                        }
+                    }
+                }
+            },
+            "phaseNumber@Display.label": "Execution Order"
+        }
+    },
+    "configRefs": {
+        "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR",
+                "typeKey": "/org/Romualdo/type/construct/node/iosRouter.jtype",
+                "type": "iosRouter",
+                "typeId": "0f070ae1-6250-4907-9437-490509b37999",
+                "typeVersionId": "7127ba84-ac73-4447-8cee-92c3f7eea937",
+                "instanceName": "Cisco CSR",
+                "instanceId": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+                "construct": "node",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "1e3cee5b-8163-4fa0-86fa-407d3bc413e8",
+                "instanceVersion": "1.0.4",
+                "deviceId": "e98cdffc-2847-4aa9-91cf-32096322b4e9"
+            }
+        },
+        "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Banner_Assembly.json": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR.associations.assembly"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Banner_Assembly.json",
+                "typeKey": "/org/Romualdo/type/construct/domain/iosRouterAssembly.jtype",
+                "type": "iosRouterAssembly",
+                "typeId": "fa0a6eee-c52c-4890-94b8-c49377d6aaa8",
+                "typeVersionId": "e231d4e0-d5b3-4dfd-9a69-6557a52d817e",
+                "instanceName": "Banner_Assembly",
+                "instanceId": "944bf7a9-cbe6-4251-bc87-3bde13176d53",
+                "construct": "domain",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "be25f6b2-f085-489b-b8ce-e6e25c9d94c0",
+                "instanceVersion": "1.0.0"
+            }
+        }
+    },
+    "@id": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+    "@lastCommitHash": ""
+}
