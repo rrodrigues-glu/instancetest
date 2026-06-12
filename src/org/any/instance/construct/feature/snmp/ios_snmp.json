@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/snmp.jtype"
+    },
+    "featureConcept": {
+        "name": "SNMP v2c",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_snmp-server_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "snmp": {
+            "location": "",
+            "contact": "",
+            "version": {}
+        }
+    },
+    "@source": {
+        "instanceName": "ios_snmp"
+    },
+    "@exportedInstanceId": "c0fce8a2-b922-4076-a82f-8e4ef3def98e",
+    "@id": "c0fce8a2-b922-4076-a82f-8e4ef3def98e",
+    "@name": "ios_snmp",
+    "@description": ""
+}

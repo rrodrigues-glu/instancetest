@@ -1,0 +1,53 @@
+{
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "terminalType": "xterm",
+        "ip": "10.1.100.155",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+        },
+        "port": 22,
+        "type": "ssh",
+        "sshParam": ""
+    },
+    "associations": {
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/iosRouterAssembly/Hostname_Assembly.json"
+        },
+        "provider": "local"
+    },
+    "personae": {},
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "persona": {
+        "id": 0,
+        "type": "none"
+    },
+    "iosRouter": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/BO001.json"
+    },
+    "configState": "managed",
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "wanRouter": {
+        "enabled": true
+    },
+    "@exportedInstanceId": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+    "@id": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+    "@type": {
+        "ref": "/sys/type/construct/node/iosRouter.jtype"
+    },
+    "@name": "Cisco CSR",
+    "@description": "Test RPA"
+}

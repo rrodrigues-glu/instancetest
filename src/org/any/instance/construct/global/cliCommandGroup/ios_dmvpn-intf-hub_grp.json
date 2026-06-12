@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_dmvpn-intf-hub_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-intf-hub_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "57e04d5d-b7d5-48b7-9ae1-24a18254b3ba",
+    "@id": "57e04d5d-b7d5-48b7-9ae1-24a18254b3ba",
+    "@name": "ios_dmvpn-intf-hub_grp",
+    "@description": ""
+}

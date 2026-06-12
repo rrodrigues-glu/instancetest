@@ -1,0 +1,516 @@
+{
+    "hostname": "Aruba-VSF-2930F",
+    "vendor": "hpe",
+    "os": "arubaos",
+    "path": "/sys/jnib/features/deviceDetect/hpe/arubaos/",
+    "sku": "JL253A",
+    "software": {
+        "version": "WC.16.07.0006",
+        "major": "16",
+        "minor": "07",
+        "revision": "0006",
+        "train": "WC"
+    },
+    "hardware": {
+        "serialNumber": "M",
+        "sku": "JL253A",
+        "stack": {
+            "1": {
+                "version": "WC.16.07.0006"
+            },
+            "2": {
+                "version": "WC.16.07.0006",
+                "serialNumber": "CN8BHKT19P"
+            }
+        },
+        "components": {
+            "lineCards": [],
+            "powerSupplies": []
+        },
+        "family": "2930",
+        "series": "2930F"
+    },
+    "detectedSerialNumber": "M",
+    "stack": {
+        "1": {
+            "version": "WC.16.07.0006"
+        },
+        "2": {
+            "version": "WC.16.07.0006",
+            "serialNumber": "CN8BHKT19P"
+        }
+    },
+    "type": {
+        "name": "arubaosSwitch",
+        "base": "campusSwitch"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "1": {
+                "operational": {
+                    "macAddress": ""
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2": {
+                "operational": {
+                    "macAddress": ""
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/1": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/2": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/3": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/4": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/5": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/6": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/7": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/8": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/9": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/10": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/11": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/12": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/13": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/14": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/15": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/16": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/17": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/18": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/19": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/20": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/21": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/22": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/23": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/24": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/25": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/26": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "1/27": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/1": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/2": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/3": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/4": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/5": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/6": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/7": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/8": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/9": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/10": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/11": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/12": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/13": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/14": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/15": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/16": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/17": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/18": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/19": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/20": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/21": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/22": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/23": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/24": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/25": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/26": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            },
+            "2/27": {
+                "operational": {},
+                "type": "l2",
+                "configured": {
+                    "enabled": false
+                },
+                "description": ""
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 56,
+                "use": 0,
+                "free": 56
+            }
+        },
+        "recordTime": {
+            "utcTime": 1710425369901,
+            "utcDateTime": "Thu, 14 Mar 2024 14:09:29 GMT"
+        }
+    }
+}

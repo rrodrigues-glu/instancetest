@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "dhcp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dhcp/ios_ip-helper-update.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "IP-Helper-Update"
+    },
+    "@exportedInstanceId": "4dab3568-3e36-4c76-b74e-4c21a4d277fb",
+    "@id": "4dab3568-3e36-4c76-b74e-4c21a4d277fb",
+    "@name": "IP-Helper-Update",
+    "@description": ""
+}

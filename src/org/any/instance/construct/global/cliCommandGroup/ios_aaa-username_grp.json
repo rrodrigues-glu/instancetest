@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "cisco",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_aaa-username_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_aaa-username_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "f8e8082b-963e-4f3f-8749-35e3be22390e",
+    "@id": "f8e8082b-963e-4f3f-8749-35e3be22390e",
+    "@name": "ios_aaa-username_grp",
+    "@description": ""
+}

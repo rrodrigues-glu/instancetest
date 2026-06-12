@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_dmvpn-ipsec-profile_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ipsec-profile_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "1e781bff-d9e0-40f7-bff5-5db812603c07",
+    "@id": "1e781bff-d9e0-40f7-bff5-5db812603c07",
+    "@name": "ios_dmvpn-ipsec-profile_grp",
+    "@description": ""
+}

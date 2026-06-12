@@ -1,0 +1,30 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_dns-server-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_dns-server-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "e34bfadb-db6c-4d72-a462-f39f83dffadd",
+    "@id": "e34bfadb-db6c-4d72-a462-f39f83dffadd",
+    "@name": "nxos_dns-server-group"
+}

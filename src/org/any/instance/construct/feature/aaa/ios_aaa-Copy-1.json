@@ -1,0 +1,38 @@
+{
+    "featureConcept": {
+        "name": "AAA Feature",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_wan-acl-in_grp-Copy-1.json"
+            ]
+        }
+    },
+    "form": {
+        "aaa": [
+            {
+                "name": "te",
+                "radius": [
+                    {
+                        "name": "dfg",
+                        "ip": "10.1.1.10",
+                        "key": {
+                            "@ref": "/secret/sys/credentials/secret/testJean.json"
+                        },
+                        "timeout": 30,
+                        "port": {
+                            "authentication": 1812,
+                            "accounting": 1813
+                        }
+                    }
+                ]
+            }
+        ]
+    },
+    "@exportedInstanceId": "bdbe58ae-b286-4fa9-913d-dc02dff5a7aa",
+    "@id": "bdbe58ae-b286-4fa9-913d-dc02dff5a7aa",
+    "@type": {
+        "ref": "/sys/type/construct/feature/aaa.jtype"
+    },
+    "@name": "ios_aaa-Copy-1",
+    "@description": ""
+}

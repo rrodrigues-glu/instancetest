@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_subnet-zero_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_subnet-zero_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d7a7df4c-4b11-409a-957f-aafc2b8c7161",
+    "@id": "d7a7df4c-4b11-409a-957f-aafc2b8c7161",
+    "@name": "ios_subnet-zero_grp",
+    "@description": ""
+}

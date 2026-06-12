@@ -1,0 +1,14 @@
+{
+    "mode": {
+        "accessPort": true,
+        "portMode": "access",
+        "mode": "include"
+    },
+    "@exportedInstanceId": "89e8ac50-6b71-448b-97ec-3e313ed248f1",
+    "@id": "89e8ac50-6b71-448b-97ec-3e313ed248f1",
+    "@type": {
+        "ref": "/sys/type/construct/global/switchportFilter.jtype"
+    },
+    "@name": "switchportFilter",
+    "@description": ""
+}

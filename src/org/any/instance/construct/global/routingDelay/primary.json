@@ -1,0 +1,13 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/routingDelay.jtype"
+    },
+    "delay": 1000,
+    "@source": {
+        "instanceName": "primary"
+    },
+    "@exportedInstanceId": "137b6d0c-b498-4047-9413-4fb8f5fa9cf7",
+    "@id": "137b6d0c-b498-4047-9413-4fb8f5fa9cf7",
+    "@name": "primary",
+    "@description": ""
+}

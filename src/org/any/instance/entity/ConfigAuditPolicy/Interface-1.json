@@ -1,0 +1,48 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "Non PC 2",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "allConfig",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": "GigabitEthernet2.10|GigabitEthernet2.20|GigabitEthernet3",
+      "scopeSeparateResults": false,
+      "thenExpression": {
+        "condition": "OR",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_ordered_regex",
+            "value": [
+              "ip access-group acl-qos-SCAVENGER in1"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItem": "IOS_Intf"
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "description": "",
+  "name": "Interface-1",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "dbacbd3f-8aa4-4853-95c2-9aff2c13bfb8",
+  "createdBy": "admin",
+  "createdOn": 1755520502976,
+  "updatedBy": "admin",
+  "updatedOn": 1755523820287,
+  "lastAuditDevicesSkippedCount": 0,
+  "lastAuditErrorMsg": ""
+}

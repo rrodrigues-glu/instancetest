@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "no service config",
+        "no service pad",
+        "service timestamps debug datetime msec",
+        "service timestamps log datetime msec",
+        "service password-encryption",
+        "service sequence-numbers"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_service_cli"
+    },
+    "@exportedInstanceId": "f27a15e7-83e9-4bb2-9d55-d6d787532dbc",
+    "@id": "f27a15e7-83e9-4bb2-9d55-d6d787532dbc",
+    "@name": "ios_service_cli",
+    "@description": ""
+}

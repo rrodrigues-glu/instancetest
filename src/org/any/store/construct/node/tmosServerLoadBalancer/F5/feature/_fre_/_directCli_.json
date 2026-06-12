@@ -1,0 +1,83 @@
+{
+    "version": "3.0.0",
+    "actionInfo": {
+        "typeName": "directCli",
+        "actionKey": "/org/Romualdo/instance/construct/script/directCli/F5.json",
+        "jnib": "/org/jnib/script/directCli.jnib",
+        "phaseNumber": "100",
+        "actionTypeKey": "/org/Romualdo/type/construct/script/directCli.jtype",
+        "startObj": {
+            "script": {
+                "self": {
+                    "@source": {
+                        "instanceKey": "/org/Romualdo/instance/construct/script/directCli/F5.json",
+                        "typeKey": "/org/Romualdo/type/construct/script/directCli.jtype",
+                        "type": "directCli",
+                        "typeId": "d0e1cca8-54b2-491c-aed3-5d1c8521b0e4",
+                        "typeVersionId": "41b57820-9788-4cf6-b195-86a3ad84e19c",
+                        "instanceName": "F5",
+                        "instanceId": "10e37e89-7dbf-4898-a9b7-0210f6154994",
+                        "construct": "script",
+                        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                        "instanceVersionId": "8b5b0f13-6f66-425a-a11e-33d0a6ac5e57",
+                        "instanceVersion": "1.0.3"
+                    },
+                    "cliCommands": [
+                        "tmsh show sys version"
+                    ]
+                }
+            }
+        },
+        "@Info": {
+            "displayName": "Direct CLI",
+            "description": "Allows sending CLI commands directly to device",
+            "preLoadJnib": true,
+            "scriptDependencies": {
+                "jnib": {
+                    "/org/jnib/script/directCli.jnib": {}
+                }
+            },
+            "domainDependencies": {},
+            "nodeDependencies": {}
+        }
+    },
+    "configRefs": {
+        "/org/Romualdo/instance/construct/node/tmosServerLoadBalancer/F5": {
+            "relativePaths": [
+                "tmosServerLoadBalancer.F5"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/node/tmosServerLoadBalancer/F5",
+                "typeKey": "/org/Romualdo/type/construct/node/tmosServerLoadBalancer.jtype",
+                "type": "tmosServerLoadBalancer",
+                "typeId": "6a4ec161-6282-4bc5-9644-6885d96ca000",
+                "typeVersionId": "fbf54aac-a21f-4e5e-ac64-39245a2f3df7",
+                "instanceName": "F5",
+                "instanceId": "ac263c51-7874-4a4d-80fb-6b88beca8fd0",
+                "construct": "node",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "73949581-7851-4447-80d8-5be45e8ebaa6",
+                "instanceVersion": "1.0.0",
+                "deviceId": "2b8f93ba-bc8c-496d-89aa-0a65bde0b902"
+            }
+        },
+        "/org/Romualdo/instance/construct/domain/location/Romualdo.json": {
+            "relativePaths": [
+                "tmosServerLoadBalancer.F5.site"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/domain/location/Romualdo.json",
+                "typeKey": "/org/Romualdo/type/construct/domain/location.jtype",
+                "type": "location",
+                "typeId": "af9fc3eb-4258-4543-a19e-836068e88586",
+                "typeVersionId": "11682fca-1f8f-418a-89e8-00c1332d5019",
+                "instanceName": "Romualdo",
+                "instanceId": "f0b5d360-d1a3-4ddb-af68-9dcad5a9896f",
+                "construct": "domain",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "a15fab96-5f70-4f02-bbb9-f8c0bef87d11",
+                "instanceVersion": "1.0.0"
+            }
+        }
+    }
+}

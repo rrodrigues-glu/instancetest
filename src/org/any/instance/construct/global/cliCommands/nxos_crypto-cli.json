@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_Crytpo.json"
+    },
+    "cliCommands": [
+        "crypto key param rsa label dc03-nx7k01-mktx-dr01 modulus 2048 exportable"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_crypto-cli"
+    },
+    "@exportedInstanceId": "a27432aa-f327-4232-957e-3052f41c3077",
+    "@id": "a27432aa-f327-4232-957e-3052f41c3077",
+    "@name": "nxos_crypto-cli",
+    "@description": ""
+}

@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_cat6500-qos-cmap_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-cmap_grp"
+    },
+    "@exportedInstanceId": "4e96aec2-b492-4487-b08d-8c7051ee1368",
+    "@id": "4e96aec2-b492-4487-b08d-8c7051ee1368",
+    "@name": "ios_cat6500-qos-cmap_grp",
+    "@description": ""
+}

@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "banner login ^",
+        "  ######################################################",
+        "  #                                                    #",
+        "  # UNAUTHORIZED ACCESS TO THIS DEVICE IS PROHIBITED   #",
+        "  # You must have explicit, authorized permission to   #",
+        "  # access or configure this device. Unauthorized      #",
+        "  # attempts and actions to access or use this system  #",
+        "  # may result in civil and/or criminal penalties.     #",
+        "  # All activities performed on this device are logged #",
+        "  # and monitored.                                     #",
+        "  #                                                    #",
+        "  ######################################################",
+        "^"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_banner_cli"
+    },
+    "@exportedInstanceId": "a1d107f2-dc81-440e-99c3-99e1b68e36ff",
+    "@id": "a1d107f2-dc81-440e-99c3-99e1b68e36ff",
+    "@name": "ios_banner_cli",
+    "@description": ""
+}

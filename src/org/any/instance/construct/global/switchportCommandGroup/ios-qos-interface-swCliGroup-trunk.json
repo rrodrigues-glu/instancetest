@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/switchportCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "linkedFeature": {
+        "path": "/sys/type/construct/feature/qos.jtype"
+    },
+    "associatedFeatureType": "featurePath",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_qos-intf-trunkQueueing_cli.json"
+        ]
+    },
+    "maskCommands": [
+        "^interface",
+        "^service-policy"
+    ],
+    "advanced": {
+        "renderingConditions": [
+            "$discover.vlan.trunkMode"
+        ]
+    },
+    "@source": {
+        "instanceName": "ios-qos-interface-swCliGroup-trunk"
+    },
+    "@exportedInstanceId": "a80d5880-11b9-48b4-be82-3f4516c2867a",
+    "@id": "a80d5880-11b9-48b4-be82-3f4516c2867a",
+    "@name": "ios-qos-interface-swCliGroup-trunk",
+    "@description": ""
+}

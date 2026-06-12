@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/ios_ntp-method-1.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-1"
+    },
+    "@exportedInstanceId": "32da0138-2d5e-42dc-8803-599972b627c9",
+    "@id": "32da0138-2d5e-42dc-8803-599972b627c9",
+    "@name": "ios_ntp-method-1",
+    "@description": ""
+}

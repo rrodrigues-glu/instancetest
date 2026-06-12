@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/aireosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "aireos_wlcAssembly"
+    },
+    "@exportedInstanceId": "34704462-f9c1-416b-979c-9bd43eaa3131",
+    "@id": "34704462-f9c1-416b-979c-9bd43eaa3131",
+    "@name": "aireos_wlcAssembly",
+    "@description": ""
+}

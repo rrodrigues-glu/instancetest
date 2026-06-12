@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_aaa-auth_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "nxos_aaa-auth_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "b1f30fc3-a781-4c51-b250-7bc4d29c8958",
+    "@id": "b1f30fc3-a781-4c51-b250-7bc4d29c8958",
+    "@name": "nxos_aaa-auth_grp",
+    "@description": ""
+}

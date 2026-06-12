@@ -1,0 +1,16 @@
+{
+    "item": {},
+    "cliCommands": [
+        "hostname $context.customFields.hostname"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "6a15f23d-59c4-4d50-9770-57366ef516f2",
+    "@id": "6a15f23d-59c4-4d50-9770-57366ef516f2",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_hostname_cli",
+    "@description": ""
+}

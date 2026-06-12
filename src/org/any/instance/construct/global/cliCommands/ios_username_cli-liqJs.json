@@ -1,0 +1,18 @@
+{
+    "item": {},
+    "cliCommands": [
+        "{% for user in users %}",
+        "username {{user.name}} password {{user.testJean}} role {{user.privilege}}",
+        "{%- endfor %}"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "b63524c0-ce8e-43ff-bea9-bc5769da9ade",
+    "@id": "b63524c0-ce8e-43ff-bea9-bc5769da9ade",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_username_cli-liqJs",
+    "@description": ""
+}

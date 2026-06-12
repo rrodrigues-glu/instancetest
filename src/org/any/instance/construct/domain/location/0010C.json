@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "site": {
+        "name": "0010C",
+        "description": "Managed by Americas",
+        "location": "Secaucus, United States, US-East",
+        "contact": "",
+        "type": "branch",
+        "techContact": "",
+        "sitePath": "/"
+    },
+    "assignments": {
+        "ids": []
+    },
+    "allocations": {},
+    "cloud": {
+        "provider": "none"
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "0010C"
+    },
+    "@exportedInstanceId": "90563489-d6d0-4935-a3a2-9a957660999f",
+    "@id": "90563489-d6d0-4935-a3a2-9a957660999f",
+    "@name": "0010C",
+    "@description": ""
+}

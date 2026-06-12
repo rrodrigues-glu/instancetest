@@ -1,0 +1,21 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/aos_domain-name_cli-Copy.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "22fc8b5e-75fb-45ee-ab7d-7372465c15b6",
+    "@id": "22fc8b5e-75fb-45ee-ab7d-7372465c15b6",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "aos_domain-name_grp-Copy",
+    "@description": ""
+}

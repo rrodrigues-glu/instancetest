@@ -1,0 +1,32 @@
+{
+    "name": "VPC-DOMAIN",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "showCmds": [
+        "sh run all | sec ^vpc"
+    ],
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "mode": "basic",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "NXOS_vpcDomain"
+    },
+    "@exportedInstanceId": "9de86276-0a84-4b70-a04d-963067e249ce",
+    "@id": "9de86276-0a84-4b70-a04d-963067e249ce",
+    "@name": "NXOS_vpcDomain"
+}

@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_route-map-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "nxos_route-map_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "aeef470e-02f1-4321-a89a-63e9d2932b75",
+    "@id": "aeef470e-02f1-4321-a89a-63e9d2932b75",
+    "@name": "nxos_route-map_grp",
+    "@description": ""
+}

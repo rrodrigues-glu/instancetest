@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_syslog-server_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "nxos_syslog-server_grp"
+    },
+    "@exportedInstanceId": "021e5f0e-8273-4bb9-812d-d650b4d44d12",
+    "@id": "021e5f0e-8273-4bb9-812d-d650b4d44d12",
+    "@name": "nxos_syslog-server_grp",
+    "@description": ""
+}

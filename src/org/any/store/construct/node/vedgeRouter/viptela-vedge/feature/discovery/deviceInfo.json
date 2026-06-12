@@ -1,0 +1,100 @@
+{
+    "hostname": "NYC415SDWAN01",
+    "vendor": "viptela",
+    "os": "vedge",
+    "path": "/sys/jnib/features/deviceDetect/viptela/vedge/",
+    "sku": "vEdge-Cloud",
+    "software": {
+        "version": "20.3.1",
+        "major": "20",
+        "minor": "3",
+        "revision": "1",
+        "patch": "",
+        "build": "",
+        "train": ""
+    },
+    "hardware": {
+        "serialNumber": "SIM",
+        "sku": "vEdge-Cloud",
+        "sdwan": {
+            "chassisNumber": "3b650ba7-7049-487d-a9e2-9bbf3dcc8354"
+        },
+        "sdwanSku": "vedge-cloud"
+    },
+    "detectedSerialNumber": "SIM",
+    "uptime": "140d05h35m08s",
+    "type": {
+        "name": "vedgeRouter",
+        "base": "wanRouter"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "ge0/0": {
+                "operational": {
+                    "status": "up",
+                    "duplex": "full",
+                    "speed": "1000/MBPS",
+                    "macAddress": "50:09:00:04:00:01",
+                    "ipv4Address": "10.255.80.5/24"
+                },
+                "configured": {
+                    "status": "up",
+                    "ipv4Address": "10.255.80.5/24",
+                    "ipv6Address": "2010:10:255:80::5/64",
+                    "enabled": true
+                },
+                "type": "l3",
+                "neighbors": [
+                    {
+                        "destinationIpv4Address": "10.255.80.5",
+                        "macAddress": "50:09:00:04:00:01",
+                        "discoveryType": "ARP",
+                        "ip": "10.255.80.5"
+                    }
+                ]
+            },
+            "eth0": {
+                "operational": {
+                    "status": "up",
+                    "duplex": "full",
+                    "speed": "1000/MBPS",
+                    "macAddress": "50:09:00:04:00:00",
+                    "ipv4Address": "10.0.0.3/24"
+                },
+                "configured": {
+                    "status": "up",
+                    "ipv4Address": "10.0.0.3/24",
+                    "enabled": true
+                },
+                "type": "l3",
+                "neighbors": [
+                    {
+                        "destinationIpv4Address": "10.0.0.1",
+                        "macAddress": "50:09:00:02:00:00",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.1"
+                    },
+                    {
+                        "destinationIpv4Address": "10.0.0.3",
+                        "macAddress": "50:09:00:04:00:00",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.3"
+                    }
+                ]
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 0,
+                "use": 0,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1698315287239,
+            "utcDateTime": "Thu, 26 Oct 2023 10:14:47 GMT"
+        }
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "line con 0",
+        "!",
+        "line vty 0 4",
+        " login local",
+        " transport preferred ssh",
+        " transport input ssh",
+        " transport output ssh",
+        "!",
+        "line vty 5 15",
+        " login local",
+        " transport preferred ssh",
+        " transport input ssh",
+        " transport output ssh",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_line-vty-con_cli"
+    },
+    "@exportedInstanceId": "93187bc6-5850-4460-adf4-f1bb2680960a",
+    "@id": "93187bc6-5850-4460-adf4-f1bb2680960a",
+    "@name": "ios_line-vty-con_cli",
+    "@description": ""
+}

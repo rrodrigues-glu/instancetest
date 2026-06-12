@@ -1,0 +1,30 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/dhcp.jtype"
+    },
+    "featureConcept": {
+        "name": "DHCP",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_dns-server_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "dhcp": [
+            {
+                "pool": "Test",
+                "intf": {
+                    "@ref": "/org/instance/construct/global/lanInterface/DATA.json"
+                }
+            }
+        ]
+    },
+    "@source": {
+        "instanceName": "ios_dhcp"
+    },
+    "@exportedInstanceId": "92e430fc-0f81-426d-a34e-caa951c5eda7",
+    "@id": "92e430fc-0f81-426d-a34e-caa951c5eda7",
+    "@name": "ios_dhcp",
+    "@description": ""
+}

@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "snmp-server community amer-comm-ro RO acl-snmp-1",
+        "snmp-server community amer-comm-rw RW acl-snmp-2",
+        "snmp-server location AMER USA",
+        "snmp-server contact support@gluware.com",
+        "snmp-server host 10.10.1.161 amer-comm-ro",
+        "snmp-server host 10.10.4.161 amer-comm-rw",
+        "snmp-server host 10.10.5.161 amer-comm-rw"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_snmp-server-static_cli"
+    },
+    "@exportedInstanceId": "f700c654-d62f-4312-9908-9ec5cc49a94e",
+    "@id": "f700c654-d62f-4312-9908-9ec5cc49a94e",
+    "@name": "ios_snmp-server-static_cli",
+    "@description": ""
+}

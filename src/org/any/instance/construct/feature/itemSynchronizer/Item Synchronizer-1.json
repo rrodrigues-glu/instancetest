@@ -1,0 +1,19 @@
+{
+    "organizations": {
+        "@ref": [
+            "/org/instance/construct/global/merakiOrganization/meraki@huynhvan.net.json"
+        ]
+    },
+    "networks": {
+        "@ref": [
+            "/org/instance/construct/global/merakiNetwork/Office LAB (meraki@huynhvan.net).json"
+        ]
+    },
+    "@exportedInstanceId": "2baece17-2ffd-44c4-b98f-18a70f0a50ab",
+    "@id": "2baece17-2ffd-44c4-b98f-18a70f0a50ab",
+    "@type": {
+        "ref": "/sys/type/construct/feature/itemSynchronizer.jtype"
+    },
+    "@name": "Item Synchronizer-1",
+    "@description": ""
+}

@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^bulk-traffic-ACL$|^premium-traffic-ACL$|^video-traffic-ACL$|^Lync-traffic-ACL$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_cat2960-qos-acl_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_cat2960-qos-acl_grp"
+    },
+    "@exportedInstanceId": "394b133e-ce0f-4d74-87b8-becc94c54b54",
+    "@id": "394b133e-ce0f-4d74-87b8-becc94c54b54",
+    "@name": "ios_cat2960-qos-acl_grp",
+    "@description": ""
+}

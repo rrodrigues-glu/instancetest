@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_spanning-tree_root.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_show_spanning-tree_root"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "67393eb8-68b6-4a78-be98-e5c0a0a85b44",
+    "@id": "67393eb8-68b6-4a78-be98-e5c0a0a85b44",
+    "@name": "IOS_show_spanning-tree_root",
+    "@description": ""
+}

@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "licensing": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/licensing/ios_licensing.json"
+                }
+            }
+        }
+    },
+    "interfaces": {
+        "portMap": {
+            "@ref": "/org/instance/construct/global/portMap/csr1000v.json"
+        }
+    },
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "SmartLicensing_Assembly"
+    },
+    "@exportedInstanceId": "ead75c88-a178-4a43-a113-1cb2bce2374e",
+    "@id": "ead75c88-a178-4a43-a113-1cb2bce2374e",
+    "@name": "SmartLicensing_Assembly",
+    "@description": ""
+}

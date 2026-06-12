@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "acl-snmp",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_snmp-acl_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_snmp-acl_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "263e363e-b42e-4a3c-b17c-908f209b93cc",
+    "@id": "263e363e-b42e-4a3c-b17c-908f209b93cc",
+    "@name": "ios_snmp-acl_grp",
+    "@description": ""
+}

@@ -1,0 +1,13 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/subnetRange.jtype"
+    },
+    "description": "reserved range",
+    "@source": {
+        "instanceName": "reserved_subnet"
+    },
+    "@exportedInstanceId": "425ee6ee-dcc2-4405-9c6b-5ac93f0fa6f2",
+    "@id": "425ee6ee-dcc2-4405-9c6b-5ac93f0fa6f2",
+    "@name": "reserved_subnet",
+    "@description": ""
+}

@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip ftp source-interface Loopback0"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ip-ftp-source_cli"
+    },
+    "@exportedInstanceId": "18c102d5-1a49-4355-affc-5fe045991850",
+    "@id": "18c102d5-1a49-4355-affc-5fe045991850",
+    "@name": "ios_ip-ftp-source_cli",
+    "@description": ""
+}

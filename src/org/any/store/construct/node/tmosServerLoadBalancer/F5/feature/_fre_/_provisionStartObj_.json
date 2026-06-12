@@ -1,0 +1,12 @@
+{
+    "version": "3.0.0",
+    "provisionedActions": [
+        {
+            "typeName": "directCli",
+            "actionKey": "/org/Romualdo/instance/construct/script/directCli/F5.json",
+            "jnib": "/org/jnib/script/directCli.jnib",
+            "actionTypeKey": "/org/Romualdo/type/construct/script/directCli.jtype",
+            "timeStamp": 1702299338591
+        }
+    ]
+}

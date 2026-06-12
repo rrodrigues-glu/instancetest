@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_gratuitous-arp_cli"
+    },
+    "@exportedInstanceId": "74b0e017-83d4-4107-b72d-3e1295cf21bb",
+    "@id": "74b0e017-83d4-4107-b72d-3e1295cf21bb",
+    "@name": "ios_gratuitous-arp_cli",
+    "@description": ""
+}

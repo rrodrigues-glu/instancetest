@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios_WlcAssembly"
+    },
+    "@exportedInstanceId": "ce9b4477-f15d-4472-be93-3f4977b02ec1",
+    "@id": "ce9b4477-f15d-4472-be93-3f4977b02ec1",
+    "@name": "ios_WlcAssembly",
+    "@description": ""
+}

@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_gratuitous-arp_cli.json"
+        ]
+    },
+    "maskCommands": [
+        "^ip gratuitous-arps"
+    ],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_gratuitous-arp_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "55083d3a-5220-4f2e-b0c8-45af81dd5050",
+    "@id": "55083d3a-5220-4f2e-b0c8-45af81dd5050",
+    "@name": "ios_gratuitous-arp_grp",
+    "@description": ""
+}

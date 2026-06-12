@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "logging buffered 128000"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_logging-buffered_cli"
+    },
+    "@exportedInstanceId": "47b60c42-f218-4b83-ab2e-bb7c9d6f14c3",
+    "@id": "47b60c42-f218-4b83-ab2e-bb7c9d6f14c3",
+    "@name": "ios_logging-buffered_cli",
+    "@description": ""
+}

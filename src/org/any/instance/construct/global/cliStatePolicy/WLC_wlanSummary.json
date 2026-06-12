@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/WLC_wlanSummary.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "WLC_wlanSummary"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "e5c330bb-c097-4064-82ca-45c72807991c",
+    "@id": "e5c330bb-c097-4064-82ca-45c72807991c",
+    "@name": "WLC_wlanSummary",
+    "@description": ""
+}

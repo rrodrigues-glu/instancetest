@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show processes memory shared",
+    "rootEntry": "yes",
+    "groupName": "memory",
+    "discover": {
+        "status": {
+            "expressions": [
+                "Shared memory totals.+Size\\:\\s(?<total>[\\w\\s]+),\\sUsed\\:\\s(?<used>[\\w\\s]+),\\sAvailable\\:\\s(?<free>[\\w\\s]+)"
+            ],
+            "localKey": "",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {
+        "generateLocalKey": false
+    },
+    "@source": {
+        "instanceName": "NXOS_show_proc_memory"
+    },
+    "@exportedInstanceId": "9c2362f7-d294-42f4-b126-e1bd1f136f6d",
+    "@id": "9c2362f7-d294-42f4-b126-e1bd1f136f6d",
+    "@name": "NXOS_show_proc_memory",
+    "@description": ""
+}

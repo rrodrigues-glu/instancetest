@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/services.jtype"
+    },
+    "featureConcept": {
+        "name": " [ Hard Rock ] ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_service_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_spanning-tree_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_vlan-db_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "services": {
+            "comment": null
+        }
+    },
+    "@source": {
+        "instanceName": "ios_services"
+    },
+    "@exportedInstanceId": "fb7da607-4b5c-4db2-9ea0-c16bec82de19",
+    "@id": "fb7da607-4b5c-4db2-9ea0-c16bec82de19",
+    "@name": "ios_services",
+    "@description": ""
+}

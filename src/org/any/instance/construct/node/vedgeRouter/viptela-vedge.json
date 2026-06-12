@@ -1,0 +1,42 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "vedgeRouter": {
+        "enabled": true
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "wanRouter": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "ip": "10.1.100.57",
+        "type": "ssh",
+        "port": 2023,
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+        }
+    },
+    "@exportedInstanceId": "7833ba35-cb96-4fa6-8f7f-0e9d91a5b597",
+    "@id": "7833ba35-cb96-4fa6-8f7f-0e9d91a5b597",
+    "@type": {
+        "ref": "/sys/type/construct/node/vedgeRouter.jtype"
+    },
+    "@name": "viptela-vedge",
+    "@description": ""
+}

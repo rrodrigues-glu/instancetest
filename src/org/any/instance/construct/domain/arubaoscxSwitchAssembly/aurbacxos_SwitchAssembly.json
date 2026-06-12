@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/arubaoscxSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "aurbacxos_SwitchAssembly"
+    },
+    "@exportedInstanceId": "805116f5-73f1-4c8a-872f-692e59ea9f25",
+    "@id": "805116f5-73f1-4c8a-872f-692e59ea9f25",
+    "@name": "aurbacxos_SwitchAssembly",
+    "@description": ""
+}

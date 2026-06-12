@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_netflow-monitor_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_netflow-monitor_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "e7bf7947-c62f-41d8-8f66-bb2e17d8dbb3",
+    "@id": "e7bf7947-c62f-41d8-8f66-bb2e17d8dbb3",
+    "@name": "ios_netflow-monitor_grp",
+    "@description": ""
+}

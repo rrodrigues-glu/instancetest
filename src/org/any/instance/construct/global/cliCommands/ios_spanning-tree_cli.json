@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "spanning-tree mode rapid-pvst",
+        "spanning-tree extend system-id"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_spanning-tree_cli"
+    },
+    "@exportedInstanceId": "25cc343a-f27a-4cc6-b984-ebbb183626fe",
+    "@id": "25cc343a-f27a-4cc6-b984-ebbb183626fe",
+    "@name": "ios_spanning-tree_cli",
+    "@description": ""
+}

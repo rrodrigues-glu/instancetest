@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/routing.jtype"
+    },
+    "featureConcept": {
+        "name": "DC Routing",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "distributionLayer": {
+            "ipv4": {
+                "routingProtocol": {}
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "ios_routing"
+    },
+    "@exportedInstanceId": "fd3d46d3-260c-4d78-b4c9-7b4789c7baea",
+    "@id": "fd3d46d3-260c-4d78-b4c9-7b4789c7baea",
+    "@name": "ios_routing",
+    "@description": ""
+}

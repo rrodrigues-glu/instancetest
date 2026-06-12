@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/aireosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/aireos_qos-chn-chengdu.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "qos-chengdu"
+    },
+    "@exportedInstanceId": "400a30f2-b064-4e1c-a8e0-1a794c55f065",
+    "@id": "400a30f2-b064-4e1c-a8e0-1a794c55f065",
+    "@name": "qos-chengdu",
+    "@description": ""
+}

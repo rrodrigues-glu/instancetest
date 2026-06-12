@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "IOS_Lldp",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "ios"
+            ],
+            "level": ""
+        }
+    },
+    "showCmds": [
+        "sh run | sec ^lldp"
+    ],
+    "keyCliLine": "",
+    "rootEntryFlag": true,
+    "mode": "basic",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@source": {
+        "instanceName": "IOS_Lldp"
+    },
+    "@exportedInstanceId": "328f3f36-01c1-4045-a429-bf49970219b3",
+    "@id": "328f3f36-01c1-4045-a429-bf49970219b3",
+    "@name": "IOS_Lldp",
+    "@description": ""
+}

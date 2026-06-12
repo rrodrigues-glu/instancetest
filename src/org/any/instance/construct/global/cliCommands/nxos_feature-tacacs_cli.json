@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "feature tacacs+"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_feature-tacacs_cli"
+    },
+    "@exportedInstanceId": "48ae4343-87e4-4e35-8d6d-5aad22e623de",
+    "@id": "48ae4343-87e4-4e35-8d6d-5aad22e623de",
+    "@name": "nxos_feature-tacacs_cli",
+    "@description": ""
+}

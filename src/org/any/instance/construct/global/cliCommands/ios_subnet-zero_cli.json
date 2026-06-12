@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip subnet-zero"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_subnet-zero_cli"
+    },
+    "@exportedInstanceId": "0e6ee820-0b8a-4214-9cc1-3a5187cdeb28",
+    "@id": "0e6ee820-0b8a-4214-9cc1-3a5187cdeb28",
+    "@name": "ios_subnet-zero_cli",
+    "@description": ""
+}

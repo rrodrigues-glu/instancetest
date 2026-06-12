@@ -1,0 +1,28 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/aos_snmp-server_cli-Copy.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "snmp-server community",
+        "snmp-server location",
+        "snmp-server contact",
+        "snmp-server host"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "f7bfd555-5951-4312-97b6-1fc7cbe73e2f",
+    "@id": "f7bfd555-5951-4312-97b6-1fc7cbe73e2f",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "aos_snmp-server_grp-Copy",
+    "@description": ""
+}

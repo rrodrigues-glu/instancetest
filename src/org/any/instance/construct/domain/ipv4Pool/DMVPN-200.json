@@ -1,0 +1,37 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/ipv4Pool.jtype"
+    },
+    "description": "",
+    "type": "ipv4",
+    "summary": "10.0.2.0/24",
+    "reservations": [
+        {
+            "subnet": "10.0.2.12",
+            "device": {
+                "serialNumber": "94SMC6ESD0I"
+            }
+        }
+    ],
+    "ranges": [
+        {
+            "name": {
+                "@ref": "/org/instance/construct/global/subnetRange/dmvpn-spoke-subnetRange.json"
+            },
+            "ips": [
+                "10.0.2.1-10.0.2.10"
+            ]
+        }
+    ],
+    "allocationMode": "hostBased",
+    "options": {
+        "oversubscribingMode": false
+    },
+    "@source": {
+        "instanceName": "DMVPN-200"
+    },
+    "@exportedInstanceId": "0619deac-4c54-4a70-b644-831f882e38fd",
+    "@id": "0619deac-4c54-4a70-b644-831f882e38fd",
+    "@name": "DMVPN-200",
+    "@description": ""
+}

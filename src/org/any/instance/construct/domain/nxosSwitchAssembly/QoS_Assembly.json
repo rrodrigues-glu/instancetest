@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/nxos_qos.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "QoS_Assembly"
+    },
+    "@exportedInstanceId": "cd0136d2-55df-4597-b0c8-2fd61eb16d9c",
+    "@id": "cd0136d2-55df-4597-b0c8-2fd61eb16d9c",
+    "@name": "QoS_Assembly",
+    "@description": ""
+}

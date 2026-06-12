@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat6500 Sup2T Switches (Luxembourg PBX Phones)",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl-luxembourg_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "WS-C65.+"
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-luxembourg"
+    },
+    "@exportedInstanceId": "380675c5-3804-4357-836c-e6742dbda3a3",
+    "@id": "380675c5-3804-4357-836c-e6742dbda3a3",
+    "@name": "ios_cat6500-qos-luxembourg",
+    "@description": ""
+}

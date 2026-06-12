@@ -1,0 +1,11 @@
+{
+    "aaa": "334",
+    "bbb": "554",
+    "@type": {
+        "ref": "/sys/type/construct/global/myGlobal1.jtype"
+    },
+    "@id": "65e91a62-2e3c-4182-888f-ea867bf9d4d7",
+    "@exportedInstanceId": "65e91a62-2e3c-4182-888f-ea867bf9d4d7",
+    "@name": "romualdo3",
+    "@description": ""
+}

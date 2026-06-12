@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_pwdStrength.json"
+    },
+    "cliCommands": [
+        "no password strength-check"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_pwdStrength-cli"
+    },
+    "@exportedInstanceId": "294b1cab-5c6d-41d6-b489-4f1d70fa4a42",
+    "@id": "294b1cab-5c6d-41d6-b489-4f1d70fa4a42",
+    "@name": "nxos_pwdStrength-cli",
+    "@description": ""
+}

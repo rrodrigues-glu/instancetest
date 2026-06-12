@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR2504 Fukuoka Japan",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/aireos_wlan-qos-4_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-jap-fukuoka"
+    },
+    "@exportedInstanceId": "8f4b8a07-af47-4441-bdec-e9f4a46f51ab",
+    "@id": "8f4b8a07-af47-4441-bdec-e9f4a46f51ab",
+    "@name": "aireos_qos-jap-fukuoka",
+    "@description": ""
+}

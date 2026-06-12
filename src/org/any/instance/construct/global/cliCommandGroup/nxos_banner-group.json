@@ -1,0 +1,30 @@
+{
+    "regEx": "motd",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_banner-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_banner-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "4149580a-264c-4209-b365-b6e00051796b",
+    "@id": "4149580a-264c-4209-b365-b6e00051796b",
+    "@name": "nxos_banner-group"
+}

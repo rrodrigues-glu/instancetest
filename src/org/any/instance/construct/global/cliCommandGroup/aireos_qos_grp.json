@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/aireos_qos_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "aireos_qos_grp"
+    },
+    "@exportedInstanceId": "625a30e5-8d43-4e61-a930-06a61debdfed",
+    "@id": "625a30e5-8d43-4e61-a930-06a61debdfed",
+    "@name": "aireos_qos_grp",
+    "@description": ""
+}

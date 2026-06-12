@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/snmp/nxos_snmp-James.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "77132baf-0942-437f-87cd-545e70b27fc0",
+    "@id": "77132baf-0942-437f-87cd-545e70b27fc0",
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "@name": "SNMP_Assembly",
+    "@description": ""
+}

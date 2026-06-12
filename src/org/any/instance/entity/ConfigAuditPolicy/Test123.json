@@ -1,0 +1,123 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "IF_THEN",
+      "description": "",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "interface .+",
+              " ip access-group acl-qos-SCAVENGER .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "ifExpression": {
+        "$and": [
+          {
+            "defaultConfig": {
+              "$regex": "(((ip access-list extended acl-qos-SCAVENGER)))",
+              "$options": "mi"
+            }
+          }
+        ]
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_Intf"
+    },
+    {
+      "severity": "INFO",
+      "name": "New ruleadfsad",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "sd"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "New ruledfv",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "dsvs"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "Test123",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "8d615e7e-4e11-4e16-9182-06d3b3cbb9d6",
+  "createdBy": "admin",
+  "createdOn": 1669027415662,
+  "updatedBy": "admin",
+  "updatedOn": 1684312648778,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 1
+}

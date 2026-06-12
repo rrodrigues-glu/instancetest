@@ -1,0 +1,27 @@
+{
+    "featureConcept": {
+        "name": "IOS DNS",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aos_domain-name_grp-Copy.json"
+            ]
+        }
+    },
+    "form": {
+        "dns": {
+            "domainName": "ds1.hardrock.com",
+            "server": [
+                {
+                    "ip": "10.1.10.1"
+                }
+            ]
+        }
+    },
+    "@exportedInstanceId": "f7df05ce-7c08-400c-8424-f25dc4204de3",
+    "@id": "f7df05ce-7c08-400c-8424-f25dc4204de3",
+    "@type": {
+        "ref": "/sys/type/construct/feature/dns.jtype"
+    },
+    "@name": "aos_dns-Copy",
+    "@description": ""
+}

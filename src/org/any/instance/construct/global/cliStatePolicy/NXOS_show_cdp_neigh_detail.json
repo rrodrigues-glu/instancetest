@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/NXOS_show_cdp_neigh_detail.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "NXOS_show_cdp_neigh_detail"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "f9453139-cd8d-4923-a3bf-c527af0cf1d0",
+    "@id": "f9453139-cd8d-4923-a3bf-c527af0cf1d0",
+    "@name": "NXOS_show_cdp_neigh_detail",
+    "@description": ""
+}

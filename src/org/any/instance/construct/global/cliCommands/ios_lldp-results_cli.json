@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.switchPorts[*].name",
+        " description $context.switchPorts[*].settings.description",
+        " switchport mode trunk",
+        " switchport trunk allowed vlan $context.switchPorts[*].settings.dot1q.includedVlansRange",
+        " switchport trunk native vlan $context.switchPorts[*].settings.dot1q.nativeVlan",
+        " spanning-tree vlan $context.switchPorts[*].settings.spanningTree.vlanId",
+        " spanning-tree cost $context.switchPorts[*].settings.spanningTree.pathCost",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_lldp-results_cli"
+    },
+    "@exportedInstanceId": "5e3832ad-3483-47c2-b096-6116e3f3e855",
+    "@id": "5e3832ad-3483-47c2-b096-6116e3f3e855",
+    "@name": "ios_lldp-results_cli",
+    "@description": ""
+}

@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show ap summary",
+    "rootEntry": "yes",
+    "groupName": "wlc",
+    "discover": {
+        "apSummary": {
+            "expressions": [
+                "(?<name>[\\w-]+)\\s+(?<slots>[0-9]+)\\s+(?<model>[\\w-]+)\\s+(?<mac>[0-9A-Fa-f:]+)\\s+(?<location>\\b.+\\b)\\s+(?<country>[A-Z]{2})\\s+(?<ip>\\d{1,3}\\.\\d{1,3}\\.\\d{1,3}\\.\\d{1,3})\\s+(?<clients>[0-9]+)"
+            ],
+            "localKey": "name",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "Aireos_apSummary"
+    },
+    "@exportedInstanceId": "643479a8-3b77-44a9-8138-45b061146e73",
+    "@id": "643479a8-3b77-44a9-8138-45b061146e73",
+    "@name": "Aireos_apSummary",
+    "@description": ""
+}

@@ -1,0 +1,19 @@
+{
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "762b41f9-f94f-4f21-877c-4a649e43a379",
+    "@id": "762b41f9-f94f-4f21-877c-4a649e43a379",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "@name": "AAA_Assembly",
+    "@description": ""
+}

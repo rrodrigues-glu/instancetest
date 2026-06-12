@@ -1,0 +1,30 @@
+{
+    "regEx": "^strength-check$",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_pwdStrength-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_pwdStrength-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "40e36fec-0cef-4ae7-85dc-cf7cfec382bd",
+    "@id": "40e36fec-0cef-4ae7-85dc-cf7cfec382bd",
+    "@name": "nxos_pwdStrength-group"
+}

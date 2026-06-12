@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateQuery.jtype"
+    },
+    "mode": "advanced",
+    "table": [
+        {
+            "type": "lookup",
+            "fields": [
+                {
+                    "keyType": "regex",
+                    "key": ".+",
+                    "category": "rate",
+                    "field": "avg",
+                    "value": "^(?:[2-9]\\d|\\d{3,})$"
+                }
+            ]
+        }
+    ],
+    "@source": {
+        "instanceName": "pingLatencyQuery"
+    },
+    "@exportedInstanceId": "24aec1f8-35f6-4a5c-b3c1-864262b4d2fb",
+    "@id": "24aec1f8-35f6-4a5c-b3c1-864262b4d2fb",
+    "@name": "pingLatencyQuery",
+    "@description": ""
+}

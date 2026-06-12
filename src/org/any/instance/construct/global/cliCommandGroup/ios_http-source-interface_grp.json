@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_http-source-interface_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "ip http client source-interface"
+    ],
+    "@source": {
+        "instanceName": "ios_http-source-interface_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "58b40b12-1d3f-45f1-9b27-e17e80466b86",
+    "@id": "58b40b12-1d3f-45f1-9b27-e17e80466b86",
+    "@name": "ios_http-source-interface_grp",
+    "@description": ""
+}

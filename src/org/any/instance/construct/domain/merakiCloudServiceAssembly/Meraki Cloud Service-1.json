@@ -1,0 +1,18 @@
+{
+    "domains": {
+        "modules": {
+            "itemSynchronizer": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/itemSynchronizer/Item Synchronizer-1.json"
+                }
+            }
+        }
+    },
+    "@exportedInstanceId": "2e11bf61-3548-4e0f-b3c9-79a014bba0e0",
+    "@id": "2e11bf61-3548-4e0f-b3c9-79a014bba0e0",
+    "@type": {
+        "ref": "/sys/type/construct/domain/merakiCloudServiceAssembly.jtype"
+    },
+    "@name": "Meraki Cloud Service-1",
+    "@description": ""
+}

@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "pmap.qos-.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_qos-pmap_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_qos-pmap_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d89a0d31-da6f-4a9f-8a6f-6d2405fd6c0e",
+    "@id": "d89a0d31-da6f-4a9f-8a6f-6d2405fd6c0e",
+    "@name": "ios_qos-pmap_grp",
+    "@description": ""
+}

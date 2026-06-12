@@ -1,0 +1,41 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/netflow.jtype"
+    },
+    "featureConcept": {
+        "name": "NetFlow",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "flow": {
+            "record": {
+                "name": "WATCHFUL",
+                "description": ""
+            },
+            "exporter": [
+                {
+                    "name": " NAM2220",
+                    "description": "description export netflow to NAM2220",
+                    "destination": {
+                        "ip": "",
+                        "port": ""
+                    }
+                }
+            ],
+            "monitor": {
+                "name": "Scrutinizer",
+                "description": "",
+                "inactive": null,
+                "active": null,
+                "entries": null
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "nxos_netflow"
+    },
+    "@exportedInstanceId": "3c8d1130-4128-4ad4-b4c6-c4d4cc3bcc90",
+    "@id": "3c8d1130-4128-4ad4-b4c6-c4d4cc3bcc90",
+    "@name": "nxos_netflow",
+    "@description": ""
+}

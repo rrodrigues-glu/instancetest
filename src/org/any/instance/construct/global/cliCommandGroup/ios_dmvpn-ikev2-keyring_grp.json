@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_dmvpn-ikev2-keyring_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ikev2-keyring_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "6c3eb366-5ed8-4554-bfd1-157cb98af804",
+    "@id": "6c3eb366-5ed8-4554-bfd1-157cb98af804",
+    "@name": "ios_dmvpn-ikev2-keyring_grp",
+    "@description": ""
+}

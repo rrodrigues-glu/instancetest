@@ -1,0 +1,25 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_snmp-server_cli-James.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "^(?!snmp\\-server\\suser.*).*"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "5b2f0ed6-e21b-486f-8eaf-ee0ff7d3bf93",
+    "@id": "5b2f0ed6-e21b-486f-8eaf-ee0ff7d3bf93",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "nxos_snmp-server_grp",
+    "@description": ""
+}

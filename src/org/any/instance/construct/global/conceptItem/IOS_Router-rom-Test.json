@@ -1,0 +1,31 @@
+{
+    "name": "Router",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "ios"
+            ],
+            "level": null
+        }
+    },
+    "showCmds": [
+        "sh run | sec ^router"
+    ],
+    "keyCliLine": "router (\\w+\\s.+)",
+    "rootEntryFlag": false,
+    "keyLineDepth": 1,
+    "keyGroup": 1,
+    "mode": "advanced",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@exportedInstanceId": "fd9d01d8-87be-4f5d-80ed-a12a584e15e8",
+    "@id": "fd9d01d8-87be-4f5d-80ed-a12a584e15e8",
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@name": "IOS_Router-rom-Test",
+    "@description": "Displays the configuration section that shows the configured routed protocol options. Note: The ^ makes the parser display ONLY the sections whose first lines BEGIN with the word 'router'."
+}

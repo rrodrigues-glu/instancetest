@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show cdp neighbors",
+    "rootEntry": "no",
+    "keyLineRegEx": "^([-\\.a-zA-Z0-9]+)$",
+    "groupName": "cdp",
+    "discover": {
+        "neighbors": {
+            "expressions": [
+                "(?<deviceId>^[\\w\\d\\-\\.()]+)\\s+(?<localPort>(?:[\\w]+\\s?[\\d\\/\\-\\.]+))\\s+(?<holdtime>\\d+)\\s+(?<capability>[RSDTHCBIMPr\\s]+\\b)\\s+(?<platform>(?:\\b[\\S+]+))\\s+(?<remotePort>(?:[\\w]+\\s?[\\d\\/\\-\\.]+)$)"
+            ]
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "IOS_cdpNeighbors"
+    },
+    "@exportedInstanceId": "e1a6d0aa-1af0-4a63-bf2d-c256a0b78c39",
+    "@id": "e1a6d0aa-1af0-4a63-bf2d-c256a0b78c39",
+    "@name": "IOS_cdpNeighbors",
+    "@description": ""
+}

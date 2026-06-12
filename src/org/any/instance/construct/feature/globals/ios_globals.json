@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/globals.jtype"
+    },
+    "featureConcept": {
+        "name": " ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_ip-device-tracking_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_ssh_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_scp-server_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_http-source-interface_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_http_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_errdisable-recovery_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_archive_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "globals": {
+            "hostname": true,
+            "domainname": ""
+        }
+    },
+    "@source": {
+        "instanceName": "ios_globals"
+    },
+    "@exportedInstanceId": "0a79d6c3-3508-4900-b83e-54f64cd0e81e",
+    "@id": "0a79d6c3-3508-4900-b83e-54f64cd0e81e",
+    "@name": "ios_globals",
+    "@description": ""
+}

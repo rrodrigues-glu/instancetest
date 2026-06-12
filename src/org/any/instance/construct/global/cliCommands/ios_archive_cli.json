@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "archive",
+        " log config",
+        "  logging enable",
+        "  logging size 500",
+        "  hidekeys",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_archive_cli"
+    },
+    "@exportedInstanceId": "16c1a3f1-2154-462d-89f3-a62463b21895",
+    "@id": "16c1a3f1-2154-462d-89f3-a62463b21895",
+    "@name": "ios_archive_cli",
+    "@description": ""
+}

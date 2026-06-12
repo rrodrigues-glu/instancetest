@@ -1,0 +1,21 @@
+{
+    "site": {
+        "name": "0010J",
+        "description": "",
+        "location": "",
+        "type": "teleworker",
+        "sitePath": "/Romualdo/0010C",
+        "contact": "",
+        "techContact": ""
+    },
+    "cloud": {
+        "provider": "none"
+    },
+    "@exportedInstanceId": "b5959d22-156a-4bd4-8281-376f4170e3e9",
+    "@id": "b5959d22-156a-4bd4-8281-376f4170e3e9",
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "@name": "0010J",
+    "@description": ""
+}

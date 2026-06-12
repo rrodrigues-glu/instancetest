@@ -1,0 +1,18 @@
+{
+    "item": {},
+    "cliCommands": [
+        "macro name jfk2",
+        "   macro description Radagast",
+        "@"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "ed7419d7-a700-4415-bc00-284ca5e8ca51",
+    "@id": "ed7419d7-a700-4415-bc00-284ca5e8ca51",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_banner_cli-macroCLI2",
+    "@description": ""
+}

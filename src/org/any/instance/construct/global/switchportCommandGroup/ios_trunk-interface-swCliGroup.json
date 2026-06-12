@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/switchportCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "linkedFeature": {
+        "path": "/sys/type/construct/feature/switching"
+    },
+    "associatedFeatureType": "featurePath",
+    "maskCommands": [
+        "^interface",
+        "^switchport",
+        "^spanning-tree"
+    ],
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_trunk-interface_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_trunk-interface-swCliGroup"
+    },
+    "ignoreDelete": true,
+    "@exportedInstanceId": "b1a74b0a-6250-43b4-aa39-d373cec4becf",
+    "@id": "b1a74b0a-6250-43b4-aa39-d373cec4becf",
+    "@name": "ios_trunk-interface-swCliGroup",
+    "@description": ""
+}

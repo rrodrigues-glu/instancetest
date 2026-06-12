@@ -1,0 +1,55 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "IF_THEN",
+      "description": "",
+      "enable": true,
+      "scope": "",
+      "scopeSeparateResults": false,
+      "ifExpression": {
+        "$and": [
+          {
+            "latestConfig": {
+              "$regex": "(((test1)))",
+              "$options": "mi"
+            }
+          }
+        ]
+      },
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no ip http server"
+            ]
+          }
+        ],
+        "valid": true
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "test12345",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "de1dddcc-bd91-4914-8174-050e839aaae0",
+  "createdBy": "admin",
+  "createdOn": 1697812185746,
+  "updatedBy": "admin",
+  "updatedOn": 1714062428548
+}

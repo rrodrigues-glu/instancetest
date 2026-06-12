@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "switching": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/switching/ios_switching.json"
+                }
+            }
+        }
+    },
+    "interfaces": {
+        "portLayout": {
+            "@ref": "/org/instance/construct/global/switchPortMap/cisco_48p2u.json"
+        }
+    },
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "@source": {
+        "instanceName": "cisco_48p2u"
+    },
+    "@exportedInstanceId": "2a500d2a-6b0f-453b-a6ef-d69e563a87bb",
+    "@id": "2a500d2a-6b0f-453b-a6ef-d69e563a87bb",
+    "@name": "cisco_48p2u",
+    "@description": ""
+}

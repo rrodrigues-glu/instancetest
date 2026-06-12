@@ -1,0 +1,21 @@
+{
+    "site": {
+        "name": "BO001C",
+        "description": "",
+        "location": "",
+        "type": "kiosk",
+        "sitePath": "/Romualdo/BO001",
+        "contact": "",
+        "techContact": ""
+    },
+    "cloud": {
+        "provider": "none"
+    },
+    "@exportedInstanceId": "fdb88159-b2ed-412b-9cf6-db222e988f40",
+    "@id": "fdb88159-b2ed-412b-9cf6-db222e988f40",
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "@name": "BO001C",
+    "@description": ""
+}

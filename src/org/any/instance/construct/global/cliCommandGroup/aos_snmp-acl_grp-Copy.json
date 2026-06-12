@@ -1,0 +1,23 @@
+{
+    "regEx": "acl-snmp",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/aos_snmp-acl_cli-Copy.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "4d09adf8-d9d8-41f6-8c71-1b2d5e378c0c",
+    "@id": "4d09adf8-d9d8-41f6-8c71-1b2d5e378c0c",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "aos_snmp-acl_grp-Copy",
+    "@description": ""
+}

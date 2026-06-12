@@ -1,0 +1,74 @@
+{
+    "version": "3.0.0",
+    "actionInfo": {
+        "typeName": "networkDiagnosticReport",
+        "actionKey": "/org/Romualdo/instance/construct/script/networkDiagnosticReport/networkDiagnosticReport.json",
+        "jnib": "/sys/jnib/scripts/networkDiagnosticReport/networkDiagnosticReport.jnib",
+        "phaseNumber": "100",
+        "actionTypeKey": "/org/Romualdo/type/construct/script/networkDiagnosticReport.jtype",
+        "startObj": {
+            "script": {
+                "self": {
+                    "@source": {
+                        "instanceKey": "/org/Romualdo/instance/construct/script/networkDiagnosticReport/networkDiagnosticReport.json",
+                        "typeKey": "/org/Romualdo/type/construct/script/networkDiagnosticReport.jtype",
+                        "type": "networkDiagnosticReport",
+                        "typeId": "a656f6c0-70af-45cc-b86a-67dff9eeb557",
+                        "typeVersionId": "6a0b5c8c-691b-4815-83c4-52e5f08487d6",
+                        "instanceName": "networkDiagnosticReport",
+                        "instanceId": "8f4d9fab-4c89-4cc6-9b1f-bf895ca31220",
+                        "construct": "script",
+                        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                        "instanceVersionId": "788f0005-2e17-4d76-a738-94380e77dd58",
+                        "instanceVersion": "1.0.0"
+                    },
+                    "@type": {
+                        "ref": "/sys/type/construct/script/networkDiagnosticReport.jtype"
+                    },
+                    "arpTable": true,
+                    "cdpNeigh": true,
+                    "intBrief": true,
+                    "intReport": true,
+                    "macTabl": true,
+                    "portChan": true,
+                    "unusedPort": true,
+                    "vStack": true,
+                    "@firstLoad": true
+                }
+            }
+        },
+        "@Info": {
+            "displayName": "Network Diagnostic Report",
+            "description": "Network Diagnostic Report",
+            "preLoadJnib": true,
+            "scriptDependencies": {
+                "jnib": {
+                    "/sys/jnib/scripts/networkDiagnosticReport/networkDiagnosticReport.jnib": {}
+                }
+            },
+            "domainDependencies": {},
+            "nodeDependencies": {}
+        }
+    },
+    "configRefs": {
+        "/org/Romualdo/instance/construct/node/iosSwitch/Cisco 3750": {
+            "relativePaths": [
+                "iosSwitch.Cisco 3750"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/node/iosSwitch/Cisco 3750",
+                "typeKey": "/org/Romualdo/type/construct/node/iosSwitch.jtype",
+                "type": "iosSwitch",
+                "typeId": "66142379-8a98-4f92-adf6-c6c149f2c8cf",
+                "typeVersionId": "68cdb791-0517-4313-93c2-866b387587ca",
+                "instanceName": "Cisco 3750",
+                "instanceId": "f89ca9ba-2b60-4797-b8dd-7d0d4065ed71",
+                "construct": "node",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "2e3ed74b-ff90-4797-bbf4-c1be90058bd7",
+                "instanceVersion": "1.0.0",
+                "deviceId": "93245efb-d53f-4270-bad7-d0f5889bfcde"
+            }
+        }
+    }
+}

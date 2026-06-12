@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat2960X Switches (Luxembourg PBX Phones)",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-mls_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl-luxembourg_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "C2960X"
+    },
+    "@source": {
+        "instanceName": "ios_cat2960x-qos-luxembourg"
+    },
+    "@exportedInstanceId": "9c1e5132-765e-4ff8-b356-8375570263f8",
+    "@id": "9c1e5132-765e-4ff8-b356-8375570263f8",
+    "@name": "ios_cat2960x-qos-luxembourg",
+    "@description": ""
+}

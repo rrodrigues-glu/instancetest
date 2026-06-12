@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ip-helper_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$discover.helper.address in 10.142.35.3"
+        ]
+    },
+    "maskCommands": [
+        "interface",
+        "ip helper-address.*3$"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_ip-helper_grp"
+    },
+    "@exportedInstanceId": "0b0315c9-dc91-4afb-901f-a3ccbce0ba9e",
+    "@id": "0b0315c9-dc91-4afb-901f-a3ccbce0ba9e",
+    "@name": "ios_ip-helper_grp",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR3504 Bengaluru India",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-ind-bengaluru"
+    },
+    "@exportedInstanceId": "a25e3fd4-3ada-4536-bc88-7437796dd33b",
+    "@id": "a25e3fd4-3ada-4536-bc88-7437796dd33b",
+    "@name": "aireos_qos-ind-bengaluru",
+    "@description": ""
+}

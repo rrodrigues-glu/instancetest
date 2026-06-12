@@ -1,0 +1,14 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/lanInterface.jtype"
+    },
+    "description": "VLAN 700 Interface description",
+    "location": "internal",
+    "@source": {
+        "instanceName": "VLAN700"
+    },
+    "@exportedInstanceId": "ea1b0105-655c-485c-b2e2-17b4be0a6e4e",
+    "@id": "ea1b0105-655c-485c-b2e2-17b4be0a6e4e",
+    "@name": "VLAN700",
+    "@description": ""
+}

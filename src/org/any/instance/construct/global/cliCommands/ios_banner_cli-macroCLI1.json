@@ -1,0 +1,18 @@
+{
+    "item": {},
+    "cliCommands": [
+        "macro name JFK_Macro2",
+        "   macro description ospreys",
+        "@"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "293dd1c8-c903-4d23-8bf2-6ea30998ba61",
+    "@id": "293dd1c8-c903-4d23-8bf2-6ea30998ba61",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_banner_cli-macroCLI1",
+    "@description": ""
+}

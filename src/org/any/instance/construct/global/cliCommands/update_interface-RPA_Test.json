@@ -1,0 +1,22 @@
+{
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        "{% assign SwitchRole = customFields.VarField %}",
+        "{% if SwitchRole == \"CORE1\" %}",
+        " description {{ SwitchRole }}",
+        "{% elsif SwitchRole == \"CORE2\" %}",
+        " ip address {{ SwitchRole }}",
+        "{% endif %}"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "e9cdde73-ca90-4cde-a883-a6ce1bfee6f8",
+    "@id": "e9cdde73-ca90-4cde-a883-a6ce1bfee6f8",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "update_interface-RPA_Test",
+    "@description": ""
+}

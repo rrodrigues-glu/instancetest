@@ -1,0 +1,24 @@
+{
+    "organization": {
+        "name": "meraki@huynhvan.net"
+    },
+    "config": {
+        "settings": {
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/global/merakiGlobalSnmpSettings/Unnamed-Meraki Global SNMP Settings-1.json"
+                }
+            }
+        }
+    },
+    "identifiers": {
+        "organizationId": "575334852396583039"
+    },
+    "@exportedInstanceId": "fb3e94bd-1e2e-4fbf-9611-881cec73a1d3",
+    "@id": "fb3e94bd-1e2e-4fbf-9611-881cec73a1d3",
+    "@type": {
+        "ref": "/sys/type/construct/global/merakiOrganization.jtype"
+    },
+    "@name": "meraki@huynhvan.net",
+    "@description": ""
+}

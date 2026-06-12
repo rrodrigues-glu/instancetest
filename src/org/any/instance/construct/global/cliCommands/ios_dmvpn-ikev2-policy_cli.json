@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "crypto ikev2 policy DMVPN-IKE-POLICY-$context.networks[*].overlayNetwork.id",
+        " match fvrf $context.networks[*].underlyingIntf.vrf",
+        " proposal DMVPN-IKE-PROPOSAL-$context.networks[*].overlayNetwork.id",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ikev2-policy_cli"
+    },
+    "@exportedInstanceId": "c8e2e984-adbd-4c40-a449-9ea6cf80a231",
+    "@id": "c8e2e984-adbd-4c40-a449-9ea6cf80a231",
+    "@name": "ios_dmvpn-ikev2-policy_cli",
+    "@description": ""
+}

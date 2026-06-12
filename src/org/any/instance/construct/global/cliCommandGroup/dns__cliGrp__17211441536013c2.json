@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@id": "d30c6121-522a-4cab-a8a8-2fe04efe7ee8",
+    "ignoreDelete": true,
+    "regEx": ".+",
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/DnsServer__cli__1721141460151c4e4.json"
+        ]
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d30c6121-522a-4cab-a8a8-2fe04efe7ee8",
+    "@name": "dns__cliGrp__17211441536013c2",
+    "@description": ""
+}

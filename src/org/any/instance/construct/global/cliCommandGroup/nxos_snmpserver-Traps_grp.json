@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_snmpserver-traps-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "nxos_snmpserver-Traps_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "983e51a1-e58b-4e09-bd18-724b187bd9a5",
+    "@id": "983e51a1-e58b-4e09-bd18-724b187bd9a5",
+    "@name": "nxos_snmpserver-Traps_grp",
+    "@description": ""
+}

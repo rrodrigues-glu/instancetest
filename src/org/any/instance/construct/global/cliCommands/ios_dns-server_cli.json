@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip name-server{#context.dns.vrf} $context.dns.server.0.ip $context.dns.server.1.ip",
+        " "
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_dns-server_cli"
+    },
+    "@exportedInstanceId": "5f3f5fcc-e6af-4016-8d5e-0eecc9efd252",
+    "@id": "5f3f5fcc-e6af-4016-8d5e-0eecc9efd252",
+    "@name": "ios_dns-server_cli",
+    "@description": ""
+}

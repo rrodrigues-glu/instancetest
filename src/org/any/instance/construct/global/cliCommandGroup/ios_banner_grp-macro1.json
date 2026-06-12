@@ -1,0 +1,30 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-wan_cli-macro.json"
+        ]
+    },
+    "advanced": {
+        "preModifyConditions": {
+            "objectKeyRegEx": "interface GigabitEthernet1/0/5",
+            "onChangeOfCliLineRegEx": "macro apply .+",
+            "doCliLines": [
+                "default interface GigabitEthernet1/0/5"
+            ],
+            "renderType": "separate"
+        }
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d417fbe5-cd8e-437d-988e-716917e8acc6",
+    "@id": "d417fbe5-cd8e-437d-988e-716917e8acc6",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_banner_grp-macro1",
+    "@description": ""
+}

@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "errdisable recovery cause all"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_errdisable-recovery_cli"
+    },
+    "@exportedInstanceId": "d3b845e4-1e26-458c-8a6e-0a487f82953b",
+    "@id": "d3b845e4-1e26-458c-8a6e-0a487f82953b",
+    "@name": "ios_errdisable-recovery_cli",
+    "@description": ""
+}

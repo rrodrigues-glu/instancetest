@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_switch.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_show_switch"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "2e486118-dd9d-481a-bbe6-43c34a2de401",
+    "@id": "2e486118-dd9d-481a-bbe6-43c34a2de401",
+    "@name": "IOS_show_switch",
+    "@description": ""
+}

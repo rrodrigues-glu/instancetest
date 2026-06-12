@@ -1,0 +1,19 @@
+{
+    "v2cEnabled": true,
+    "v2CommunityString": "",
+    "v2c": "enabled",
+    "v3Enabled": false,
+    "v3": "disabled",
+    "v3AuthMode": "SHA",
+    "v3PrivMode": "AES128",
+    "peerIps": [],
+    "port": null,
+    "hostname": "",
+    "@exportedInstanceId": "31d8ed1e-2c57-449a-83f9-a1c74e25f634",
+    "@id": "31d8ed1e-2c57-449a-83f9-a1c74e25f634",
+    "@type": {
+        "ref": "/sys/type/construct/global/merakiGlobalSnmpSettings.jtype"
+    },
+    "@name": "Unnamed-Meraki Global SNMP Settings-1",
+    "@description": ""
+}

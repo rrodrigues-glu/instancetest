@@ -1,0 +1,81 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "Device_tracking_policy_physical_interfaces",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": "TwentyFiveGigE1/1/1|TwentyFiveGigE2/1/1",
+      "scopeSeparateResults": true,
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "device-tracking attach-policy TRUNK"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "commandSetName": "All",
+      "commandSet": "all",
+      "conceptItem": "IOS_Intf"
+    },
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": "PortChannel100",
+      "scopeSeparateResults": false,
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "device-tracking attach-policy TRUNK"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "description": "",
+  "name": "NEDC_device-tracking-policy_Duplicate",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "6d6bb671-ad05-4917-adb4-e0cc712a9307",
+  "createdBy": "yusaf",
+  "createdOn": 1757409689591,
+  "updatedBy": "yusaf",
+  "updatedOn": 1757409751907,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

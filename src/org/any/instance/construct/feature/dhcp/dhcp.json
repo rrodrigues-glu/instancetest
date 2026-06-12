@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/dhcp.jtype"
+    },
+    "featureConcept": {
+        "name": "DHCP",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "dhcp": []
+    },
+    "@source": {
+        "instanceName": "dhcp"
+    },
+    "@exportedInstanceId": "9c76aec2-011b-4ec4-a704-8b581ca904fa",
+    "@id": "9c76aec2-011b-4ec4-a704-8b581ca904fa",
+    "@name": "dhcp",
+    "@description": ""
+}

@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip classless"
+    ],
+    "advanced": {
+        "filter": "platform",
+        "platform": "(^ISR.+|^ASR.+|^AS53.+|^WS-C3.+|^WS-C4.+|^WS-C6.+|^C68.+|^CISCO\\S+)"
+    },
+    "@source": {
+        "instanceName": "ios_classless_cli"
+    },
+    "@exportedInstanceId": "c2b01ab9-3ed5-4633-84b6-35075df23293",
+    "@id": "c2b01ab9-3ed5-4633-84b6-35075df23293",
+    "@name": "ios_classless_cli",
+    "@description": ""
+}

@@ -1,0 +1,32 @@
+{
+    "domains": {
+        "modules": {
+            "aaa": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/aaa/aaa.json"
+                }
+            },
+            "security": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/security/ios_security.json"
+                }
+            },
+            "username": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/username/ios_username.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "1bf548b0-b513-4e21-a147-8fb98d32820b",
+    "@id": "1bf548b0-b513-4e21-a147-8fb98d32820b",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "AccessList_Assembly",
+    "@description": ""
+}

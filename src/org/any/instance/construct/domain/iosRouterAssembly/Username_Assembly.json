@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "username": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/username/ios_username-Rom.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "530d914c-0747-4192-9ea8-95b9bc015db7",
+    "@id": "530d914c-0747-4192-9ea8-95b9bc015db7",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "Username_Assembly",
+    "@description": ""
+}

@@ -1,0 +1,47 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": "",
+      "scopeSeparateResults": false,
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_not_contain_regex",
+            "value": [
+              "ip dhcp excluded-address 10.159.128.1"
+            ]
+          }
+        ],
+        "valid": true
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "Version",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "f27747a6-8d86-48ec-83f7-f2cedab6b72d",
+  "createdBy": "admin",
+  "createdOn": 1717775186501,
+  "updatedBy": "admin",
+  "updatedOn": 1717775910584,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qos.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "intf": {
+            "bandwidth": null
+        }
+    },
+    "@source": {
+        "instanceName": "qos"
+    },
+    "@exportedInstanceId": "eee37edf-9bae-45d0-897d-dcf2c5cdd931",
+    "@id": "eee37edf-9bae-45d0-897d-dcf2c5cdd931",
+    "@name": "qos",
+    "@description": ""
+}

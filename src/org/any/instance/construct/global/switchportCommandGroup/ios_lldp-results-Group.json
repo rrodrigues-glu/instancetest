@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/switchportCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "linkedFeature": {
+        "path": "/sys/type/construct/feature/switching.jtype"
+    },
+    "associatedFeatureType": "featurePath",
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_lldp-results_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$discover.description === Alex"
+        ]
+    },
+    "maskCommands": [
+        "^interface"
+    ],
+    "@source": {
+        "instanceName": "ios_lldp-results-Group"
+    },
+    "ignoreDelete": true,
+    "@exportedInstanceId": "0ffc11fc-cb69-4634-bf50-098a626c7c01",
+    "@id": "0ffc11fc-cb69-4634-bf50-098a626c7c01",
+    "@name": "ios_lldp-results-Group",
+    "@description": ""
+}

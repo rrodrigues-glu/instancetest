@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_aaa-tacacs-srcIntf_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_aaa-tacacs-srcIntf_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "5475aed5-2c20-4eb0-a0b2-e710c91c6d0c",
+    "@id": "5475aed5-2c20-4eb0-a0b2-e710c91c6d0c",
+    "@name": "ios_aaa-tacacs-srcIntf_grp",
+    "@description": ""
+}

@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat2960X Switches (Nortel IP Phones)",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-mls_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl-canada_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat2960-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "C2960X"
+    },
+    "@source": {
+        "instanceName": "ios_cat2960x-qos-canada"
+    },
+    "@exportedInstanceId": "30569335-d3f6-4240-8532-49b6fbc4b35a",
+    "@id": "30569335-d3f6-4240-8532-49b6fbc4b35a",
+    "@name": "ios_cat2960x-qos-canada",
+    "@description": ""
+}

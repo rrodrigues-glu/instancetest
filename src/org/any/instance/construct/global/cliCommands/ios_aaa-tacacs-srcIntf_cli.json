@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip tacacs source-interface $context.portMap.MGNT1.name"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_aaa-tacacs-srcIntf_cli"
+    },
+    "@exportedInstanceId": "4336705f-5fbe-4490-9496-453386510b4b",
+    "@id": "4336705f-5fbe-4490-9496-453386510b4b",
+    "@name": "ios_aaa-tacacs-srcIntf_cli",
+    "@description": ""
+}

@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "source-interface|version",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ssh_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_ssh_grp"
+    },
+    "@exportedInstanceId": "1e336f3b-da0c-4c74-8027-fd9e408bad4a",
+    "@id": "1e336f3b-da0c-4c74-8027-fd9e408bad4a",
+    "@name": "ios_ssh_grp",
+    "@description": ""
+}

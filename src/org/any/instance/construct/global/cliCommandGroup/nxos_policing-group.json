@@ -1,0 +1,30 @@
+{
+    "regEx": "copp-system-class-monitoring",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_policing-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_policing-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "4906dbdf-d324-4315-9171-a00b9e2f5ee8",
+    "@id": "4906dbdf-d324-4315-9171-a00b9e2f5ee8",
+    "@name": "nxos_policing-group"
+}

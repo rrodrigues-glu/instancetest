@@ -1,0 +1,11 @@
+{
+    "description": "",
+    "location": "internal",
+    "@exportedInstanceId": "64cc0b9c-0bf8-41c1-a990-97ad1fbc0bee",
+    "@id": "64cc0b9c-0bf8-41c1-a990-97ad1fbc0bee",
+    "@type": {
+        "ref": "/sys/type/construct/global/lanInterface.jtype"
+    },
+    "@name": "MGMT",
+    "@description": ""
+}

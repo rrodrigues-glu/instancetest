@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip tftp source-interface Loopback0"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ip-tftp-source_cli"
+    },
+    "@exportedInstanceId": "acc5d447-733f-4101-afe3-2c3c62d001d3",
+    "@id": "acc5d447-733f-4101-afe3-2c3c62d001d3",
+    "@name": "ios_ip-tftp-source_cli",
+    "@description": ""
+}

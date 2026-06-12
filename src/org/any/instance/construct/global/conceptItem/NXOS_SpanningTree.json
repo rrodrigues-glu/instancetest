@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "spanning-tree",
+    "showCmds": [
+        "show run all | sec spanning-tree"
+    ],
+    "mode": "basic",
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_SpanningTree"
+    },
+    "@exportedInstanceId": "21001519-41b6-47a5-909a-2503b0f2384f",
+    "@id": "21001519-41b6-47a5-909a-2503b0f2384f",
+    "@name": "NXOS_SpanningTree",
+    "@description": ""
+}

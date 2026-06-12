@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "netflow": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/netflow/ios_netflow.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "@source": {
+        "instanceName": "Netflow_Assembly"
+    },
+    "@exportedInstanceId": "20916e0b-8ca2-457b-a472-0e7041c1ef5f",
+    "@id": "20916e0b-8ca2-457b-a472-0e7041c1ef5f",
+    "@name": "Netflow_Assembly",
+    "@description": ""
+}

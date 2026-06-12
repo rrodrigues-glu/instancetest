@@ -1,0 +1,74 @@
+{
+    "name": "Intf",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "ios"
+            ],
+            "level": null,
+            "note": null
+        }
+    },
+    "showCmds": [
+        "sh run | sec ^interface"
+    ],
+    "keyCliLine": "interface (.+)",
+    "rootEntryFlag": false,
+    "mode": "basic",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {
+        "description": {
+            "expressions": [
+                "description (.+)"
+            ]
+        },
+        "shutdown": {
+            "expressions": [
+                "^shutdown$"
+            ]
+        },
+        "vlan": {
+            "expressions": [
+                "(?<accessMode>^switchport mode access$)",
+                "(?<trunkMode>^switchport mode trunk$)",
+                "(?<trunkAllowed>^switchport trunk allowed vlan .+$)",
+                "switchport access vlan (?<access>.+)",
+                "switchport voice vlan (?<voice>.+)"
+            ]
+        },
+        "accessVlan": {
+            "expressions": [
+                "switchport access vlan (.+)"
+            ]
+        },
+        "netflowMonitors": {
+            "expressions": [
+                "ip flow monitor (?<input>.+) input$",
+                "ip flow monitor (?<output>.+) output$"
+            ]
+        },
+        "address": {
+            "expressions": [
+                "ip address (?<ip>\\d*.\\d*.\\d*.\\d*) (?<mask>\\d*.\\d*.\\d*.\\d*)",
+                "(?<noIp>no ip address)$"
+            ]
+        },
+        "ipHelper": {
+            "expressions": [
+                "ip helper-address (?<ip>\\d*.\\d*.\\d*.\\d*)"
+            ]
+        }
+    },
+    "removeSyntax": {
+        "no macro description.+": ""
+    },
+    "@exportedInstanceId": "2fd9b234-f0d3-47a0-bb55-e84c0f755ef2",
+    "@id": "2fd9b234-f0d3-47a0-bb55-e84c0f755ef2",
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@name": "IOS_Intf_Rom",
+    "@description": "Displays the sections that show the details of the configured interfaces in the running configuration. Note: The ^ makes the parser ONLY display the section whose first line BEGINS with the word 'interface'. The ALL keyword displays the otherwise hidden commands."
+}

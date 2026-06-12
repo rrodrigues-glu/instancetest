@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " ip access-group acl-wan-in in",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_wan-intf_cli"
+    },
+    "@exportedInstanceId": "76919863-247a-4612-8776-c645ec5f3c92",
+    "@id": "76919863-247a-4612-8776-c645ec5f3c92",
+    "@name": "ios_wan-intf_cli",
+    "@description": ""
+}

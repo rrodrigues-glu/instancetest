@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "hostname",
+    "showCmds": [
+        "sh run | sec hostname"
+    ],
+    "mode": "basic",
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_HOSTNAME"
+    },
+    "@exportedInstanceId": "7da18f06-10e1-4c46-94ac-3f7f1afc8c8f",
+    "@id": "7da18f06-10e1-4c46-94ac-3f7f1afc8c8f",
+    "@name": "NXOS_HOSTNAME",
+    "@description": ""
+}

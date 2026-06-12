@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/routing.jtype"
+    },
+    "featureConcept": {
+        "name": "Routing",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "distributionLayer": {
+            "ipv4": {
+                "routingProtocol": {}
+            }
+        }
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios_Routing"
+    },
+    "@exportedInstanceId": "b8d2d554-e757-429d-b614-ed6bb78fd3f7",
+    "@id": "b8d2d554-e757-429d-b614-ed6bb78fd3f7",
+    "@name": "ios_Routing",
+    "@description": ""
+}

@@ -1,0 +1,18 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Intf2-rom-Dennisbgp1.json"
+    },
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "2dbcea63-5111-4b97-b3b0-6b83ce3a3f1c",
+    "@id": "2dbcea63-5111-4b97-b3b0-6b83ce3a3f1c",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_intf-lan_cli-Dennisbgp1",
+    "@description": ""
+}

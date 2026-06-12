@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/username.jtype"
+    },
+    "featureConcept": {
+        "name": "Username",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "user": []
+    },
+    "@source": {
+        "instanceName": "username"
+    },
+    "@exportedInstanceId": "1ecfdd55-df31-4a10-a2e5-86227312f4a5",
+    "@id": "1ecfdd55-df31-4a10-a2e5-86227312f4a5",
+    "@name": "username",
+    "@description": ""
+}

@@ -1,0 +1,20 @@
+{
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_ip_interface_brief.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "privilegeMode": false,
+    "@exportedInstanceId": "c7b425ee-f93f-4863-9100-a54bf0fc8620",
+    "@id": "c7b425ee-f93f-4863-9100-a54bf0fc8620",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "@name": "IOS_show_interface-brief",
+    "@description": ""
+}

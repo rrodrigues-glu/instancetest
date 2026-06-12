@@ -1,0 +1,66 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local",
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/qfxSwitchAssembly/qfxSwitch__1721144153601.json"
+        }
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "qfxSwitch": {
+        "enabled": true
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "dcSwitch": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.2.8",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/root_Juniper.json"
+        },
+        "type": "ssh",
+        "port": 22,
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/0010C.json"
+    },
+    "@id": "1062228c-0914-4826-8a9e-0f701ab2150b",
+    "@source": {
+        "instanceKey": "/org/Romualdo/instance/construct/node/qfxSwitch/Juniper01",
+        "typeKey": "/org/Romualdo/type/construct/node/qfxSwitch.jtype",
+        "type": "qfxSwitch",
+        "typeName": "QFX Switch",
+        "typeId": "ebd925e7-399e-43a3-846a-4c958bf1d9b8",
+        "typeVersionId": "9302f4d6-ce9f-4c4a-9442-ca76bb648170",
+        "typeVersion": "2.0.0",
+        "instanceName": "Juniper01",
+        "instanceId": "1062228c-0914-4826-8a9e-0f701ab2150b",
+        "construct": "node",
+        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+        "instanceVersionId": "d65b1240-18ea-4256-a94e-8d015a8f0b2f",
+        "instanceVersion": "1.0.1"
+    },
+    "@exportedInstanceId": "1062228c-0914-4826-8a9e-0f701ab2150b",
+    "@type": {
+        "ref": "/sys/type/construct/node/qfxSwitch.jtype"
+    },
+    "@name": "Juniper01",
+    "@description": ""
+}

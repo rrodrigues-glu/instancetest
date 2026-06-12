@@ -1,0 +1,18 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/AOSSW_Ip-Copy.json"
+    },
+    "cliCommands": [
+        "ip authorized-managers 10.96.238.0 255.255.255.0 access manager access-method snmp"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "ab16300d-14fb-4d4c-9d85-b0c61f43faa3",
+    "@id": "ab16300d-14fb-4d4c-9d85-b0c61f43faa3",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "aos_snmp-acl_cli-Copy",
+    "@description": ""
+}

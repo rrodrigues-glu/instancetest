@@ -1,0 +1,560 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "1.1.1 Enable 'aaa new-model'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This command enables the AAA access control system.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa new-model"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.2 Enable 'aaa authentication login'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Sets authentication, authorization and accounting (AAA) authentication at login.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa authentication login"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.3 Enable 'aaa authentication enable default'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access privileged EXEC mode when they use the enable command.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa authentication enable default"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.4 Set 'login authentication for 'line con 0'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch using the serial console port.",
+      "scopeSeparateResults": false,
+      "scope": "con",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.5 Set 'login authentication for 'line tty'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch using the TTY port.",
+      "scopeSeparateResults": true,
+      "scope": "tty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.6 Set 'login authentication for 'line vty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch remotely through the VTY port.",
+      "scopeSeparateResults": false,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.7 Set 'login authentication for 'ip http'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If account management functions are not automatically enforced, an attacker could gain privileged access to a vital element of the network security architecture",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^ip http secure-server",
+              "^ip http authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.8 Set 'aaa accounting' to log all privileged use commands using 'commands 15'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Runs accounting for all commands at the specified privilege level.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting commands (1[0-5]|[1-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.9 Set 'aaa accounting connection'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Provides information about all outbound connections made from the network access server.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting connection"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.10 Set 'aaa accounting exec'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Provides information about all outbound connections made from the network access server.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting exec"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.1.12 Set 'aaa accounting system'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Performs accounting for all system-level events not associated with users, such as reloads.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting system"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.2.1 Set 'privilege 1' for local users",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Sets the privilege level for the user.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "username \\S+ privilege (1[0-5]|[1-9])\\b",
+              "username \\S+ privilege (1[0-5]|[1-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.2.3 Set 'no exec' for 'line aux 0'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The 'no exec' command restricts a line to outgoing connections only.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "aux",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no exec"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.3.3 Set the 'banner-text' for 'banner motd'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This MOTD banner is displayed to all terminals connected and is useful for sending messages that affect all users (such as impending system shutdowns). Use the no exec-banner or no motd-banner command to disable the MOTD banner on a line. The no exec-banner command also disables the EXEC banner on the line. When a user connects to the router, the MOTD banner appears before the login prompt. After the user logs in to the router, the EXEC banner or incoming banner will be displayed, depending on the type of connection. For a reverse Telnet login, the incoming banner will be displayed. For all other connections, the router will display the EXEC banner.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "motd",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "banner motd"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.3.3 Set the 'banner-text' for",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This MOTD banner is displayed to all terminals connected and is useful for sending messages that affect all users (such as impending system shutdowns). Use the no exec-banner or no motd-banner command to disable the MOTD banner on a line. The no exec-banner command also disables the EXEC banner on the line. When a user connects to the router, the MOTD banner appears before the login prompt. After the user logs in to the router, the EXEC banner or incoming banner will be displayed, depending on the type of connection. For a reverse Telnet login, the incoming banner will be displayed. For all other connections, the router will display the EXEC banner.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "banner motd"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "1.5.2 Unset 'private' for 'snmp-server community'",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "An SNMP community string permits read-only access to all objects.",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "snmp"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "INFO",
+      "name": "New rulefhgd",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "gfsdarf"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "1.1.1 Enable --aaa new-model--",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "7230e762-96dd-4178-9ac4-ac02b5312e88",
+  "createdBy": "admin",
+  "createdOn": 1668513801846,
+  "updatedBy": "admin",
+  "updatedOn": 1668534757419
+}

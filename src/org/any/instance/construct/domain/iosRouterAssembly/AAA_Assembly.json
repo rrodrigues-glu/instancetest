@@ -1,0 +1,16 @@
+{
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "7df424f4-94de-4aa9-9908-53bdf5900053",
+    "@id": "7df424f4-94de-4aa9-9908-53bdf5900053",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "AAA_Assembly",
+    "@description": ""
+}

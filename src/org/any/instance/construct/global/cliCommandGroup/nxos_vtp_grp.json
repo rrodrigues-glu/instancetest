@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_vtp-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "nxos_vtp_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "e209b7d0-4f53-45b4-9be1-1d33f901bafc",
+    "@id": "e209b7d0-4f53-45b4-9be1-1d33f901bafc",
+    "@name": "nxos_vtp_grp",
+    "@description": ""
+}

@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip access-list acl-snmp-ro",
+        "  10 remark SNMP RO ACL",
+        "  20 permit ip 10.1.255.161/32 any",
+        "  30 permit ip 10.2.255.161/32 any",
+        "ip access-list acl-snmp-rw",
+        "  10 remark SNMP RW ACL",
+        "  20 permit ip 10.1.155.161/32 any",
+        "  30 permit ip 10.1.155.161/32 any",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_snmp-acl_cli"
+    },
+    "@exportedInstanceId": "2640bd6e-d207-4994-b082-79b786f78802",
+    "@id": "2640bd6e-d207-4994-b082-79b786f78802",
+    "@name": "nxos_snmp-acl_cli",
+    "@description": ""
+}

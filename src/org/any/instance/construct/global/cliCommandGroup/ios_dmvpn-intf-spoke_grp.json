@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "Tunnel+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_dmvpn-intf-spoke_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-intf-spoke_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d2dce626-947f-4e3a-b3c3-696b3500d1dc",
+    "@id": "d2dce626-947f-4e3a-b3c3-696b3500d1dc",
+    "@name": "ios_dmvpn-intf-spoke_grp",
+    "@description": ""
+}

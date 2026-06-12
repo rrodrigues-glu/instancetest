@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "params": "10.185.42.11",
+            "includePattern": ".+",
+            "excludePattern": "",
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_ping.json"
+            },
+            "query": {
+                "@ref": "/org/instance/construct/global/cliStateQuery/pingLatencyQuery.json"
+            }
+        }
+    ],
+    "@source": {
+        "instanceName": "ping_tacacs-step1"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "753318e9-0d34-4a8d-83b3-435d7d7f3c0a",
+    "@id": "753318e9-0d34-4a8d-83b3-435d7d7f3c0a",
+    "@name": "ping_tacacs-step1",
+    "@description": ""
+}

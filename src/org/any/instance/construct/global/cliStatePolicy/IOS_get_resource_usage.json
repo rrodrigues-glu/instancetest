@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_proc_cpu.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        },
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_proc_memory.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_get_resource_usage"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "ec510b5c-1de0-4ba5-bfef-d9619b8eda53",
+    "@id": "ec510b5c-1de0-4ba5-bfef-d9619b8eda53",
+    "@name": "IOS_get_resource_usage",
+    "@description": ""
+}

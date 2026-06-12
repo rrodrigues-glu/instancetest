@@ -1,0 +1,60 @@
+{
+    "domains": {
+        "modules": {
+            "aaa": {},
+            "dns": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dns/ios_dns.json"
+                }
+            },
+            "globals": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/globals/ios_globals.json"
+                }
+            },
+            "interface": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/interface/ios_interface.json"
+                }
+            },
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/ios_ntp-method-3.json"
+                }
+            },
+            "services": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/services/ios_services.json"
+                }
+            },
+            "syslog": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/syslog/ios_syslog.json"
+                }
+            },
+            "username": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/username/ios_username.json"
+                }
+            }
+        }
+    },
+    "interfaces": {
+        "portMap": {
+            "@ref": "/org/instance/construct/global/portMap/game-bank_portMap.json"
+        }
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "1ec92661-03a6-48c8-a7fc-56bf666f4163",
+    "@id": "1ec92661-03a6-48c8-a7fc-56bf666f4163",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "@name": "ios_game-bank-template",
+    "@description": ""
+}

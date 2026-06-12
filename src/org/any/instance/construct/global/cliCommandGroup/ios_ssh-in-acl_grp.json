@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "acl-ssh.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ssh-in-acl_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_ssh-in-acl_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "92ec240f-1154-41b5-9b72-f832f9e99b81",
+    "@id": "92ec240f-1154-41b5-9b72-f832f9e99b81",
+    "@name": "ios_ssh-in-acl_grp",
+    "@description": ""
+}

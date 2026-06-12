@@ -1,0 +1,29 @@
+{
+    "domains": {
+        "modules": {
+            "dns": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dns/dns__1721144153601.json"
+                }
+            },
+            "interface": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/interface/interface__1721144153601.json"
+                }
+            },
+            "syslog": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/syslog/syslog__1721144153601.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "@type": {
+        "ref": "/sys/type/construct/domain/qfxSwitchAssembly.jtype"
+    },
+    "@id": "f92f9a32-2e1e-4f55-aa60-576418c70f96",
+    "@exportedInstanceId": "f92f9a32-2e1e-4f55-aa60-576418c70f96",
+    "@name": "qfxSwitch__1721144153601",
+    "@description": ""
+}

@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/ios_ntp.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "NTP_Assembly"
+    },
+    "@exportedInstanceId": "5d4776af-c855-4cf7-bb7a-ec582053026a",
+    "@id": "5d4776af-c855-4cf7-bb7a-ec582053026a",
+    "@name": "NTP_Assembly",
+    "@description": ""
+}

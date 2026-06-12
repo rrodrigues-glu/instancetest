@@ -1,0 +1,27 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_router-ospf_cli-rom-Test.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "router ospf 100",
+        " network",
+        " router-id"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "86c2bb7d-ff3c-4d4a-b0f5-775469b7edc5",
+    "@id": "86c2bb7d-ff3c-4d4a-b0f5-775469b7edc5",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_router-ospf_grp-rom-Test",
+    "@description": ""
+}

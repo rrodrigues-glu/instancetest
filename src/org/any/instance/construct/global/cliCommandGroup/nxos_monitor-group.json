@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_monitor-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "nxos_monitor-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "8c249a48-9b94-4cb6-9e0b-cc152aa867ce",
+    "@id": "8c249a48-9b94-4cb6-9e0b-cc152aa867ce",
+    "@name": "nxos_monitor-group",
+    "@description": ""
+}

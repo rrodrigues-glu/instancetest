@@ -1,0 +1,53 @@
+{
+    "featureConcept": {
+        "name": "SNMP v2c",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aos_snmp-acl_grp-Copy.json",
+                "/org/instance/construct/global/cliCommandGroup/aos_snmp-server_grp-Copy.json"
+            ]
+        }
+    },
+    "form": {
+        "snmp": {
+            "location": "Gluware Virtual LAB",
+            "contact": "support@gluware.com",
+            "version": {
+                "v2c": {
+                    "community": [
+                        {
+                            "name": "myROComm",
+                            "accessList": "acl-snmp-1",
+                            "host": [
+                                {
+                                    "ip": "10.1.1.161"
+                                }
+                            ],
+                            "accessType": "RO"
+                        },
+                        {
+                            "name": "myRWComm",
+                            "accessList": "acl-snmp-2",
+                            "host": [
+                                {
+                                    "ip": "10.2.2.161"
+                                },
+                                {
+                                    "ip": "10.3.3.161"
+                                }
+                            ],
+                            "accessType": "RW"
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "@exportedInstanceId": "cef62a1e-42a5-425f-a64d-1859316f7c03",
+    "@id": "cef62a1e-42a5-425f-a64d-1859316f7c03",
+    "@type": {
+        "ref": "/sys/type/construct/feature/snmp.jtype"
+    },
+    "@name": "aos_snmp-v2c-Copy",
+    "@description": ""
+}

@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^mgmt.+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_intf-mgmt-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        "^interface",
+        ""
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "nxos_intf-mgmt-group"
+    },
+    "@exportedInstanceId": "6fb7b530-7379-4436-8d41-cdf7c2f26f96",
+    "@id": "6fb7b530-7379-4436-8d41-cdf7c2f26f96",
+    "@name": "nxos_intf-mgmt-group",
+    "@description": ""
+}

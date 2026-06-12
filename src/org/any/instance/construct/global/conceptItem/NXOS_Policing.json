@@ -1,0 +1,35 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "NXOS_Policing",
+    "showCmds": [
+        "sh run all | sec ^class"
+    ],
+    "mode": "advanced",
+    "keyCliLine": "class\\s(\\S+)",
+    "rootEntryFlag": false,
+    "keyLineDepth": 1,
+    "keyGroup": 1,
+    "regEx": "",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_Policing"
+    },
+    "@exportedInstanceId": "de70f5b6-e792-4051-9178-bb313a748cde",
+    "@id": "de70f5b6-e792-4051-9178-bb313a748cde",
+    "@name": "NXOS_Policing",
+    "@description": ""
+}

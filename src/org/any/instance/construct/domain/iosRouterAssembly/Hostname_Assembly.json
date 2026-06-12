@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "interface": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/interface/interface.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "e343804f-c58b-4a85-abf6-c423e1736e7b",
+    "@id": "e343804f-c58b-4a85-abf6-c423e1736e7b",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "Hostname_Assembly",
+    "@description": ""
+}

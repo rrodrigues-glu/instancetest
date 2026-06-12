@@ -1,0 +1,31 @@
+{
+    "featureConcept": {
+        "name": " [ Hard Rock - Username ] ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_username_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_enable-secret_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "user": [
+            {
+                "name": "yusaf",
+                "password": {
+                    "@ref": "/secret/sys/credentials/secret/testJean.json"
+                },
+                "hash": "md5",
+                "view": "",
+                "privilege": "15"
+            }
+        ]
+    },
+    "@exportedInstanceId": "c38a2fdc-b2e8-4725-887a-8a480b3c3b0a",
+    "@id": "c38a2fdc-b2e8-4725-887a-8a480b3c3b0a",
+    "@type": {
+        "ref": "/sys/type/construct/feature/username.jtype"
+    },
+    "@name": "ios_username",
+    "@description": ""
+}

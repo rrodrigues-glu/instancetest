@@ -1,0 +1,49 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "cliCommands",
+        "command": "sh run | sec ^int"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": ".+",
+      "scopeSeparateResults": false,
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "romualdoSupport"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "12345",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "3045cf30-5e03-476f-ab2d-1bb67b0d7bed",
+  "createdBy": "admin",
+  "createdOn": 1777039989842,
+  "updatedBy": "admin",
+  "updatedOn": 1777040012340,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

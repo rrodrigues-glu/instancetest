@@ -1,0 +1,13 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/routingDelay.jtype"
+    },
+    "delay": 2000,
+    "@source": {
+        "instanceName": "secondary"
+    },
+    "@exportedInstanceId": "5d2db91b-a18a-4fe4-a3c5-f1fc54d48e4d",
+    "@id": "5d2db91b-a18a-4fe4-a3c5-f1fc54d48e4d",
+    "@name": "secondary",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/Aireos_apSummary.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "Aireos_apSummary"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "209925e5-b674-432a-97cb-c81624953458",
+    "@id": "209925e5-b674-432a-97cb-c81624953458",
+    "@name": "Aireos_apSummary",
+    "@description": ""
+}

@@ -1,0 +1,30 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show proc memory",
+    "rootEntry": "yes",
+    "groupName": "memory",
+    "discover": {
+        "status": {
+            "expressions": [
+                "System memory\\s+:\\s(?<total>\\d+\\w+)\\stotal,\\s(?<used>\\d+\\w+)\\sused,\\s(?<free>\\d+\\w+)\\sfree",
+                "Individual CPU load: (?<indiv>.+)",
+                "Processor Pool Total:\\s+(?<total>\\d+)\\sUsed:\\s+(?<used>\\d+)\\s+Free:\\s+(?<free>\\d+)"
+            ],
+            "localKey": "",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {
+        "generateLocalKey": false
+    },
+    "@source": {
+        "instanceName": "IOS_show_proc_memory"
+    },
+    "@exportedInstanceId": "3195a286-54d7-4a3b-831d-1a6f3ef28216",
+    "@id": "3195a286-54d7-4a3b-831d-1a6f3ef28216",
+    "@name": "IOS_show_proc_memory",
+    "@description": ""
+}

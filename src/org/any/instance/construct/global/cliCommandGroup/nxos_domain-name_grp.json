@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_domain-name_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "nxos_domain-name_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "b0bd1b2d-4e6e-413a-b62e-123e3eadd1ab",
+    "@id": "b0bd1b2d-4e6e-413a-b62e-123e3eadd1ab",
+    "@name": "nxos_domain-name_grp",
+    "@description": ""
+}

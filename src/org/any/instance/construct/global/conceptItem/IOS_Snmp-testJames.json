@@ -1,0 +1,67 @@
+{
+    "name": "Snmp",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "ios"
+            ],
+            "level": null,
+            "note": null
+        }
+    },
+    "showCmds": [
+        "sh run | sec snmp-server"
+    ],
+    "keyCliLine": "",
+    "rootEntryFlag": true,
+    "mode": "basic",
+    "boundaries": {
+        "start": "snmp | snmp-server "
+    },
+    "discover": {
+        "users": {
+            "expressions": [
+                "snmp-server user (?<name>\\w*) (?<grpName>\\w*) v3 auth (?<authHash>\\w*) (?<authPassword>\\w*)"
+            ]
+        },
+        "v3": {
+            "expressions": [
+                "snmp-server group (?<groupName>\\w*) v3 priv read (?<readView>\\w*) write (?<writeView>\\w*) access 80"
+            ]
+        },
+        "roCommunity": {
+            "expressions": [
+                "snmp-server community (?<name>\\w*) RO (?<acl>.+)",
+                "snmp-server host (?<hostIp>\\d*\\.\\d*\\.\\d*\\.\\d*).+"
+            ]
+        },
+        "rwCommunity": {
+            "expressions": [
+                "snmp-server community (?<name>\\w*) RW (?<acl>.+)"
+            ]
+        },
+        "location": {
+            "expressions": [
+                "snmp-server location (.+)"
+            ]
+        },
+        "contact": {
+            "expressions": [
+                "snmp-server contact (.+)"
+            ]
+        },
+        "traps": {
+            "expressions": [
+                "snmp-server enable traps (?<protocol>[\\w,-]*)$"
+            ]
+        }
+    },
+    "removeSyntax": {},
+    "@exportedInstanceId": "a9c721c8-9c1f-4fcc-a0df-bb2e57194ae4",
+    "@id": "a9c721c8-9c1f-4fcc-a0df-bb2e57194ae4",
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@name": "IOS_Snmp-testJames",
+    "@description": "Displays the configuration lines that BEGIN with 'snmp' or 'no snmp' in the running configuration."
+}

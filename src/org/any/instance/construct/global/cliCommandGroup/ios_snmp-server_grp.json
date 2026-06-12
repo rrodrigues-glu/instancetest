@@ -1,0 +1,26 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_snmp-server_cli-Dennis.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "snmp-server contact",
+        "snmp-server user "
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "8fe7af19-8d38-45a7-8891-c99bb5bd866b",
+    "@id": "8fe7af19-8d38-45a7-8891-c99bb5bd866b",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_snmp-server_grp",
+    "@description": ""
+}

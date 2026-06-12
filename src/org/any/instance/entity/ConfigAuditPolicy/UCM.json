@@ -1,0 +1,55 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ucm",
+      "source": "LATEST",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "IF_THEN",
+      "description": "",
+      "enable": true,
+      "scope": ".+",
+      "scopeSeparateResults": false,
+      "ifExpression": {
+        "$and": [
+          {
+            "sitePath": {
+              "$eq": "test"
+            }
+          }
+        ]
+      },
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "123"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "commandSetName": "All",
+      "commandSet": "all"
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "UCM",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "45690753-cfc5-46ca-9b28-817e8b920089",
+  "createdBy": "admin",
+  "createdOn": 1760713311159,
+  "updatedBy": "admin",
+  "updatedOn": 1760713311159
+}

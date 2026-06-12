@@ -1,0 +1,42 @@
+{
+    "name": "LineVty",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "showCmds": [
+        "sh run | sec ^line.(con|vty|aux)"
+    ],
+    "keyCliLine": "line (console|vty|aux)",
+    "rootEntryFlag": false,
+    "mode": "basic",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {
+        "line": {
+            "expressions": [
+                "line\\s(?<aux>aux).+",
+                "line\\s(?<vty>vty).+",
+                "line\\s(?<con>con).+"
+            ]
+        }
+    },
+    "removeSyntax": {
+        "no transport preferred (.+)": "no transport preferred"
+    },
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "NXOS_LineConVty"
+    },
+    "@exportedInstanceId": "63bb6490-0782-4aab-843e-8e58253f9014",
+    "@id": "63bb6490-0782-4aab-843e-8e58253f9014",
+    "@name": "NXOS_LineConVty"
+}

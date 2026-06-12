@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_aaa-auth_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_aaa-auth_grp"
+    },
+    "@exportedInstanceId": "9c997344-62cc-40a4-a7c2-d44e182030f2",
+    "@id": "9c997344-62cc-40a4-a7c2-d44e182030f2",
+    "@name": "ios_aaa-auth_grp",
+    "@description": ""
+}

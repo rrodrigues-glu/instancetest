@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "tacacs-server host 10.30.255.20",
+        "tacacs-server host 10.58.255.20",
+        "tacacs-server timeout 15",
+        "tacacs-server key 7 104D000A0618"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_aaa-tacacs-server_cli"
+    },
+    "@exportedInstanceId": "d12da5e4-e871-4c56-bb90-7d832f40a685",
+    "@id": "d12da5e4-e871-4c56-bb90-7d832f40a685",
+    "@name": "ios_aaa-tacacs-server_cli",
+    "@description": ""
+}

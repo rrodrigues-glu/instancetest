@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/dns.jtype"
+    },
+    "featureConcept": {
+        "name": " [ Hard Rock ] ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_domain-name_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_hostname_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "dns": {
+            "domainName": "ds1.hardrock.com",
+            "server": []
+        }
+    },
+    "@source": {
+        "instanceName": "ios_dns"
+    },
+    "@exportedInstanceId": "77182414-bad1-4206-87d2-7e3c3988a400",
+    "@id": "77182414-bad1-4206-87d2-7e3c3988a400",
+    "@name": "ios_dns",
+    "@description": ""
+}

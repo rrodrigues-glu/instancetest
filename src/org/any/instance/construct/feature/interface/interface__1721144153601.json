@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/interface.jtype"
+    },
+    "@id": "b483ddd0-2778-467d-beb5-84c25ee39938",
+    "featureConcept": {
+        "name": "Interface Feature",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/interface__cliGrp__1721144153601d60.json"
+            ]
+        }
+    },
+    "@exportedInstanceId": "b483ddd0-2778-467d-beb5-84c25ee39938",
+    "@name": "interface__1721144153601",
+    "@description": ""
+}

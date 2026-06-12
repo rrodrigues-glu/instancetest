@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_banner-cli"
+    },
+    "@exportedInstanceId": "c4fe1f17-aaae-4282-8b49-7c42bfc7ac86",
+    "@id": "c4fe1f17-aaae-4282-8b49-7c42bfc7ac86",
+    "@name": "nxos_banner-cli",
+    "@description": ""
+}

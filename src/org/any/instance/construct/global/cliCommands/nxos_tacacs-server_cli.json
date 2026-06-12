@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "tacacs-server key 0 $context.aaa[*].tacacs[*].key",
+        "tacacs-server host $context.aaa[*].tacacs[*].ip"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_tacacs-server_cli"
+    },
+    "@exportedInstanceId": "a4ff90c0-887b-4e7d-aab3-19a2f67e8f83",
+    "@id": "a4ff90c0-887b-4e7d-aab3-19a2f67e8f83",
+    "@name": "nxos_tacacs-server_cli",
+    "@description": ""
+}

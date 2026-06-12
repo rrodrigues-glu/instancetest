@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip name-server $context.dns.server[*].ip"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_name-server_cli"
+    },
+    "@exportedInstanceId": "5ab16b0f-dcb2-4835-95fc-6455f81150c4",
+    "@id": "5ab16b0f-dcb2-4835-95fc-6455f81150c4",
+    "@name": "nxos_name-server_cli",
+    "@description": ""
+}

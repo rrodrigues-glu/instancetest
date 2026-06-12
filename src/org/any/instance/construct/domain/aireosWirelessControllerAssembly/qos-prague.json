@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/aireosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/aireos_qos-cze-prague.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "qos-prague"
+    },
+    "@exportedInstanceId": "5e5a2a8b-958e-4609-8504-d53a44cfd36a",
+    "@id": "5e5a2a8b-958e-4609-8504-d53a44cfd36a",
+    "@name": "qos-prague",
+    "@description": ""
+}

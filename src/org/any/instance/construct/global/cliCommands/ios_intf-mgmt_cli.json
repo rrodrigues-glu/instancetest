@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap.MGNT1.name",
+        " ip address $context.ipv4.ipAddress 255.255.255.0",
+        "!",
+        "interface Vlan1",
+        " no ip address",
+        " shutdown",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_intf-mgmt_cli"
+    },
+    "@exportedInstanceId": "ef604a13-b3ad-42b0-b974-ff004ba84464",
+    "@id": "ef604a13-b3ad-42b0-b974-ff004ba84464",
+    "@name": "ios_intf-mgmt_cli",
+    "@description": ""
+}

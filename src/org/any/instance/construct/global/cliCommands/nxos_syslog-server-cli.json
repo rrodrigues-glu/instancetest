@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "logging event trunk-status default",
+        "logging level private-vlan 3",
+        "logging logfile ntp 7 size 10000",
+        "logging server 10.30.100.204 7 use-vrf management",
+        "logging timestamp milliseconds"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_syslog-server-cli"
+    },
+    "@exportedInstanceId": "4e1355f1-9d27-4fde-b734-5b6f8f168d7a",
+    "@id": "4e1355f1-9d27-4fde-b734-5b6f8f168d7a",
+    "@name": "nxos_syslog-server-cli",
+    "@description": ""
+}

@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/nxos_ntp.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "NTP_Assembly"
+    },
+    "@exportedInstanceId": "29b2694b-0d1b-4849-9b4c-2b21b62144ad",
+    "@id": "29b2694b-0d1b-4849-9b4c-2b21b62144ad",
+    "@name": "NTP_Assembly",
+    "@description": ""
+}

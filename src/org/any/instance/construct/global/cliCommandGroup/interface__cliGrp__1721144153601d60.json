@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@id": "1afca35b-4b0d-480d-b783-8139ce4333cf",
+    "ignoreDelete": true,
+    "regEx": "vlan unit 0|vme unit 0",
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/Interfaces__cli__1721141460151794c.json"
+        ]
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "1afca35b-4b0d-480d-b783-8139ce4333cf",
+    "@name": "interface__cliGrp__1721144153601d60",
+    "@description": ""
+}

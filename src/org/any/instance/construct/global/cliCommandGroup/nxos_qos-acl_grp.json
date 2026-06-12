@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^qos.+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_qos-acl_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "nxos_qos-acl_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "4be0eb5a-7f35-4900-9a2a-4a2ccacf28bc",
+    "@id": "4be0eb5a-7f35-4900-9a2a-4a2ccacf28bc",
+    "@name": "nxos_qos-acl_grp",
+    "@description": ""
+}

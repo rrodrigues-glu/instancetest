@@ -1,0 +1,15 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/vlan.jtype"
+    },
+    "id": 800,
+    "name": "NEW_DATA8",
+    "@source": {
+        "instanceName": "800_vlan"
+    },
+    "alias": "",
+    "@exportedInstanceId": "a83bbe6f-3393-4ee6-9abf-80cf2ba1eaa5",
+    "@id": "a83bbe6f-3393-4ee6-9abf-80cf2ba1eaa5",
+    "@name": "800_vlan",
+    "@description": ""
+}

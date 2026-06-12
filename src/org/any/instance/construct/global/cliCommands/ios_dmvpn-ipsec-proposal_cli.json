@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "crypto ipsec transform-set AES256/SHA/TRANSPORT esp-aes 256 esp-sha-hmac",
+        " mode transport",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ipsec-proposal_cli"
+    },
+    "@exportedInstanceId": "f77a780c-847d-4732-8af8-15401e97da1f",
+    "@id": "f77a780c-847d-4732-8af8-15401e97da1f",
+    "@name": "ios_dmvpn-ipsec-proposal_cli",
+    "@description": ""
+}

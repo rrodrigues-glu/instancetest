@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface GigabitEthernet0/0",
+        " description Outside Interface",
+        " no ip redirects",
+        " no ip unreachables",
+        " no ip proxy-arp",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_intf-wan_cli"
+    },
+    "@exportedInstanceId": "add94988-d3ce-4e53-a3ee-02bfd3569d9e",
+    "@id": "add94988-d3ce-4e53-a3ee-02bfd3569d9e",
+    "@name": "ios_intf-wan_cli",
+    "@description": ""
+}

@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_LnkStatus.json"
+    },
+    "cliCommands": [
+        "logging event link-status default",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_logging-LnkStatus-cli"
+    },
+    "@exportedInstanceId": "6e4a11a8-4d81-4a61-bacf-a547894da76c",
+    "@id": "6e4a11a8-4d81-4a61-bacf-a547894da76c",
+    "@name": "nxos_logging-LnkStatus-cli",
+    "@description": ""
+}

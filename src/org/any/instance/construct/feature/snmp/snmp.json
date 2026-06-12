@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/snmp.jtype"
+    },
+    "featureConcept": {
+        "name": "SNMP",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "snmp": {
+            "location": "",
+            "contact": "",
+            "version": {}
+        }
+    },
+    "@source": {
+        "instanceName": "snmp"
+    },
+    "@exportedInstanceId": "ee8c1af9-683a-4704-83e0-20631c88fd34",
+    "@id": "ee8c1af9-683a-4704-83e0-20631c88fd34",
+    "@name": "snmp",
+    "@description": ""
+}

@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "FowardProtocol",
+    "showCmds": [
+        "sh run all | inc hardware"
+    ],
+    "mode": "basic",
+    "keyCliLine": "no hardware ip verify\\s(\\S+)",
+    "rootEntryFlag": true,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_VerifyFragment"
+    },
+    "@exportedInstanceId": "fb177bca-9581-4569-9b8d-c5d609e51b51",
+    "@id": "fb177bca-9581-4569-9b8d-c5d609e51b51",
+    "@name": "NXOS_VerifyFragment",
+    "@description": ""
+}

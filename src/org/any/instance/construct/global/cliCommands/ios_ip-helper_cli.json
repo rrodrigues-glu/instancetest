@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " ip helper-address 10.88.35.33",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ip-helper_cli"
+    },
+    "@exportedInstanceId": "f79f8ed6-c23f-4ad1-8342-3f424c06ddb9",
+    "@id": "f79f8ed6-c23f-4ad1-8342-3f424c06ddb9",
+    "@name": "ios_ip-helper_cli",
+    "@description": ""
+}

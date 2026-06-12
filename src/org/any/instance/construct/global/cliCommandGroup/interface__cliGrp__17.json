@@ -1,0 +1,24 @@
+{
+    "regEx": "GigabitEthernet1",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/update_interface-RPA_Test.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "interface GigabitEthernet1",
+        " description"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "2767a7ad-46e3-4600-adb3-3e1e34e08fd3",
+    "@id": "2767a7ad-46e3-4600-adb3-3e1e34e08fd3",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "interface__cliGrp__17",
+    "@description": ""
+}

@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ntp-method-2.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-2_grp"
+    },
+    "@exportedInstanceId": "0cc25684-91ca-43d4-b785-5a53dbe5f063",
+    "@id": "0cc25684-91ca-43d4-b785-5a53dbe5f063",
+    "@name": "ios_ntp-method-2_grp",
+    "@description": ""
+}

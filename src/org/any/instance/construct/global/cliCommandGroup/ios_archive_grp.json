@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_archive_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_archive_grp"
+    },
+    "@exportedInstanceId": "42d8ebd9-edc7-416e-bb8e-fc24b255c899",
+    "@id": "42d8ebd9-edc7-416e-bb8e-fc24b255c899",
+    "@name": "ios_archive_grp",
+    "@description": ""
+}

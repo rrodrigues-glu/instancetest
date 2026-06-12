@@ -1,0 +1,17 @@
+{
+    "item": {},
+    "cliCommands": [
+        "snmp-server location {{ snmp.location }}",
+        "snmp-server contact {{ snmp.contact }}"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "40b06925-dc4b-471a-8851-26a48f558b9d",
+    "@id": "40b06925-dc4b-471a-8851-26a48f558b9d",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "nxos_snmp-server_cli-James",
+    "@description": ""
+}

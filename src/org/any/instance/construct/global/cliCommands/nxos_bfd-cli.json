@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_Bfd.json"
+    },
+    "cliCommands": [
+        "bfd interval 50 min_rx 50 multiplier 3",
+        "bfd slow-timer 3000"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_bfd-cli"
+    },
+    "@exportedInstanceId": "35d807bb-b04e-4258-8491-1124568657f7",
+    "@id": "35d807bb-b04e-4258-8491-1124568657f7",
+    "@name": "nxos_bfd-cli",
+    "@description": ""
+}

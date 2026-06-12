@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/ucmRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ucm_RouterAssembly"
+    },
+    "@exportedInstanceId": "9b93d6c0-24ce-4044-9731-517887beef02",
+    "@id": "9b93d6c0-24ce-4044-9731-517887beef02",
+    "@name": "ucm_RouterAssembly",
+    "@description": ""
+}

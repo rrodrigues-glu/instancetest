@@ -1,0 +1,53 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "gaiaFirewall": {
+        "enabled": true
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "firewall": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "ip": "10.0.0.22",
+        "type": "ssh",
+        "port": 22,
+        "proxyList": [
+            {
+                "ip": "10.1.100.57",
+                "type": "ssh",
+                "port": 22,
+                "credsSource": "named",
+                "credentials": {
+                    "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+                }
+            }
+        ],
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+        }
+    },
+    "@exportedInstanceId": "939bd5d6-f2f9-4dd4-b008-cdad9b3c9bf0",
+    "@id": "939bd5d6-f2f9-4dd4-b008-cdad9b3c9bf0",
+    "@type": {
+        "ref": "/sys/type/construct/node/gaiaFirewall.jtype"
+    },
+    "@name": "checkpoint",
+    "@description": ""
+}

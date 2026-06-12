@@ -1,0 +1,29 @@
+{
+    "hostname": "Arista-Leaf04",
+    "vendor": "arista",
+    "os": "eos",
+    "path": "/sys/jnib/features/deviceDetect/arista/eos/",
+    "sku": "DCS-7050TX-48-F",
+    "software": {
+        "version": "4.28.9M",
+        "major": "4",
+        "minor": "28",
+        "revision": "9M",
+        "patch": "",
+        "train": "",
+        "build": "",
+        "image": "EOS-4.28.9M.swi"
+    },
+    "hardware": {
+        "serialNumber": "SSJ17400141",
+        "sku": "DCS-7050TX-48-F"
+    },
+    "detectedSerialNumber": "SSJ17400141",
+    "uptime": "6w2d16h",
+    "type": {
+        "name": "eosSwitch",
+        "base": "dcSwitch"
+    },
+    "licenses": {},
+    "ignoreDups": true
+}

@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "dns": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dns/ios_dns.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "DNS_Assembly"
+    },
+    "@exportedInstanceId": "1d6b5382-e272-44d5-9dea-51cdbaa6691e",
+    "@id": "1d6b5382-e272-44d5-9dea-51cdbaa6691e",
+    "@name": "DNS_Assembly",
+    "@description": ""
+}

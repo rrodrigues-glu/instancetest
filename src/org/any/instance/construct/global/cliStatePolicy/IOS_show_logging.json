@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_logging.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_show_logging"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "16813ec9-1028-425b-b279-30c63a37c89b",
+    "@id": "16813ec9-1028-425b-b279-30c63a37c89b",
+    "@name": "IOS_show_logging",
+    "@description": ""
+}

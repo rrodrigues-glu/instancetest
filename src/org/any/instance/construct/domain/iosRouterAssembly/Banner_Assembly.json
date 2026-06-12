@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "banner": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/banner/ios_banner.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "Banner_Assembly"
+    },
+    "@exportedInstanceId": "944bf7a9-cbe6-4251-bc87-3bde13176d53",
+    "@id": "944bf7a9-cbe6-4251-bc87-3bde13176d53",
+    "@name": "Banner_Assembly",
+    "@description": ""
+}

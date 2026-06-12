@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/nac.jtype"
+    },
+    "featureConcept": {
+        "name": "NAC Configuration",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_nac-global_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_nac-intf_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "comment": null
+    },
+    "@source": {
+        "instanceName": "ios_nac"
+    },
+    "@exportedInstanceId": "3c96feb9-73aa-459e-a167-038f0142599f",
+    "@id": "3c96feb9-73aa-459e-a167-038f0142599f",
+    "@name": "ios_nac",
+    "@description": ""
+}

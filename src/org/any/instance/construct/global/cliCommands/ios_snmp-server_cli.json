@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "snmp-server view $context.snmp.version.v3.group[*].view.read.name iso included",
+        "snmp-server view $context.snmp.version.v3.group[*].view.write.name iso included",
+        "snmp-server group $context.snmp.version.v3.group[*].name v3 priv read $context.snmp.version.v3.group[*].view.read.name write $context.snmp.version.v3.group[*].view.write.name",
+        "snmp-server user $context.snmp.version.v3.user[*].name $context.snmp.version.v3.group[*].name v3 auth $context.snmp.version.v3.user[*].authentication.hash $context.snmp.version.v3.user[*].authentication.password",
+        "!",
+        "snmp-server community $context.snmp.version.v2c.community[*].name $context.snmp.version.v2c.community[*].accessType $context.snmp.version.v2c.community[*].accessList",
+        "snmp-server location $context.snmp.location",
+        "snmp-server contact $context.snmp.contact",
+        "snmp-server host $context.snmp.version.v2c.community[*].host[*].ip $context.snmp.version.v2c.community[*].name",
+        "snmp-server trap-source $context.portMap.MGMT1.name"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_snmp-server_cli"
+    },
+    "@exportedInstanceId": "769c7047-4520-4aab-a623-3a3ee71a0248",
+    "@id": "769c7047-4520-4aab-a623-3a3ee71a0248",
+    "@name": "ios_snmp-server_cli",
+    "@description": ""
+}

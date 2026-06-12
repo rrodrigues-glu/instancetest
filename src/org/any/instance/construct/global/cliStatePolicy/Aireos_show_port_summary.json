@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/Aireos_show_port_summary.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "Aireos_show_port_summary"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "72005c9c-c52f-492c-a825-d2242f03c8d5",
+    "@id": "72005c9c-c52f-492c-a825-d2242f03c8d5",
+    "@name": "Aireos_show_port_summary",
+    "@description": ""
+}

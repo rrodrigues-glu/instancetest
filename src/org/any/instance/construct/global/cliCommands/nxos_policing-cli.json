@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_Policing.json"
+    },
+    "cliCommands": [
+        "class copp-system-class-monitoring",
+        "  police cir 2500 kbps bc 1250 ms conform transmit violate drop",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_policing-cli"
+    },
+    "@exportedInstanceId": "a7382eec-8c58-4fd5-ac89-1369feaf4f33",
+    "@id": "a7382eec-8c58-4fd5-ac89-1369feaf4f33",
+    "@name": "nxos_policing-cli",
+    "@description": ""
+}

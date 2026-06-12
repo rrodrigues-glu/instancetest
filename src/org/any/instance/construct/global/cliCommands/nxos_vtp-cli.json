@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_Vtp.json"
+    },
+    "cliCommands": [
+        "vtp mode transparent",
+        "vtp domain DC03-CORE-MKTX-VDC"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_vtp-cli"
+    },
+    "@exportedInstanceId": "720fb180-648e-4edd-9925-a0b9eaa96000",
+    "@id": "720fb180-648e-4edd-9925-a0b9eaa96000",
+    "@name": "nxos_vtp-cli",
+    "@description": ""
+}

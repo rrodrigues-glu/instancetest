@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "no aaa new-model"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_aaa-auth_cli"
+    },
+    "@exportedInstanceId": "beea1b02-de86-4fe5-b6e2-a75fee21842a",
+    "@id": "beea1b02-de86-4fe5-b6e2-a75fee21842a",
+    "@name": "ios_aaa-auth_cli",
+    "@description": ""
+}

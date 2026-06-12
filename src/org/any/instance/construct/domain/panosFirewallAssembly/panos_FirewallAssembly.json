@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/panosFirewallAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "panos_FirewallAssembly"
+    },
+    "@exportedInstanceId": "b89830bb-2bbd-4bed-8c80-80dc7b66e4f7",
+    "@id": "b89830bb-2bbd-4bed-8c80-80dc7b66e4f7",
+    "@name": "panos_FirewallAssembly",
+    "@description": ""
+}

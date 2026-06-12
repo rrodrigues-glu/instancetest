@@ -1,0 +1,9 @@
+{
+    "@exportedInstanceId": "38273af3-8bca-4818-9590-3eb5d32748f5",
+    "@id": "38273af3-8bca-4818-9590-3eb5d32748f5",
+    "@type": {
+        "ref": "/sys/type/construct/feature/vlans.jtype"
+    },
+    "@name": "Unnamed-Vlans-1",
+    "@description": ""
+}

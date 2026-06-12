@@ -1,0 +1,270 @@
+{
+    "hostname": "romualdo",
+    "vendor": "cisco",
+    "os": "ios",
+    "path": "/sys/jnib/features/deviceDetect/cisco/ios/",
+    "sku": "CSR1000V",
+    "software": {
+        "version": "16.12.1a",
+        "major": "16",
+        "minor": "12",
+        "revision": "1a",
+        "train": "",
+        "build": "",
+        "patch": "",
+        "apiVersion": "16.12.1a",
+        "image": "packages.conf",
+        "drive": "bootflash:",
+        "routingMode": "autonomous"
+    },
+    "hardware": {
+        "serialNumber": "97ACBFTCGVE",
+        "sku": "CSR1000V",
+        "chassis": {
+            "R0": {
+                "sku": "CSR1000V",
+                "serialNumber": "JAB1303001C"
+            }
+        },
+        "components": {},
+        "family": "CSR",
+        "series": "1000v"
+    },
+    "detectedSerialNumber": "97ACBFTCGVE",
+    "uptime": "41w3d10h38m",
+    "chassis": {
+        "R0": {
+            "sku": "CSR1000V",
+            "serialNumber": "JAB1303001C"
+        }
+    },
+    "type": {
+        "name": "iosRouter",
+        "base": "wanRouter"
+    },
+    "licenses": [],
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "GigabitEthernet1": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "00:50:56:9a:77:ef",
+                    "phyMacAddress": "00:50:56:9a:77:ef",
+                    "ipv4Address": "10.1.100.155/24"
+                },
+                "description": "device tracking",
+                "phyVirt": "physical",
+                "type": "l3",
+                "configured": {
+                    "ipv4Address": "10.1.100.155/24",
+                    "enabled": true
+                },
+                "neighbors": [
+                    {
+                        "macAddress": "00:50:56:a5:3f:ff",
+                        "destinationIpv4Address": "10.1.100.116",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.116"
+                    },
+                    {
+                        "macAddress": "00:50:56:ad:b7:23",
+                        "destinationIpv4Address": "10.1.100.118",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.118"
+                    },
+                    {
+                        "macAddress": "00:50:56:ad:ba:27",
+                        "destinationIpv4Address": "10.1.100.120",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.120"
+                    },
+                    {
+                        "macAddress": "00:50:56:9a:77:ef",
+                        "destinationIpv4Address": "10.1.100.155",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.155"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:ea:13",
+                        "destinationIpv4Address": "10.1.100.156",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.156"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:c3:f3",
+                        "destinationIpv4Address": "10.1.100.157",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.157"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:f0:2f",
+                        "destinationIpv4Address": "10.1.100.232",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.232"
+                    },
+                    {
+                        "macAddress": "00:1b:17:00:01:30",
+                        "destinationIpv4Address": "10.1.100.241",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.241"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:2b:8a",
+                        "destinationIpv4Address": "10.1.100.242",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.242"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:0f:da",
+                        "destinationIpv4Address": "10.1.100.249",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.249"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:62:e0",
+                        "destinationIpv4Address": "10.1.100.250",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.250"
+                    }
+                ]
+            },
+            "GigabitEthernet3": {
+                "operational": {
+                    "status": "adminShut",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "00:50:56:9a:0b:f3",
+                    "phyMacAddress": "00:50:56:9a:0b:f3"
+                },
+                "description": "no device tracking",
+                "phyVirt": "physical",
+                "configured": {
+                    "ipv4Address": "acl",
+                    "enabled": false
+                },
+                "type": "l3"
+            },
+            "Loopback11": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": ""
+                },
+                "description": ":N1:BJD-DXN-6-R01-WLC01 TenGigabitEthernet0/0/1-TEST",
+                "phyVirt": "virtual",
+                "configured": {
+                    "enabled": true
+                }
+            },
+            "Loopback44": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": ""
+                },
+                "description": "Testqwe",
+                "phyVirt": "virtual",
+                "configured": {
+                    "enabled": true
+                }
+            },
+            "Loopback145": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": "",
+                    "ipv4Address": "172.3.56.55/24"
+                },
+                "description": "c3 test",
+                "phyVirt": "virtual",
+                "type": "l3",
+                "configured": {
+                    "ipv4Address": "172.3.56.55/24",
+                    "enabled": true
+                }
+            },
+            "Loopback245": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": "",
+                    "ipv4Address": "17.3.56.1/24"
+                },
+                "description": "device tracking",
+                "phyVirt": "virtual",
+                "type": "l3",
+                "configured": {
+                    "ipv4Address": "17.3.56.1/24",
+                    "enabled": true
+                }
+            },
+            "Loopback253": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": "",
+                    "ipv4Address": "10.35.253.2/24"
+                },
+                "description": "Backbone_L3",
+                "phyVirt": "virtual",
+                "type": "l3",
+                "configured": {
+                    "ipv4Address": "10.35.253.2/24",
+                    "enabled": true
+                }
+            },
+            "Loopback345": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "8000000 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": "",
+                    "ipv4Address": "12.3.56.1/24"
+                },
+                "description": "device tracking",
+                "phyVirt": "virtual",
+                "type": "l3",
+                "configured": {
+                    "ipv4Address": "12.3.56.1/24",
+                    "enabled": true
+                }
+            },
+            "Tunnel159001": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "9976",
+                    "speed": "100 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": ""
+                },
+                "description": "",
+                "phyVirt": "virtual"
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 0,
+                "use": 0,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1760350588245,
+            "utcDateTime": "Mon, 13 Oct 2025 10:16:28 GMT"
+        }
+    }
+}

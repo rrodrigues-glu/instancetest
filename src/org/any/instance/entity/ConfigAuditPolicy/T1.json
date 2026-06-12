@@ -1,0 +1,13 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [],
+  "runLevel": "auditRunLevel1",
+  "name": "T1",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "c092c9a6-91e2-4220-9a1f-b1f7c467c40d",
+  "createdBy": "admin",
+  "createdOn": 1683878993720,
+  "updatedBy": "admin",
+  "updatedOn": 1683878993720
+}

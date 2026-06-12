@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_DnsServer.json"
+    },
+    "cliCommands": [
+        "ip name-server $context.dns.server[*].ip use-vrf managememt"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_dns-server-cli"
+    },
+    "@exportedInstanceId": "9fe7ea1d-f744-4a9b-94a7-7cb59b7010f1",
+    "@id": "9fe7ea1d-f744-4a9b-94a7-7cb59b7010f1",
+    "@name": "nxos_dns-server-cli",
+    "@description": ""
+}

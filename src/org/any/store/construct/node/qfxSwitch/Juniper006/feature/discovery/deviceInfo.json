@@ -1,0 +1,374 @@
+{
+    "hostname": "ex3300-vc",
+    "vendor": "juniper",
+    "os": "junos",
+    "path": "/sys/jnib/features/deviceDetect/juniper/junos/",
+    "sku": "QFX5100-24Q-2P",
+    "software": {
+        "version": "19.4R2.6",
+        "major": "19",
+        "minor": "4",
+        "spin": "6",
+        "build": "2",
+        "type": "R"
+    },
+    "hardware": {
+        "serialNumber": "VG3716200094",
+        "sku": "QFX5100-24Q-2P",
+        "stack": {
+            "0": {
+                "sku": "QFX5100-24Q-2P",
+                "serialNumber": "VG3716200094",
+                "status": "prsnt",
+                "master": true
+            }
+        },
+        "components": {
+            "flexiblePicConcentrator": [
+                {
+                    "description": "QFX5100-24Q-2P",
+                    "location": {
+                        "id": "0",
+                        "path": "fpc0",
+                        "type": "fpc"
+                    },
+                    "serialNumber": "VG3716200094",
+                    "sku": "650-056265"
+                }
+            ],
+            "physicalInterfaceCards": [
+                {
+                    "description": "QFX-EM-4Q",
+                    "location": {
+                        "id": "1",
+                        "path": "fpc0/pic1",
+                        "type": "pic"
+                    },
+                    "serialNumber": "RR3716180745",
+                    "sku": "611-064335"
+                },
+                {
+                    "description": "QFX-EM-4Q",
+                    "location": {
+                        "id": "2",
+                        "path": "fpc0/pic2",
+                        "type": "pic"
+                    },
+                    "serialNumber": "RR3716180366",
+                    "sku": "611-064335"
+                }
+            ]
+        },
+        "family": "QFX",
+        "series": "5100"
+    },
+    "detectedSerialNumber": "VG3716200094",
+    "uptime": "39d8h25m",
+    "type": {
+        "name": "qfxSwitch",
+        "base": "dcSwitch"
+    },
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "gr-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ip-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pfe-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "800mbps",
+                    "mtu": "0"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pfh-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "800mbps",
+                    "mtu": "0"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "bme0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "02:00:00:00:00:0a",
+                    "speed": "Unspecified",
+                    "mtu": "9512"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "bme1": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:59:f1",
+                    "speed": "1000mbps",
+                    "mtu": "9512"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "cbp0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "00:00:00:00:00:14",
+                    "speed": "Unspecified",
+                    "mtu": "9192"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "dsc": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unspecified",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "em0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:59:f8",
+                    "speed": "1000mbps",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "em2": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:59:f0",
+                    "ipv4Address": "192.168.1.2/24",
+                    "speed": "1000mbps",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l3"
+            },
+            "esi": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "fti0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "gre": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ipip": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "irb": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:55:00",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "jsrv": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:55:00",
+                    "ipv4Address": "128.0.0.127/2",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l3"
+            },
+            "lo0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unspecified",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "lsi": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "mtun": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pimd": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pime": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pip0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:55:e0",
+                    "speed": "Unspecified",
+                    "mtu": "9192"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "tap": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "vme": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d4:04:ff:9a:55:01",
+                    "ipv4Address": "10.150.2.8/27",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up",
+                    "ipv4Address": "10.150.2.8/27"
+                },
+                "type": "l3"
+            },
+            "vtep": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            ".local.": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 1,
+                "use": 1,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1719232501102,
+            "utcDateTime": "Mon, 24 Jun 2024 12:35:01 GMT"
+        }
+    }
+}

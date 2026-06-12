@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "ping 8.8.8.8",
+    "rootEntry": "yes",
+    "groupName": "ping",
+    "discover": {
+        "rate": {
+            "expressions": [
+                "Sending \\d+, (?<pcktSize>\\d+)\\-byte ICMP Echos to (?<ipAddress>\\d+.\\d+.\\d+.\\d+), timeout is \\d+ seconds",
+                "Success rate is (?<successRate>\\d+).*\\((?<pcktSent>\\d+)\\/(?<pcktRecv>\\d+)\\).*(?<min>\\d+)\\/(?<avg>\\d+)\\/(?<max>\\d+) ms"
+            ],
+            "localKey": "ipAddress",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "IOS_ping"
+    },
+    "@exportedInstanceId": "95a93c0f-f6aa-4428-8abf-fd7ff9900f28",
+    "@id": "95a93c0f-f6aa-4428-8abf-fd7ff9900f28",
+    "@name": "IOS_ping",
+    "@description": ""
+}

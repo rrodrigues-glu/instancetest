@@ -1,0 +1,20 @@
+{
+    "featureConcept": {
+        "name": "Interface",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/interface__cliGrp__17.json"
+            ]
+        }
+    },
+    "form": {
+        "intf": {}
+    },
+    "@exportedInstanceId": "15715663-c9dd-43be-9698-ae60c49c33ad",
+    "@id": "15715663-c9dd-43be-9698-ae60c49c33ad",
+    "@type": {
+        "ref": "/sys/type/construct/feature/interface.jtype"
+    },
+    "@name": "interface",
+    "@description": ""
+}

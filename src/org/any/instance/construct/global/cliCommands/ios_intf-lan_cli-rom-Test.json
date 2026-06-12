@@ -1,0 +1,20 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Intf2-rom-Test.json"
+    },
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " description $discover.ipaddr.value",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "179cd199-8a31-474c-907d-ee57db787b1c",
+    "@id": "179cd199-8a31-474c-907d-ee57db787b1c",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_intf-lan_cli-rom-Test",
+    "@description": ""
+}

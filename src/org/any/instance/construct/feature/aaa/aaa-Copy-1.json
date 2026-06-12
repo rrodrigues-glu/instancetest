@@ -1,0 +1,39 @@
+{
+    "featureConcept": {
+        "name": "AAA Tacacs",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_tacacs-add-single-step_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "aaa": [
+            {
+                "name": "Glue-ACS",
+                "tacacs": [
+                    {
+                        "name": "Glue-ACS1",
+                        "ip": "10.10.10.2",
+                        "key": {
+                            "@ref": "/secret/sys/credentials/secret/API-Control.json"
+                        },
+                        "timeout": 30
+                    },
+                    {
+                        "name": "Glue-ACS2",
+                        "ip": "10.10.10.3",
+                        "timeout": 30
+                    }
+                ]
+            }
+        ]
+    },
+    "@exportedInstanceId": "5160315f-465f-4968-960a-72ef01bfdd48",
+    "@id": "5160315f-465f-4968-960a-72ef01bfdd48",
+    "@type": {
+        "ref": "/sys/type/construct/feature/aaa.jtype"
+    },
+    "@name": "aaa-Copy-1",
+    "@description": ""
+}

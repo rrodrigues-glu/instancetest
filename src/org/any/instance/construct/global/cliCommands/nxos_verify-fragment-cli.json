@@ -1,0 +1,21 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_VerifyFragment.json"
+    },
+    "cliCommands": [
+        "no hardware ip verify fragment"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_verify-fragment-cli"
+    },
+    "@exportedInstanceId": "30e6901a-0689-48de-81ae-7649d7a0cf34",
+    "@id": "30e6901a-0689-48de-81ae-7649d7a0cf34",
+    "@name": "nxos_verify-fragment-cli"
+}

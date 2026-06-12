@@ -1,0 +1,46 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "srxRouter": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "wanRouter": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.2.11",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Juniper.json"
+        },
+        "type": "ssh",
+        "port": 22
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/Romualdo.json"
+    },
+    "@exportedInstanceId": "14df3eff-b480-42cc-8245-86093bc66ef7",
+    "@id": "14df3eff-b480-42cc-8245-86093bc66ef7",
+    "@type": {
+        "ref": "/sys/type/construct/node/srxRouter.jtype"
+    },
+    "@name": "Juniper-1",
+    "@description": ""
+}

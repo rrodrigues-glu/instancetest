@@ -1,0 +1,40 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "class-map match-any voice-traffic-INBOUND",
+        " description COS1-RT_Vo",
+        "  match access-group name Lync-traffic-ACL",
+        "  match access-group name Local-telephony-ACL",
+        "!",
+        "class-map match-any video-traffic-INBOUND",
+        " description COS1-RT_Vi",
+        "  match access-group name video-traffic-ACL",
+        "!",
+        "class-map match-any premium-traffic-INBOUND",
+        " description COS2-D1",
+        "  match access-group name premium-traffic-ACL",
+        "!",
+        "class-map match-any default-traffic-INBOUND",
+        " description COS3-D2",
+        "  match any",
+        "!",
+        "class-map match-any bulk-traffic-INBOUND",
+        " description COS5-D3",
+        "  match access-group name bulk-traffic-ACL",
+        "!"
+    ],
+    "advanced": {
+        "filter": "platform",
+        "platform": "WS-C65.+"
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-cmap_cli"
+    },
+    "@exportedInstanceId": "1697eb21-0606-4376-80d5-b27d4ee40f68",
+    "@id": "1697eb21-0606-4376-80d5-b27d4ee40f68",
+    "@name": "ios_cat6500-qos-cmap_cli",
+    "@description": ""
+}

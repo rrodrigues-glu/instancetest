@@ -1,0 +1,26 @@
+{
+    "regEx": "GigabitEthernet1$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-lan_cli-rom-Test.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "interface",
+        " description"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "f4f45905-b24a-4453-aba0-b45091a1d455",
+    "@id": "f4f45905-b24a-4453-aba0-b45091a1d455",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_intf-lan_grp-rom-Test",
+    "@description": ""
+}

@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " switchport mode trunk",
+        " switchport trunk allowed vlan 2-6,50,62,63,65,82-86,193,224,231,499,669,997,998,999,1000",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_trunk-allowed_cli"
+    },
+    "@exportedInstanceId": "6c8665ba-905c-4b49-8404-cc1b71108031",
+    "@id": "6c8665ba-905c-4b49-8404-cc1b71108031",
+    "@name": "ios_trunk-allowed_cli",
+    "@description": ""
+}

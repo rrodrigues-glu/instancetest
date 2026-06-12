@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show wlan summary",
+    "rootEntry": "yes",
+    "groupName": "wlc",
+    "discover": {
+        "summary": {
+            "expressions": [
+                "(?<wlanId>\\d+)\\s+(?<profile>\\S+) \\/ (?<ssid>\\S+)\\s+(?<status>Enabled|Disabled)\\s+(?<intf>\\S+)"
+            ],
+            "localKey": "wlanId",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "WLC_wlanSummary"
+    },
+    "@exportedInstanceId": "0f49e3f7-9323-46d3-bbd2-eacb7c786c7a",
+    "@id": "0f49e3f7-9323-46d3-bbd2-eacb7c786c7a",
+    "@name": "WLC_wlanSummary",
+    "@description": ""
+}

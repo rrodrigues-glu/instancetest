@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "dhcp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dhcp/ios_dhcp.json"
+                }
+            }
+        }
+    },
+    "interfaces": {
+        "portMap": {
+            "@ref": "/org/instance/construct/global/portMap/csr1000v.json"
+        }
+    },
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "DHCP_Assembly"
+    },
+    "@exportedInstanceId": "e052b092-1b1c-4b28-977d-8d559c8339d1",
+    "@id": "e052b092-1b1c-4b28-977d-8d559c8339d1",
+    "@name": "DHCP_Assembly",
+    "@description": ""
+}

@@ -1,0 +1,30 @@
+{
+    "featureConcept": {
+        "name": "Local Users",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/nxos_username_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "user": [
+            {
+                "name": "testUser",
+                "password": {
+                    "@ref": "/secret/sys/credentials/secret/API-Control.json"
+                },
+                "hash": "cleartext",
+                "view": "",
+                "privilege": "15"
+            }
+        ]
+    },
+    "@exportedInstanceId": "2160f222-3e9b-47ef-9620-4803d95ddb26",
+    "@id": "2160f222-3e9b-47ef-9620-4803d95ddb26",
+    "@type": {
+        "ref": "/sys/type/construct/feature/username.jtype"
+    },
+    "@name": "nxos_username-Copy-1",
+    "@description": ""
+}

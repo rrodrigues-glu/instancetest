@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "dot1x system-auth-control"
+    ],
+    "advanced": {},
+    "@source": {
+        "instanceName": "ios_nac-global_cli"
+    },
+    "@exportedInstanceId": "9d2e52aa-71cb-497e-8693-57f44497ee50",
+    "@id": "9d2e52aa-71cb-497e-8693-57f44497ee50",
+    "@name": "ios_nac-global_cli",
+    "@description": ""
+}

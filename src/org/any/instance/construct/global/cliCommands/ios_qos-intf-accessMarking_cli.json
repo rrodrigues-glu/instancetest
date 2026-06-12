@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.switchPorts[*].name",
+        " service-policy input pmap_qos-lan-marking-in",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_qos-intf-accessMarking_cli"
+    },
+    "@exportedInstanceId": "8dfee385-6c38-4da3-be81-c5760ee2a2a2",
+    "@id": "8dfee385-6c38-4da3-be81-c5760ee2a2a2",
+    "@name": "ios_qos-intf-accessMarking_cli",
+    "@description": ""
+}

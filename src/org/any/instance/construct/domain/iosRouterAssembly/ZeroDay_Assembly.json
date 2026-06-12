@@ -1,0 +1,46 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "syslog": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/syslog/ios_syslog.json"
+                }
+            },
+            "banner": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/banner/ios_banner.json"
+                }
+            },
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/snmp/ios_snmp-v2c.json"
+                }
+            },
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/ios_ntp.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "ZeroDay_Assembly"
+    },
+    "@exportedInstanceId": "d7086b57-944b-48ff-a7da-52bf3d7493d7",
+    "@id": "d7086b57-944b-48ff-a7da-52bf3d7493d7",
+    "@name": "ZeroDay_Assembly",
+    "@description": ""
+}

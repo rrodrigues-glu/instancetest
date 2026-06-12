@@ -1,0 +1,17 @@
+{
+    "item": {},
+    "cliCommands": [
+        "interface GigabitEthernet1/0/5",
+        " macro apply JFK_Macro2"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "560f251e-e726-4404-ba36-152e3c7c32d8",
+    "@id": "560f251e-e726-4404-ba36-152e3c7c32d8",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_intf-wan_cli-macro",
+    "@description": ""
+}

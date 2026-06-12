@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/asaFirewallAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "asa_FirewallAssembly"
+    },
+    "@exportedInstanceId": "d58e0e37-f951-46ab-a7a4-94ffb4d10d50",
+    "@id": "d58e0e37-f951-46ab-a7a4-94ffb4d10d50",
+    "@name": "asa_FirewallAssembly",
+    "@description": ""
+}

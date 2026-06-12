@@ -1,0 +1,25 @@
+{
+    "map": [
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/MGMT.json"
+            },
+            "name": "Vlan1004",
+            "extendedName": ""
+        },
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/LOOPBACK.json"
+            },
+            "name": "Loopback0",
+            "extendedName": ""
+        }
+    ],
+    "@exportedInstanceId": "a37b6809-60ad-49e0-82fe-0c9e129f32d5",
+    "@id": "a37b6809-60ad-49e0-82fe-0c9e129f32d5",
+    "@type": {
+        "ref": "/sys/type/construct/global/portMap.jtype"
+    },
+    "@name": "Routed Port Map-4",
+    "@description": ""
+}

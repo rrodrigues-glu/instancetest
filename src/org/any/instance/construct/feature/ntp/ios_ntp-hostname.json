@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/ntp.jtype"
+    },
+    "featureConcept": {
+        "name": "IOS NTP Conditional",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_hostname_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_ntp-hostname_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "ntp": {
+            "server": {
+                "server": []
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "ios_ntp-hostname"
+    },
+    "@exportedInstanceId": "3f8aace3-58b3-415c-ae61-15805eba7daa",
+    "@id": "3f8aace3-58b3-415c-ae61-15805eba7daa",
+    "@name": "ios_ntp-hostname",
+    "@description": ""
+}

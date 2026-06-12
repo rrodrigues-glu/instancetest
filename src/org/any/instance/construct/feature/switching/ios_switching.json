@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/switching.jtype"
+    },
+    "featureConcept": {
+        "name": "Switching",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "layer2": [],
+        "switchports": {
+            "profile": null
+        }
+    },
+    "@source": {
+        "instanceName": "ios_switching"
+    },
+    "@exportedInstanceId": "c17c604e-b780-42e8-90fe-f766056e798d",
+    "@id": "c17c604e-b780-42e8-90fe-f766056e798d",
+    "@name": "ios_switching",
+    "@description": ""
+}

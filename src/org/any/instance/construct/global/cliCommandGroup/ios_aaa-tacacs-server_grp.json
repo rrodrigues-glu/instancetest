@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_aaa-group-server_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_aaa-tacacs-server_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "345a16ac-2dab-49fa-8a91-46e452d9b852",
+    "@id": "345a16ac-2dab-49fa-8a91-46e452d9b852",
+    "@name": "ios_aaa-tacacs-server_grp",
+    "@description": ""
+}

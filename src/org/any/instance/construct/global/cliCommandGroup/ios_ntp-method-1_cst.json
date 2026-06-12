@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ntp-method-1_cst.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$context.customFields.Region == Mideast"
+        ]
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-1_cst"
+    },
+    "@exportedInstanceId": "bf0f89c9-e26c-4e5a-aa3d-a27cbe44074e",
+    "@id": "bf0f89c9-e26c-4e5a-aa3d-a27cbe44074e",
+    "@name": "ios_ntp-method-1_cst",
+    "@description": ""
+}

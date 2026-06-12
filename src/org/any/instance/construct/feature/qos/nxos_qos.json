@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qos.jtype"
+    },
+    "featureConcept": {
+        "name": "NXOS QoS",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/nxos_qos-system_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/nxos_qos-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/nxos_qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/nxos_qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "intf": {
+            "bandwidth": null
+        }
+    },
+    "@source": {
+        "instanceName": "nxos_qos"
+    },
+    "@exportedInstanceId": "23f6026f-2627-4577-be21-825839d0b0bf",
+    "@id": "23f6026f-2627-4577-be21-825839d0b0bf",
+    "@name": "nxos_qos",
+    "@description": ""
+}

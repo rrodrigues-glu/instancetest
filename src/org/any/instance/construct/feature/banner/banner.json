@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/banner.jtype"
+    },
+    "featureConcept": {
+        "name": "Banner",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "banner": {
+            "comment": null
+        }
+    },
+    "@source": {
+        "instanceName": "banner"
+    },
+    "@exportedInstanceId": "ec40c886-6ec2-4b22-9fe5-9a784f311834",
+    "@id": "ec40c886-6ec2-4b22-9fe5-9a784f311834",
+    "@name": "banner",
+    "@description": ""
+}

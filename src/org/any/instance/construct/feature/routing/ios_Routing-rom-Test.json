@@ -1,0 +1,24 @@
+{
+    "featureConcept": {
+        "name": "Routing",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_router-ospf_grp-rom-Test.json"
+            ]
+        }
+    },
+    "form": {
+        "distributionLayer": {
+            "ipv4": {
+                "routingProtocol": {}
+            }
+        }
+    },
+    "@exportedInstanceId": "e21e0d80-8673-47cc-8ce7-18ead6436973",
+    "@id": "e21e0d80-8673-47cc-8ce7-18ead6436973",
+    "@type": {
+        "ref": "/sys/type/construct/feature/routing.jtype"
+    },
+    "@name": "ios_Routing-rom-Test",
+    "@description": ""
+}

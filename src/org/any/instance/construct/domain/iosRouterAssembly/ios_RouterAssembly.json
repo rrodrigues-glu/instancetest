@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "interface": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/interface/ios_interface-rom-Dennis.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "45375030-1719-4cc1-8df1-dbe73b7dd367",
+    "@id": "45375030-1719-4cc1-8df1-dbe73b7dd367",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "ios_RouterAssembly",
+    "@description": ""
+}

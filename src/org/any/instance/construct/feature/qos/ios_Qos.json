@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qos.jtype"
+    },
+    "featureConcept": {
+        "name": "Qos",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "intf": {
+            "bandwidth": null
+        }
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios_Qos"
+    },
+    "@exportedInstanceId": "6446696c-61ed-4c4f-9b5f-bbe7e637c4a2",
+    "@id": "6446696c-61ed-4c4f-9b5f-bbe7e637c4a2",
+    "@name": "ios_Qos",
+    "@description": ""
+}

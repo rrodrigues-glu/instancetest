@@ -1,0 +1,103 @@
+{
+    "ouiDatabase": {
+        "ouiInstance": [
+            {
+                "macAddress": "E868.19",
+                "company": "HuaweiTechno",
+                "description": "Huawei Technologies Co.,Ltd"
+            },
+            {
+                "macAddress": "E868.E7",
+                "company": "Espressif",
+                "description": "Espressif Inc."
+            },
+            {
+                "macAddress": "E86A.64",
+                "company": "LCFCElectron",
+                "description": "LCFC(HeFei) Electronics Technology co., ltd"
+            },
+            {
+                "macAddress": "E86B.EA",
+                "company": "Espressif",
+                "description": "Espressif Inc."
+            },
+            {
+                "macAddress": "E86C.C700./28",
+                "company": "TrapezeSwitz",
+                "description": "Trapeze Switzerland GmbH"
+            },
+            {
+                "macAddress": "E86C.C710./28",
+                "company": "ASSAABLOYSma",
+                "description": "ASSA ABLOY(GuangZhou) Smart Technology Co., Ltd"
+            },
+            {
+                "macAddress": "E86C.C720./28",
+                "company": "XirgoTechnol",
+                "description": "Xirgo Technologies LLC"
+            },
+            {
+                "macAddress": "E86C.C730./28",
+                "company": "YibaifenIndu",
+                "description": "Shenzhen Yibaifen Industrial Co.,Ltd."
+            },
+            {
+                "macAddress": "E86C.C740./28",
+                "company": "KoalSoftware",
+                "description": "Koal Software Co., Ltd"
+            },
+            {
+                "macAddress": "FCE8.C0",
+                "company": "Espressif",
+                "description": "Espressif Inc."
+            },
+            {
+                "macAddress": "FCE9.98",
+                "company": "Apple",
+                "description": "Apple, Inc."
+            },
+            {
+                "macAddress": "FCE9.D8",
+                "company": "AmazonTechno",
+                "description": "Amazon Technologies Inc."
+            },
+            {
+                "macAddress": "FCEA.50",
+                "company": "IntegratedDe",
+                "description": "Integrated Device Technology (Malaysia) Sdn. Bhd."
+            },
+            {
+                "macAddress": "FCEC.DA",
+                "company": "Ubiquiti",
+                "description": "Ubiquiti Inc"
+            },
+            {
+                "macAddress": "FCED.B9",
+                "company": "Arrayent",
+                "description": "Arrayent"
+            },
+            {
+                "macAddress": "FCEE.E6",
+                "company": "FormikeElect",
+                "description": "Formike Electronic Co., Ltd"
+            },
+            {
+                "macAddress": "FCF1.36",
+                "company": "SamsungElect",
+                "description": "Samsung Electronics Co.,Ltd"
+            },
+            {
+                "macAddress": "FCF1.52",
+                "company": "Sony",
+                "description": "Sony Corporation"
+            }
+        ]
+    },
+    "@exportedInstanceId": "f2f91483-3d62-4232-8027-4424c4e9370f",
+    "@id": "f2f91483-3d62-4232-8027-4424c4e9370f",
+    "@type": {
+        "ref": "/sys/type/construct/global/ouiDatabase.jtype"
+    },
+    "@name": "ouiDatabase",
+    "@description": ""
+}

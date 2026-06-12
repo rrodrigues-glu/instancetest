@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "10.150.42.11$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_tacacs-server-remove_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_tacacs-remove-step2_grp"
+    },
+    "@exportedInstanceId": "04d2ca56-8ed3-470b-8424-d92a70f0dd4c",
+    "@id": "04d2ca56-8ed3-470b-8424-d92a70f0dd4c",
+    "@name": "ios_tacacs-remove-step2_grp",
+    "@description": ""
+}

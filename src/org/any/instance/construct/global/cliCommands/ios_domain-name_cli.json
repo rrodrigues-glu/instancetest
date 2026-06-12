@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip domain name $context.dns.domainName"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_domain-name_cli"
+    },
+    "@exportedInstanceId": "d0a851ef-348a-46c1-aaa3-33679167b5e1",
+    "@id": "d0a851ef-348a-46c1-aaa3-33679167b5e1",
+    "@name": "ios_domain-name_cli",
+    "@description": ""
+}

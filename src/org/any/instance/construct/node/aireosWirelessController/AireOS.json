@@ -1,0 +1,48 @@
+{
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.1.69",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "type": "ssh",
+        "port": 22,
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "aireosWirelessController": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "controller": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/Romualdo.json"
+    },
+    "@exportedInstanceId": "b35da08f-fd11-49db-b697-1a1e695ac8cf",
+    "@id": "b35da08f-fd11-49db-b697-1a1e695ac8cf",
+    "@type": {
+        "ref": "/sys/type/construct/node/aireosWirelessController.jtype"
+    },
+    "@name": "AireOS",
+    "@description": ""
+}

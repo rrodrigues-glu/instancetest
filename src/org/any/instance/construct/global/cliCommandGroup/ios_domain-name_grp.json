@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_domain-name_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_domain-name_grp"
+    },
+    "@exportedInstanceId": "b0cdd0b4-d30a-4e32-88ab-f0209dbec3fd",
+    "@id": "b0cdd0b4-d30a-4e32-88ab-f0209dbec3fd",
+    "@name": "ios_domain-name_grp",
+    "@description": ""
+}

@@ -1,0 +1,285 @@
+{
+    "hostname": "wlc5508-1",
+    "vendor": "cisco",
+    "os": "aireos",
+    "path": "/sys/jnib/features/deviceDetect/cisco/aireos/",
+    "sku": "AIR-CT5508-K9",
+    "software": {
+        "version": "8.5.140.0",
+        "major": "8",
+        "minor": "5",
+        "revision": "140",
+        "patch": "0",
+        "build": "",
+        "train": ""
+    },
+    "hardware": {
+        "serialNumber": "FCW1504L0H8",
+        "sku": "AIR-CT5508-K9"
+    },
+    "detectedSerialNumber": "FCW1504L0H8",
+    "uptime": "43d4h37m14s",
+    "type": {
+        "name": "aireosWirelessController",
+        "base": "baseController"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "GigabitEthernet0/0/1": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "e0:5f:b9:46:54:a4",
+                    "speed": "1000/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "1000 Full",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 1 Gigabit - Level 0x6070001-ethernetCsmacd",
+                "neighbors": [
+                    {
+                        "ip": "10.150.200.51",
+                        "remoteInterface": "GigabitEthernet1/0/6",
+                        "systemName": "GNSW-QTS-LAB-HR51.gluware.com",
+                        "discoveryType": "CDP",
+                        "vendor": "cisco",
+                        "remoteDescription": " cisco WS-C3650-48PS"
+                    },
+                    {
+                        "macAddress": "00:1b:17:00:01:30",
+                        "destinationIpv4Address": "10.150.1.65",
+                        "discoveryType": "ARP",
+                        "ip": "10.150.1.65"
+                    }
+                ]
+            },
+            "GigabitEthernet0/0/2": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a5",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 2 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/3": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a6",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 3 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/4": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a7",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 4 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/5": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a8",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 5 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/6": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a9",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 6 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/7": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:aa",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 7 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/8": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:ab",
+                    "speed": "10/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port: 8 Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/RP": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a2",
+                    "speed": "1000/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port:RP Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "GigabitEthernet0/0/SP": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "e0:5f:b9:46:54:a1",
+                    "speed": "1000/Mbps",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true,
+                    "type": "ethernetCsmacd",
+                    "speed": "Auto",
+                    "duplex": "Auto"
+                },
+                "type": "l2",
+                "description": "Unit: 0 Slot: 0 Port:SP Gigabit - Level 0x6070001-ethernetCsmacd"
+            },
+            "management": {
+                "operational": {
+                    "ipv4Address": "10.150.1.69/24",
+                    "macAddress": "e0:5f:b9:46:54:af",
+                    "ipv6Address": "fe80::e25f:b9ff:fe46:54af/64",
+                    "status": "up"
+                },
+                "configured": {
+                    "vlanId": "untagged",
+                    "ipv4Address": "10.150.1.69",
+                    "phyPort": "GigabitEthernet0/0/1"
+                },
+                "type": "l3"
+            },
+            "redundancy-management": {
+                "operational": {
+                    "ipv4Address": "0.0.0.0",
+                    "macAddress": "e0:5f:b9:46:54:af"
+                },
+                "configured": {
+                    "vlanId": "untagged",
+                    "ipv4Address": "0.0.0.0",
+                    "phyPort": "GigabitEthernet0/0/1"
+                },
+                "type": "l3"
+            },
+            "redundancy-port": {
+                "operational": {
+                    "ipv4Address": "0.0.0.0",
+                    "macAddress": "e0:5f:b9:46:54:a2"
+                },
+                "configured": {
+                    "vlanId": "untagged",
+                    "ipv4Address": "0.0.0.0",
+                    "phyPort": "GigabitEthernet0/0/1"
+                },
+                "type": "l3"
+            },
+            "service-port": {
+                "operational": {
+                    "ipv4Address": "0.0.0.0",
+                    "macAddress": "e0:5f:b9:46:54:a1",
+                    "ipv6Address": "fe80::e25f:b9ff:fe46:54a1/64",
+                    "duplex": "Half-duplex",
+                    "status": "down"
+                },
+                "configured": {
+                    "vlanId": "N/A",
+                    "ipv4Address": "DHCP",
+                    "phyPort": "GigabitEthernet0/0/1",
+                    "speed": "10Mbps"
+                },
+                "type": "l3"
+            },
+            "virtual": {
+                "operational": {
+                    "ipv4Address": "1.1.1.1",
+                    "macAddress": "e0:5f:b9:46:54:a0"
+                },
+                "configured": {
+                    "vlanId": "N/A",
+                    "ipv4Address": "1.1.1.1",
+                    "phyPort": "GigabitEthernet0/0/1"
+                },
+                "type": "l3"
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 10,
+                "use": 10,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1718901122817,
+            "utcDateTime": "Thu, 20 Jun 2024 16:32:02 GMT"
+        }
+    }
+}

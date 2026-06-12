@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/featureConcept.jtype"
+    },
+    "name": "ios-cert",
+    "cliCommandGroups": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommandGroup/ios-trustpoint.json"
+        ]
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios-cert"
+    },
+    "@exportedInstanceId": "f47cd748-f4f1-41a1-8fc2-1b5642080e58",
+    "@id": "f47cd748-f4f1-41a1-8fc2-1b5642080e58",
+    "@name": "ios-cert",
+    "@description": ""
+}

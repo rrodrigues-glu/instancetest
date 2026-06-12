@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_bootp_cli.json"
+        ]
+    },
+    "maskCommands": [
+        "ip bootp"
+    ],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_bootp_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "cce14676-7dc4-48e3-925a-4c0f9203b967",
+    "@id": "cce14676-7dc4-48e3-925a-4c0f9203b967",
+    "@name": "ios_bootp_grp",
+    "@description": ""
+}

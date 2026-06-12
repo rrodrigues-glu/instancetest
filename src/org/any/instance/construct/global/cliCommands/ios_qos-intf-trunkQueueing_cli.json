@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.switchPorts[*].name",
+        " service-policy output pmap_qos-wan-queuing",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_qos-intf-trunkQueueing_cli"
+    },
+    "@exportedInstanceId": "4b58d5ee-7fec-4873-85ad-d2805395e37e",
+    "@id": "4b58d5ee-7fec-4873-85ad-d2805395e37e",
+    "@name": "ios_qos-intf-trunkQueueing_cli",
+    "@description": ""
+}

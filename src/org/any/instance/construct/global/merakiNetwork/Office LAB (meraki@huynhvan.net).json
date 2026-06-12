@@ -1,0 +1,38 @@
+{
+    "network": {
+        "name": "Office LAB",
+        "notes": "",
+        "timeZone": "America/Los_Angeles",
+        "tags": [],
+        "productTypes": [
+            "appliance",
+            "cellularGateway",
+            "sensor",
+            "switch",
+            "wireless"
+        ]
+    },
+    "config": {
+        "settings": {
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/global/merakiNetworkSnmpSettings/Meraki Network SNMP Settings-1.json"
+                }
+            }
+        },
+        "wireless": {}
+    },
+    "identifiers": {
+        "organization": {
+            "@ref": "/org/instance/construct/global/merakiOrganization/meraki@huynhvan.net.json"
+        },
+        "networkId": "L_575334852396597562"
+    },
+    "@exportedInstanceId": "36b370b3-2812-4b7d-b1e0-7eec43e20668",
+    "@id": "36b370b3-2812-4b7d-b1e0-7eec43e20668",
+    "@type": {
+        "ref": "/sys/type/construct/global/merakiNetwork.jtype"
+    },
+    "@name": "Office LAB (meraki@huynhvan.net)",
+    "@description": ""
+}

@@ -1,0 +1,35 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/syslog.jtype"
+    },
+    "featureConcept": {
+        "name": " [ Hard Rock ] ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_syslog-server_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "syslog": {
+            "level": "debugging",
+            "srcInt": {
+                "@ref": "/org/instance/construct/global/lanInterface/MGNT1.json"
+            },
+            "bufferSize": 128000,
+            "mode": "basic",
+            "server": [
+                {
+                    "ip": "10.24.11.10"
+                }
+            ]
+        }
+    },
+    "@source": {
+        "instanceName": "ios_syslog"
+    },
+    "@exportedInstanceId": "7ce433a9-8dbb-4855-86c1-e97f685b47e9",
+    "@id": "7ce433a9-8dbb-4855-86c1-e97f685b47e9",
+    "@name": "ios_syslog",
+    "@description": ""
+}

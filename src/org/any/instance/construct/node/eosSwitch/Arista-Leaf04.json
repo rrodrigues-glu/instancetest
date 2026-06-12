@@ -1,0 +1,44 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "eosSwitch": {
+        "enabled": true
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "dcSwitch": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "ip": "10.150.200.74",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "enablePassword": null,
+        "type": "ssh",
+        "port": 22,
+        "connectionMethod": "cliConnection"
+    },
+    "@exportedInstanceId": "666d77f9-cef4-4820-b9c6-1b4432293a9a",
+    "@id": "666d77f9-cef4-4820-b9c6-1b4432293a9a",
+    "@type": {
+        "ref": "/sys/type/construct/node/eosSwitch.jtype"
+    },
+    "@name": "Arista-Leaf04",
+    "@description": ""
+}

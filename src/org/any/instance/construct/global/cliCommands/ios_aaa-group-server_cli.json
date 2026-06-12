@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "aaa group server tacacs+ GluwAAAre",
+        " server-private 10.50.50.252 key 7 096860283A0118171802103D243623",
+        " server-private 10.55.55.252 key 7 052F282E0248410C0A0B0305041E0F",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_aaa-group-server_cli"
+    },
+    "@exportedInstanceId": "50c4669c-1d43-4c82-a56a-7b248c47704f",
+    "@id": "50c4669c-1d43-4c82-a56a-7b248c47704f",
+    "@name": "ios_aaa-group-server_cli",
+    "@description": ""
+}

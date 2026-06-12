@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "site": {
+        "name": "BO001",
+        "description": "Managed by Americas",
+        "location": "La Paz, Bolivia, Latam North",
+        "contact": "",
+        "type": "branch",
+        "techContact": "",
+        "sitePath": "/"
+    },
+    "assignments": {
+        "ids": []
+    },
+    "allocations": {},
+    "cloud": {
+        "provider": "none"
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "BO001"
+    },
+    "@exportedInstanceId": "50ab0b5f-fcb6-4ef2-90e6-615cc13cd5f1",
+    "@id": "50ab0b5f-fcb6-4ef2-90e6-615cc13cd5f1",
+    "@name": "BO001",
+    "@description": ""
+}

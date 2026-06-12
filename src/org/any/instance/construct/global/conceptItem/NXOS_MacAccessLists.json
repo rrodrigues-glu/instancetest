@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "Acess-Lists",
+    "showCmds": [
+        "show run | sec \"mac access-list\""
+    ],
+    "mode": "basic",
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_MacAccessLists"
+    },
+    "@exportedInstanceId": "01a0cb64-12c7-41ef-ab51-eab46a78f46b",
+    "@id": "01a0cb64-12c7-41ef-ab51-eab46a78f46b",
+    "@name": "NXOS_MacAccessLists",
+    "@description": ""
+}

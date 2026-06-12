@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip domain lookup"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_domain-lookup_cli"
+    },
+    "@exportedInstanceId": "7b6c498a-a647-4fd6-b8f4-d73ee7eb398c",
+    "@id": "7b6c498a-a647-4fd6-b8f4-d73ee7eb398c",
+    "@name": "ios_domain-lookup_cli",
+    "@description": ""
+}

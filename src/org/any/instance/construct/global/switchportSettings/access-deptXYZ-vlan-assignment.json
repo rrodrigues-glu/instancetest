@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/switchportSettings.jtype"
+    },
+    "vlan": {
+        "access": 101,
+        "voice": 201
+    },
+    "spanningTree": {
+        "vlanId": "110",
+        "pathCost": 32768
+    },
+    "@source": {
+        "instanceName": "access-deptXYZ-vlan-assignment"
+    },
+    "@exportedInstanceId": "de40f246-43b3-4447-877d-6d82d6ea3a01",
+    "@id": "de40f246-43b3-4447-877d-6d82d6ea3a01",
+    "@name": "access-deptXYZ-vlan-assignment",
+    "@description": ""
+}

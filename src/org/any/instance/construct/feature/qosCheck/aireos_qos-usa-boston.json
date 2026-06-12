@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR2504 Boston United States",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/aireos_wlan-qos-3_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-usa-boston"
+    },
+    "@exportedInstanceId": "c2f2664f-49ef-4844-9c3e-d2957bec5746",
+    "@id": "c2f2664f-49ef-4844-9c3e-d2957bec5746",
+    "@name": "aireos_qos-usa-boston",
+    "@description": ""
+}

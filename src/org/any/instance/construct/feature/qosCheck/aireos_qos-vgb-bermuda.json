@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR3504 Bermuda British Islands",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/aireos_wlan-qos-4_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-vgb-bermuda"
+    },
+    "@exportedInstanceId": "5ce91650-a20d-4e3b-af59-643dcdcc5ef5",
+    "@id": "5ce91650-a20d-4e3b-af59-643dcdcc5ef5",
+    "@name": "aireos_qos-vgb-bermuda",
+    "@description": ""
+}

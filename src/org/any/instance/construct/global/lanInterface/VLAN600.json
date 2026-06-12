@@ -1,0 +1,14 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/lanInterface.jtype"
+    },
+    "description": "VLAN 600 Interface description",
+    "location": "internal",
+    "@source": {
+        "instanceName": "VLAN600"
+    },
+    "@exportedInstanceId": "d0ad9512-cab6-481b-ba9b-bee2a06d2c1a",
+    "@id": "d0ad9512-cab6-481b-ba9b-bee2a06d2c1a",
+    "@name": "VLAN600",
+    "@description": ""
+}

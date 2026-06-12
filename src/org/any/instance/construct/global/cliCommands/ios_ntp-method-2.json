@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "clock timezone $context.ntp.timezone $context.ntp.offset",
+        "clock summer-time $context.ntp.timezone recurring",
+        "!",
+        "ntp server $context.ntp.server[*].ip",
+        "!",
+        "ntp source $context.portMap.MGNT1.name"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-2"
+    },
+    "@exportedInstanceId": "69ac569a-c938-413c-b778-cd2d7bd424eb",
+    "@id": "69ac569a-c938-413c-b778-cd2d7bd424eb",
+    "@name": "ios_ntp-method-2",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/syslog.jtype"
+    },
+    "featureConcept": {
+        "name": "Syslog",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "syslog": {
+            "level": "debugging",
+            "bufferSize": null,
+            "mode": null
+        }
+    },
+    "@source": {
+        "instanceName": "syslog"
+    },
+    "@exportedInstanceId": "f73d266f-82f7-4052-8a8b-457f4051ef85",
+    "@id": "f73d266f-82f7-4052-8a8b-457f4051ef85",
+    "@name": "syslog",
+    "@description": ""
+}

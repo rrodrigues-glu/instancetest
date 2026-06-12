@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_vlan-db_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "^vlan",
+        "^name"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_vlan-db_grp"
+    },
+    "@exportedInstanceId": "647b389b-7d8c-4496-ae6e-fee91c5b2fb2",
+    "@id": "647b389b-7d8c-4496-ae6e-fee91c5b2fb2",
+    "@name": "ios_vlan-db_grp",
+    "@description": ""
+}

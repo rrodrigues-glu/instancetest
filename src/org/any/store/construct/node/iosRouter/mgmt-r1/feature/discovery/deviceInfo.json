@@ -1,0 +1,227 @@
+{
+    "hostname": "mgmt-r1",
+    "vendor": "cisco",
+    "os": "ios",
+    "path": "/sys/jnib/features/deviceDetect/cisco/ios/",
+    "sku": "IOSv",
+    "software": {
+        "version": "15.7(3)M3",
+        "major": "15",
+        "minor": "7",
+        "revision": "3",
+        "train": "M",
+        "build": "3",
+        "patch": "",
+        "apiVersion": "15.7(3)M3",
+        "drive": "flash0:"
+    },
+    "hardware": {
+        "serialNumber": "9FJ6JEAEQZHCB0EEBY1YB",
+        "sku": "IOSv",
+        "chassis": {},
+        "components": {}
+    },
+    "detectedSerialNumber": "9FJ6JEAEQZHCB0EEBY1YB",
+    "uptime": "20w6h8m",
+    "chassis": {},
+    "type": {
+        "name": "iosRouter",
+        "base": "wanRouter"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "GigabitEthernet0/0": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "50:09:00:02:00:00",
+                    "phyMacAddress": "50:09:00:02:00:00",
+                    "ipv4Address": "10.0.0.1/24"
+                },
+                "description": "",
+                "phyVirt": "physical",
+                "type": "l3",
+                "configured": {
+                    "speed": "auto",
+                    "duplex": "auto",
+                    "ipv4Address": "10.0.0.1/24",
+                    "enabled": true
+                },
+                "neighbors": [
+                    {
+                        "macAddress": "50:09:00:02:00:00",
+                        "destinationIpv4Address": "10.0.0.1",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.1"
+                    },
+                    {
+                        "macAddress": "50:09:00:04:00:00",
+                        "destinationIpv4Address": "10.0.0.3",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.3"
+                    },
+                    {
+                        "macAddress": "50:09:00:10:00:00",
+                        "destinationIpv4Address": "10.0.0.7",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.7"
+                    },
+                    {
+                        "macAddress": "50:09:00:0c:00:00",
+                        "destinationIpv4Address": "10.0.0.8",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.8"
+                    },
+                    {
+                        "macAddress": "50:09:00:06:00:00",
+                        "destinationIpv4Address": "10.0.0.22",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.22"
+                    },
+                    {
+                        "macAddress": "50:09:00:0f:00:03",
+                        "destinationIpv4Address": "10.0.0.27",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.27"
+                    },
+                    {
+                        "macAddress": "50:09:00:15:00:03",
+                        "destinationIpv4Address": "10.0.0.28",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.28"
+                    },
+                    {
+                        "macAddress": "50:09:00:13:00:00",
+                        "destinationIpv4Address": "10.0.0.33",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.33"
+                    },
+                    {
+                        "macAddress": "50:09:00:1a:00:01",
+                        "destinationIpv4Address": "10.0.0.36",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.36"
+                    },
+                    {
+                        "macAddress": "50:09:00:05:00:00",
+                        "destinationIpv4Address": "10.0.0.246",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.246"
+                    },
+                    {
+                        "macAddress": "50:09:00:0a:00:00",
+                        "destinationIpv4Address": "10.0.0.247",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.247"
+                    },
+                    {
+                        "macAddress": "50:09:00:0e:00:00",
+                        "destinationIpv4Address": "10.0.0.248",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.248"
+                    },
+                    {
+                        "macAddress": "50:09:00:19:00:00",
+                        "destinationIpv4Address": "10.0.0.249",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.249"
+                    },
+                    {
+                        "macAddress": "50:09:00:18:00:00",
+                        "destinationIpv4Address": "10.0.0.250",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.250"
+                    }
+                ]
+            },
+            "GigabitEthernet0/1": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "50:09:00:02:00:01",
+                    "phyMacAddress": "50:09:00:02:00:01",
+                    "ipv4Address": "10.1.100.57/24"
+                },
+                "description": "",
+                "phyVirt": "physical",
+                "type": "l3",
+                "configured": {
+                    "speed": "auto",
+                    "duplex": "auto",
+                    "ipv4Address": "10.1.100.57/24",
+                    "enabled": true
+                },
+                "neighbors": [
+                    {
+                        "macAddress": "50:09:00:02:00:01",
+                        "destinationIpv4Address": "10.1.100.57",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.57"
+                    },
+                    {
+                        "macAddress": "00:50:56:9a:5c:81",
+                        "destinationIpv4Address": "10.1.100.73",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.73"
+                    },
+                    {
+                        "macAddress": "00:50:56:ad:58:09",
+                        "destinationIpv4Address": "10.1.100.84",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.84"
+                    },
+                    {
+                        "macAddress": "00:50:56:9a:39:1d",
+                        "destinationIpv4Address": "10.1.100.88",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.88"
+                    },
+                    {
+                        "macAddress": "00:50:56:9a:53:fb",
+                        "destinationIpv4Address": "10.1.100.156",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.156"
+                    },
+                    {
+                        "macAddress": "00:1b:17:00:01:30",
+                        "destinationIpv4Address": "10.1.100.241",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.241"
+                    },
+                    {
+                        "macAddress": "00:50:56:a5:f8:35",
+                        "destinationIpv4Address": "10.1.100.243",
+                        "discoveryType": "ARP",
+                        "ip": "10.1.100.243"
+                    }
+                ]
+            },
+            "NVI0": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1514",
+                    "speed": "56 Kbit/sec",
+                    "macAddress": "",
+                    "phyMacAddress": ""
+                },
+                "description": "",
+                "phyVirt": "virtual"
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 0,
+                "use": 0,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1698315299343,
+            "utcDateTime": "Thu, 26 Oct 2023 10:14:59 GMT"
+        }
+    }
+}

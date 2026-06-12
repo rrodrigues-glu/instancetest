@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "aaa group server tacacs+ $context.aaa[*].name",
+        " server $context.aaa[*].tacacs[*].ip",
+        " use-vrf management",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_aaa-group-server-cli"
+    },
+    "@exportedInstanceId": "6bc5d288-b393-43c3-bd8c-086357fdec0b",
+    "@id": "6bc5d288-b393-43c3-bd8c-086357fdec0b",
+    "@name": "nxos_aaa-group-server-cli",
+    "@description": ""
+}

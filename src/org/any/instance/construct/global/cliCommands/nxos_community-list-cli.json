@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/NXOS_Community-List.json"
+    },
+    "cliCommands": [
+        "ip community-list expanded DC03-REMOTEOFFICE-NETS-COMMLIST permit \"65103:1001\""
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_community-list-cli"
+    },
+    "@exportedInstanceId": "9645af7e-b652-4ea2-bdac-2dfc3124a51e",
+    "@id": "9645af7e-b652-4ea2-bdac-2dfc3124a51e",
+    "@name": "nxos_community-list-cli",
+    "@description": ""
+}

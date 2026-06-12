@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat3850 Switches",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat3k-4500x-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat3k-4500x-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "C3850"
+    },
+    "@source": {
+        "instanceName": "ios_cat3850-qos"
+    },
+    "@exportedInstanceId": "ca7038a0-b668-4e00-a618-49f3e71edbcb",
+    "@id": "ca7038a0-b668-4e00-a618-49f3e71edbcb",
+    "@name": "ios_cat3850-qos",
+    "@description": ""
+}

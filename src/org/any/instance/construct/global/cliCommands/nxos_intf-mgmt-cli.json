@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface mgmt0",
+        " vrf member management",
+        " ip address 10.30.91.31/23",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_intf-mgmt-cli"
+    },
+    "@exportedInstanceId": "ad8ccf28-ae2d-44bc-bff6-c58a35681fb6",
+    "@id": "ad8ccf28-ae2d-44bc-bff6-c58a35681fb6",
+    "@name": "nxos_intf-mgmt-cli",
+    "@description": ""
+}

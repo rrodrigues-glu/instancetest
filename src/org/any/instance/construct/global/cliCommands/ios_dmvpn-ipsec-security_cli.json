@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "crypto ipsec security-association replay window-size 1024",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ipsec-security_cli"
+    },
+    "@exportedInstanceId": "a6cd308a-c286-4c74-abc4-56ff4b837ca9",
+    "@id": "a6cd308a-c286-4c74-abc4-56ff4b837ca9",
+    "@name": "ios_dmvpn-ipsec-security_cli",
+    "@description": ""
+}

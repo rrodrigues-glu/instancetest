@@ -1,0 +1,56 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/snmp.jtype"
+    },
+    "featureConcept": {
+        "name": "SNMP v2c",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_snmp-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_snmp-server_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "snmp": {
+            "location": "Gluware Virtual LAB",
+            "contact": "support@gluware.com",
+            "version": {
+                "v2c": {
+                    "community": [
+                        {
+                            "name": "myROComm",
+                            "accessList": "acl-snmp-1",
+                            "accessType": "RO",
+                            "host": [
+                                {
+                                    "ip": "10.1.1.161"
+                                }
+                            ]
+                        },
+                        {
+                            "name": "myRWComm",
+                            "accessList": "acl-snmp-2",
+                            "accessType": "RW",
+                            "host": [
+                                {
+                                    "ip": "10.2.2.161"
+                                },
+                                {
+                                    "ip": "10.3.3.161"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "ios_snmp-v2c"
+    },
+    "@exportedInstanceId": "51994283-a75a-4471-8b22-c9ee659e7e27",
+    "@id": "51994283-a75a-4471-8b22-c9ee659e7e27",
+    "@name": "ios_snmp-v2c",
+    "@description": ""
+}

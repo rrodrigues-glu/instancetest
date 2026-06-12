@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "key",
+    "showCmds": [
+        "show run | sec ^key"
+    ],
+    "mode": "basic",
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_KeyChain"
+    },
+    "@exportedInstanceId": "28b7786b-7517-4b5b-9e50-1b1fcc25a9d7",
+    "@id": "28b7786b-7517-4b5b-9e50-1b1fcc25a9d7",
+    "@name": "NXOS_KeyChain",
+    "@description": ""
+}

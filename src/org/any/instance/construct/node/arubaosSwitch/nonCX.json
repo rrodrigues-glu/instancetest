@@ -1,0 +1,52 @@
+{
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "campusSwitch": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/Romualdo.json"
+    },
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.3.7",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "port": 22,
+        "type": "ssh",
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "associations": {
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/arubaosSwitchAssembly/arubaos_SwitchAssembly.json"
+        },
+        "provider": "local"
+    },
+    "personae": {},
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "arubaosSwitch": {
+        "enabled": true
+    },
+    "@exportedInstanceId": "16273bd8-df68-4ebc-a2a2-5fd3c8740e44",
+    "@id": "16273bd8-df68-4ebc-a2a2-5fd3c8740e44",
+    "@type": {
+        "ref": "/sys/type/construct/node/arubaosSwitch.jtype"
+    },
+    "@name": "nonCX",
+    "@description": ""
+}

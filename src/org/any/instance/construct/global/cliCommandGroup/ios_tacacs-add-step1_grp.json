@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "ACS1",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_tacacs-server-new_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_tacacs-add-step1_grp"
+    },
+    "@exportedInstanceId": "1bbc4fea-6ff1-45ed-a8b5-df4139b7fcea",
+    "@id": "1bbc4fea-6ff1-45ed-a8b5-df4139b7fcea",
+    "@name": "ios_tacacs-add-step1_grp",
+    "@description": ""
+}

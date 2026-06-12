@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "site": {
+        "name": "NO031",
+        "description": "Managed by EMEIA",
+        "location": "Sortland, Norway, Nordics",
+        "contact": "",
+        "type": "branch",
+        "techContact": "",
+        "sitePath": "/"
+    },
+    "assignments": {
+        "ids": []
+    },
+    "allocations": {},
+    "cloud": {
+        "provider": "none"
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "NO031"
+    },
+    "@exportedInstanceId": "45789a4c-2a39-48ce-90d9-ede91c7a27c7",
+    "@id": "45789a4c-2a39-48ce-90d9-ede91c7a27c7",
+    "@name": "NO031",
+    "@description": ""
+}

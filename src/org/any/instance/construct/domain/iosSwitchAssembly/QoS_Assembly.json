@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/ios_qos.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "QoS_Assembly"
+    },
+    "@exportedInstanceId": "85598a43-d524-4e31-acb8-5855803fb134",
+    "@id": "85598a43-d524-4e31-acb8-5855803fb134",
+    "@name": "QoS_Assembly",
+    "@description": ""
+}

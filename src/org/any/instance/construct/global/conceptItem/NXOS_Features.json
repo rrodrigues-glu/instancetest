@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "Features",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "showCmds": [
+        "sh run all | inc \"^feature|^no feature\""
+    ],
+    "keyCliLine": "feature.+",
+    "rootEntryFlag": true,
+    "mode": "basic",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@source": {
+        "instanceName": "NXOS_Features"
+    },
+    "@exportedInstanceId": "93faf4d0-5d9d-4ddd-bd01-532a2809c4d3",
+    "@id": "93faf4d0-5d9d-4ddd-bd01-532a2809c4d3",
+    "@name": "NXOS_Features",
+    "@description": ""
+}

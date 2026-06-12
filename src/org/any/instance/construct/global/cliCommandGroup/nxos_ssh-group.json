@@ -1,0 +1,30 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_ssh-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@source": {
+        "instanceName": "nxos_ssh-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "8f0d2b54-dda5-4a75-8369-1140949eaa6e",
+    "@id": "8f0d2b54-dda5-4a75-8369-1140949eaa6e",
+    "@name": "nxos_ssh-group",
+    "@description": ""
+}

@@ -1,0 +1,48 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "",
+      "conceptItemId": null,
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "nt1p"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "ABCD",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "76c449e0-db7c-4c97-ae5e-6a3cc0847f36",
+  "createdBy": "admin",
+  "createdOn": 1670330318262,
+  "updatedBy": "admin",
+  "updatedOn": 1733334366463,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

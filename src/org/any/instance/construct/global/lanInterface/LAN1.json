@@ -1,0 +1,14 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/lanInterface.jtype"
+    },
+    "description": "LAN1",
+    "location": "internal",
+    "@source": {
+        "instanceName": "LAN1"
+    },
+    "@exportedInstanceId": "d16c1d18-5dfa-4d61-8dc4-25deaa779806",
+    "@id": "d16c1d18-5dfa-4d61-8dc4-25deaa779806",
+    "@name": "LAN1",
+    "@description": ""
+}

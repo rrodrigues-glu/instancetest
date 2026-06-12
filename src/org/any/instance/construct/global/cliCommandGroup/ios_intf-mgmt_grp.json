@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "Vlan[1|5]$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-mgmt_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "^interface",
+        "^description",
+        "shutdown",
+        "ip address"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_intf-mgmt_grp"
+    },
+    "@exportedInstanceId": "f7fa6847-621f-445d-b37c-eb8def79ad54",
+    "@id": "f7fa6847-621f-445d-b37c-eb8def79ad54",
+    "@name": "ios_intf-mgmt_grp",
+    "@description": ""
+}

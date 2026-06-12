@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_tacacs-server-remove_cli"
+    },
+    "@exportedInstanceId": "92506a9b-5eba-44e7-8229-431432fbd689",
+    "@id": "92506a9b-5eba-44e7-8229-431432fbd689",
+    "@name": "ios_tacacs-server-remove_cli",
+    "@description": ""
+}

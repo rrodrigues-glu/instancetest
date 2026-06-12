@@ -1,0 +1,35 @@
+{
+    "name": "NXOS-SSH",
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "showCmds": [
+        "sh run all | inc ^ssh"
+    ],
+    "keyCliLine": "ssh\\s(\\S+)",
+    "rootEntryFlag": true,
+    "keyLineDepth": 1,
+    "keyGroup": 1,
+    "regEx": "",
+    "mode": "advanced",
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "NXOS_SSH"
+    },
+    "@exportedInstanceId": "a949a2aa-f69b-4144-89a7-b8f5dab4a54e",
+    "@id": "a949a2aa-f69b-4144-89a7-b8f5dab4a54e",
+    "@name": "NXOS_SSH"
+}

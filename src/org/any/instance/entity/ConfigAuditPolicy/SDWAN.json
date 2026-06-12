@@ -1,0 +1,49 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "all",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "",
+      "scopeSeparateResults": true,
+      "scope": "FastEthernet2/0/24",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain",
+            "value": [
+              "interface FastEthernet2/0/24",
+              " load-interval 30"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOSXE_Intf"
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "SDWAN",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "2fb54894-c83b-4e93-99ab-612734f2c7b4",
+  "createdBy": "admin",
+  "createdOn": 1682599764229,
+  "updatedBy": "admin",
+  "updatedOn": 1682600083434,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

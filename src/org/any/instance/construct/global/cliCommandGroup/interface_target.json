@@ -1,0 +1,21 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/update_interface.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "9c50a79b-01f7-40e8-ae1e-c632744c4963",
+    "@id": "9c50a79b-01f7-40e8-ae1e-c632744c4963",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "interface_target",
+    "@description": ""
+}

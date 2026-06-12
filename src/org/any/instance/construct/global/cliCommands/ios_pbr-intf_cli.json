@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap.DATA.name",
+        " ip policy route-map rmap_pbr",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_pbr-intf_cli"
+    },
+    "@exportedInstanceId": "a669d199-24e2-42bb-88b2-68f5cceb9d2d",
+    "@id": "a669d199-24e2-42bb-88b2-68f5cceb9d2d",
+    "@name": "ios_pbr-intf_cli",
+    "@description": ""
+}

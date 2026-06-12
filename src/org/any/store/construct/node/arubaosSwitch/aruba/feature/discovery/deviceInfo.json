@@ -1,0 +1,627 @@
+{
+    "hostname": "cn7zk91015",
+    "vendor": "hpe",
+    "os": "arubaos",
+    "path": "/sys/jnib/features/deviceDetect/hpe/arubaos/",
+    "sku": "JL558A",
+    "software": {
+        "version": "WC.16.07.0006",
+        "major": "16",
+        "minor": "07",
+        "revision": "0006",
+        "train": "WC"
+    },
+    "hardware": {
+        "serialNumber": "CN7ZK91015",
+        "sku": "JL558A",
+        "stack": {
+            "1": {
+                "sku": "JL558A"
+            }
+        },
+        "components": {
+            "lineCards": []
+        },
+        "family": "2930",
+        "series": "2930F"
+    },
+    "detectedSerialNumber": "CN7ZK91015",
+    "stack": {
+        "1": {
+            "sku": "JL558A"
+        }
+    },
+    "type": {
+        "name": "arubaosSwitch",
+        "base": "campusSwitch"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "1": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "ecebb8-d0407f"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "2": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0407e"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "3": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0407d"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "4": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0407c"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "5": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0407b"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "6": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0407a"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "7": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04079"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "8": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04078"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "9": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04077"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "10": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04076"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "11": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04075"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "12": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04074"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "13": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04073"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "14": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04072"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "15": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04071"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "16": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04070"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "17": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406f"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "18": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406e"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "19": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406d"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "20": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406c"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "21": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406b"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "22": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0406a"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "23": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04069"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "24": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04068"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "25": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04067"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "26": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04066"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "27": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04065"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "28": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04064"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "29": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04063"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "30": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04062"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "31": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04061"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "32": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04060"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "33": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405f"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "34": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405e"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "35": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405d"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "36": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405c"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "37": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405b"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "38": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0405a"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "39": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04059"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "40": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04058"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "41": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04057"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "42": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04056"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "43": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04055"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "44": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04054"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "45": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04053"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "46": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04052"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "47": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04051"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "48": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d04050"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "49": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0404f"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "50": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0404e"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "51": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0404d"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            },
+            "52": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "ecebb8-d0404c"
+                },
+                "type": "l2",
+                "configured": {
+                    "enabled": true
+                },
+                "description": ""
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 52,
+                "use": 1,
+                "free": 51
+            }
+        },
+        "recordTime": {
+            "utcTime": 1711018541247,
+            "utcDateTime": "Thu, 21 Mar 2024 10:55:41 GMT"
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "regEx": "GigabitEthernet1$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-lan_cli-Dennisbgp1.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "WHATEVER"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "949c6744-251e-462c-b491-1e50aa2928e7",
+    "@id": "949c6744-251e-462c-b491-1e50aa2928e7",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_intf-lan_grp-rom-Dennisbgp1",
+    "@description": ""
+}

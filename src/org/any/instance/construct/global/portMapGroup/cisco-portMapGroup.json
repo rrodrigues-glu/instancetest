@@ -1,0 +1,35 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/portMapGroup.jtype"
+    },
+    "maps": [
+        {
+            "portMap": {
+                "@ref": "/org/instance/construct/global/portMap/csr1000v.json"
+            },
+            "skus": {
+                "list": [
+                    "CSR1000V"
+                ]
+            }
+        },
+        {
+            "portMap": {
+                "@ref": "/org/instance/construct/global/portMap/ISR2921.json"
+            },
+            "skus": {
+                "list": [
+                    "CISCO2921/K9",
+                    "CISCO3925"
+                ]
+            }
+        }
+    ],
+    "@source": {
+        "instanceName": "cisco-portMapGroup"
+    },
+    "@exportedInstanceId": "6e22a2bb-279e-4bf0-8f02-12e1dceaf503",
+    "@id": "6e22a2bb-279e-4bf0-8f02-12e1dceaf503",
+    "@name": "cisco-portMapGroup",
+    "@description": ""
+}

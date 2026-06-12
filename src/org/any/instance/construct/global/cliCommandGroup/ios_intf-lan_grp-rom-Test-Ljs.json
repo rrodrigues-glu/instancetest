@@ -1,0 +1,23 @@
+{
+    "regEx": "Loopback253$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-lan_cli-rom-Test-Ljs.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "eccfd319-0401-43de-a3c5-d724bb6482b9",
+    "@id": "eccfd319-0401-43de-a3c5-d724bb6482b9",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_intf-lan_grp-rom-Test-Ljs",
+    "@description": ""
+}

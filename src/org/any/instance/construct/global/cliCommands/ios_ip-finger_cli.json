@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "no ip finger"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ip-finger_cli"
+    },
+    "@exportedInstanceId": "d32ed172-063a-4fa4-a4b4-764339716ea8",
+    "@id": "d32ed172-063a-4fa4-a4b4-764339716ea8",
+    "@name": "ios_ip-finger_cli",
+    "@description": ""
+}

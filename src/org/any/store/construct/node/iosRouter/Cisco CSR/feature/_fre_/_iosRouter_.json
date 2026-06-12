@@ -1,0 +1,86 @@
+{
+    "version": "3.0.0",
+    "actionInfo": {
+        "typeName": "iosRouter",
+        "actionKey": "[g]default_iosRouter",
+        "jnib": "/sys/jnib/features/wanRouter/wanRouter.feature.jnib",
+        "phaseNumber": "[g]init",
+        "actionTypeKey": "/org/Romualdo/type/construct/feature/iosRouter.jtype",
+        "startObj": {
+            "feature": {
+                "self": {
+                    "@source": {
+                        "instanceKey": "[g]default_iosRouter",
+                        "typeKey": "/org/Romualdo/type/construct/feature/iosRouter.jtype",
+                        "type": "iosRouter",
+                        "typeId": "1a90c553-4fcd-4167-966f-de8ea71a9083",
+                        "typeVersionId": "f83f654c-25e5-4037-9357-a18f32154e15",
+                        "instanceName": "[g]default_iosRouter",
+                        "construct": "feature",
+                        "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079"
+                    }
+                }
+            }
+        },
+        "@Info": {
+            "displayName": "IOS Router",
+            "description": "The iosRouter feature handles the initialization of the target node in the Gluware Control engine.",
+            "vendor": "Cisco Systems",
+            "phaseNumber": "[g]init",
+            "glueInternalUse": "[g]GlueInternalUseOnly[g]",
+            "featureDependencies": {
+                "jnib": {
+                    "/sys/jnib/features/wanRouter/wanRouter.feature.jnib": {}
+                }
+            },
+            "domainDependencies": {
+                "/sys/type/construct/domain/iosRouterAssembly.jtype": {},
+                "/sys/type/construct/domain/location.jtype": {
+                    "optional": true
+                }
+            },
+            "nodeDependencies": {
+                "/sys/type/construct/node/wanRouter.jtype": {}
+            }
+        }
+    },
+    "configRefs": {
+        "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/node/iosRouter/Cisco CSR",
+                "typeKey": "/org/Romualdo/type/construct/node/iosRouter.jtype",
+                "type": "iosRouter",
+                "typeId": "0f070ae1-6250-4907-9437-490509b37999",
+                "typeVersionId": "7127ba84-ac73-4447-8cee-92c3f7eea937",
+                "instanceName": "Cisco CSR",
+                "instanceId": "7cd7bec0-fa1d-4acd-918f-341f4db0043a",
+                "construct": "node",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "1e3cee5b-8163-4fa0-86fa-407d3bc413e8",
+                "instanceVersion": "1.0.4",
+                "deviceId": "e98cdffc-2847-4aa9-91cf-32096322b4e9"
+            }
+        },
+        "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Banner_Assembly.json": {
+            "relativePaths": [
+                "iosRouter.Cisco CSR.associations.assembly"
+            ],
+            "@source": {
+                "instanceKey": "/org/Romualdo/instance/construct/domain/iosRouterAssembly/Banner_Assembly.json",
+                "typeKey": "/org/Romualdo/type/construct/domain/iosRouterAssembly.jtype",
+                "type": "iosRouterAssembly",
+                "typeId": "fa0a6eee-c52c-4890-94b8-c49377d6aaa8",
+                "typeVersionId": "e231d4e0-d5b3-4dfd-9a69-6557a52d817e",
+                "instanceName": "Banner_Assembly",
+                "instanceId": "944bf7a9-cbe6-4251-bc87-3bde13176d53",
+                "construct": "domain",
+                "organizationId": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+                "instanceVersionId": "be25f6b2-f085-489b-b8ce-e6e25c9d94c0",
+                "instanceVersion": "1.0.0"
+            }
+        }
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show spanning-tree | inc ^VLAN|This|Address|Root ID|Bridge ID",
+    "rootEntry": "no",
+    "keyLineRegEx": "(^[\\w\\d\\-\\.]+$)",
+    "groupName": "stp",
+    "discover": {
+        "vlan": {
+            "expressions": [
+                "Address\\s+(?<rootMac>[a-f0-9]{4}\\.[a-f0-9]{4}\\.[a-f0-9]{4})$",
+                "Address\\s+(?<bridgeMac>[a-f0-9]{4}\\.[a-f0-9]{4}\\.[a-f0-9]{4})$"
+            ]
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "IOS_show_spanning-tree"
+    },
+    "@exportedInstanceId": "4cd62b19-69c7-415d-80a5-942dffb9033f",
+    "@id": "4cd62b19-69c7-415d-80a5-942dffb9033f",
+    "@name": "IOS_show_spanning-tree",
+    "@description": ""
+}

@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/aireosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/aireos_qos-jap-fukuoka.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "qos-fukuoka"
+    },
+    "@exportedInstanceId": "a5d58b00-2beb-4580-9bd4-308ff285c5e8",
+    "@id": "a5d58b00-2beb-4580-9bd4-308ff285c5e8",
+    "@name": "qos-fukuoka",
+    "@description": ""
+}

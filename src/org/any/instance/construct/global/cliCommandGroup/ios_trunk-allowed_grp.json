@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_trunk-allowed_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$discover.vlan.trunkMode.enabled == true"
+        ]
+    },
+    "maskCommands": [
+        "interface",
+        "switchport mode trunk",
+        "switchport trunk allowed"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_trunk-allowed_grp"
+    },
+    "@exportedInstanceId": "9907ddcb-c62d-47dc-894e-b811dbd1b52e",
+    "@id": "9907ddcb-c62d-47dc-894e-b811dbd1b52e",
+    "@name": "ios_trunk-allowed_grp",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_cdp_neigh.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_show_cdp_neigh"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "7f51acb6-176d-4039-b62e-6c4b59a7504e",
+    "@id": "7f51acb6-176d-4039-b62e-6c4b59a7504e",
+    "@name": "IOS_show_cdp_neigh",
+    "@description": ""
+}

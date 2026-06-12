@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/apiReportProvider.jtype"
+    },
+    "name": "3rdPartyApi",
+    "type": "http",
+    "ip": "",
+    "_defaultPort": "no",
+    "port": null,
+    "baseUrlPath": "",
+    "_secType": "none",
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "apiReportProvider"
+    },
+    "trustAnyHttpsCert": false,
+    "@exportedInstanceId": "63e315c6-5b06-4173-99e8-e346db64ebe5",
+    "@id": "63e315c6-5b06-4173-99e8-e346db64ebe5",
+    "@name": "apiReportProvider",
+    "@description": ""
+}

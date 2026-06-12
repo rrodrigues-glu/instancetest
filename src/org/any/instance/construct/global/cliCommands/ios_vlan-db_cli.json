@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "vlan 5",
+        " name GAM_MGMT_10.{$context.ipv4.octet2}.{$context.ipv4.octet3}.X",
+        "vlan $context.vlan.id",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_vlan-db_cli"
+    },
+    "@exportedInstanceId": "f3600c63-f508-47c3-ab08-13b7480260db",
+    "@id": "f3600c63-f508-47c3-ab08-13b7480260db",
+    "@name": "ios_vlan-db_cli",
+    "@description": ""
+}

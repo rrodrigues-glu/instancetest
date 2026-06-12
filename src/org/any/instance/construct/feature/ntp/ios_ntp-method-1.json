@@ -1,0 +1,88 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/ntp.jtype"
+    },
+    "featureConcept": {
+        "name": "IOS NTP Method 1",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_ntp-method-1_cst.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_ntp-method-1_est.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_ntp-method-1_mst.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_ntp-method-1_pst.json"
+            ]
+        }
+    },
+    "form": {
+        "ntp": {
+            "srcInt": {
+                "server": [],
+                "@ref": "/org/instance/construct/global/lanInterface/MGNT1.json"
+            },
+            "Mideast": {
+                "timezone": "CST",
+                "offset": "-5 0",
+                "server": [
+                    {
+                        "ip": "10.20.1.123"
+                    },
+                    {
+                        "ip": "10.20.2.123"
+                    }
+                ]
+            },
+            "Midwest": {
+                "timezone": "MST",
+                "offset": "-6 0",
+                "server": [
+                    {
+                        "ip": "10.30.1.123"
+                    },
+                    {
+                        "ip": "10.30.2.123"
+                    },
+                    {
+                        "ip": "10.30.3.123"
+                    }
+                ]
+            },
+            "West": {
+                "timezone": "PST",
+                "offset": "-7 0",
+                "server": [
+                    {
+                        "ip": "10.40.1.123"
+                    },
+                    {
+                        "ip": "10.40.2.123"
+                    },
+                    {
+                        "ip": "10.40.3.123"
+                    },
+                    {
+                        "ip": "10.40.4.123"
+                    }
+                ]
+            },
+            "East": {
+                "timezone": "EST",
+                "offset": "-4 0",
+                "server": [
+                    {
+                        "ip": "10.10.1.123"
+                    },
+                    {
+                        "ip": "10.10.2.123"
+                    }
+                ]
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-1"
+    },
+    "@exportedInstanceId": "c0ee8fa3-8701-43bc-be65-fb5a695e2d19",
+    "@id": "c0ee8fa3-8701-43bc-be65-fb5a695e2d19",
+    "@name": "ios_ntp-method-1",
+    "@description": ""
+}

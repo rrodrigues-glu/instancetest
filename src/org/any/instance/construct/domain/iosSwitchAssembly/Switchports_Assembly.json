@@ -1,0 +1,25 @@
+{
+    "domains": {
+        "modules": {
+            "switchportProfiling": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/switchportProfiling/switchportProfiling.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "4009ef9c-e9ed-4a15-b418-b9f2d59bded7",
+    "@id": "4009ef9c-e9ed-4a15-b418-b9f2d59bded7",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "@name": "Switchports_Assembly",
+    "@description": ""
+}

@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ntp server 10.{$context.ipv4.octet2}.{$context.ipv4.octet3}.2",
+        "ntp server 10.{$context.ipv4.octet2}.{$context.ipv4.octet3}.3",
+        "!",
+        "clock timezone CST -6 0"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-3"
+    },
+    "@exportedInstanceId": "9aab25a4-bd0e-4b75-80a8-fda04fb243e1",
+    "@id": "9aab25a4-bd0e-4b75-80a8-fda04fb243e1",
+    "@name": "ios_ntp-method-3",
+    "@description": ""
+}

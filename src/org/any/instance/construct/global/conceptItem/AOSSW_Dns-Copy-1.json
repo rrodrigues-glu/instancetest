@@ -1,0 +1,28 @@
+{
+    "name": "DNS",
+    "vendors": {
+        "hpe": {
+            "type": [
+                "arubaos"
+            ]
+        }
+    },
+    "showCmds": [
+        "show running-config | begin ip dns"
+    ],
+    "keyCliLine": "",
+    "rootEntryFlag": true,
+    "mode": "basic",
+    "boundaries": {
+        "start": "dns"
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@exportedInstanceId": "42a4cd49-dd86-43d5-94cc-f7289f3bce1c",
+    "@id": "42a4cd49-dd86-43d5-94cc-f7289f3bce1c",
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@name": "AOSSW_Dns-Copy-1",
+    "@description": ""
+}

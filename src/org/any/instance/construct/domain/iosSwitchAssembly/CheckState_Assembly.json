@@ -1,0 +1,37 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "banner": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/banner/ios_banner.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {
+            "provision": {
+                "policy": {
+                    "@ref": "/org/instance/construct/global/cliStatePolicy/cliStatePolicy.json"
+                },
+                "schedule": "both",
+                "compare": false,
+                "action": "abort"
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "CheckState_Assembly"
+    },
+    "@exportedInstanceId": "76daaed6-fbf9-4e05-bf94-63fc0064d9e1",
+    "@id": "76daaed6-fbf9-4e05-bf94-63fc0064d9e1",
+    "@name": "CheckState_Assembly",
+    "@description": ""
+}

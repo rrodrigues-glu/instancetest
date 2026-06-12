@@ -1,0 +1,80 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "IF_THEN",
+      "description": "",
+      "enable": true,
+      "scope": "",
+      "scopeSeparateResults": false,
+      "ifExpression": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "$or": [
+                  {
+                    "latestConfig": {
+                      "$regex": "(?<!\\n)^((?!ElisityNetFlowRecord).)*$(?!\\n)",
+                      "$options": "mis"
+                    }
+                  },
+                  {
+                    "latestConfig": {
+                      "$exists": false
+                    }
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^ip http secure-server"
+            ]
+          },
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_not_contain_regex",
+            "value": [
+              "no ip http secure-server"
+            ]
+          }
+        ],
+        "valid": true
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "description": "",
+  "name": "MSB-1",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "0876fbe4-2564-481a-a349-4a7a1ce2fe3b",
+  "createdBy": "admin",
+  "createdOn": 1714130590658,
+  "updatedBy": "admin",
+  "updatedOn": 1714385571157,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

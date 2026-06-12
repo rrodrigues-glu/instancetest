@@ -1,0 +1,57 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "aireosWirelessController": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "controller": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "ip": "10.0.0.7",
+        "type": "ssh",
+        "port": 22,
+        "proxyList": [
+            {
+                "ip": "10.1.100.57",
+                "type": "ssh",
+                "port": 22,
+                "credsSource": "named",
+                "credentials": {
+                    "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+                },
+                "sshParam": ""
+            }
+        ],
+        "connectionMethod": "cliConnection",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+        },
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "@exportedInstanceId": "86390629-25c8-4071-b557-53471a2ca5d9",
+    "@id": "86390629-25c8-4071-b557-53471a2ca5d9",
+    "@type": {
+        "ref": "/sys/type/construct/node/aireosWirelessController.jtype"
+    },
+    "@name": "vwlc",
+    "@description": ""
+}

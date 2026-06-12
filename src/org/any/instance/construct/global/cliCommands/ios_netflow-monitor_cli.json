@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "flow monitor $context.flow.monitor.name",
+        " description $context.flow.monitor.description",
+        " exporter $context.flow.exporter[*].name",
+        " cache timeout inactive $context.flow.monitor.inactive",
+        " cache timeout active $context.flow.monitor.active",
+        " cache entries $context.flow.monitor.entries",
+        " record $context.flow.record.name",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_netflow-monitor_cli"
+    },
+    "@exportedInstanceId": "1bf35136-2f96-4acd-ab74-2db000f1c75d",
+    "@id": "1bf35136-2f96-4acd-ab74-2db000f1c75d",
+    "@name": "ios_netflow-monitor_cli",
+    "@description": ""
+}

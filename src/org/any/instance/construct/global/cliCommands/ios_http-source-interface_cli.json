@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip http client source-interface $context.portMap.MGNT1.name"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_http-source-interface_cli"
+    },
+    "@exportedInstanceId": "2a22c22c-2105-4a86-a274-941b32776b82",
+    "@id": "2a22c22c-2105-4a86-a274-941b32776b82",
+    "@name": "ios_http-source-interface_cli",
+    "@description": ""
+}

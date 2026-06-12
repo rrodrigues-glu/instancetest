@@ -1,0 +1,15 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@id": "4cbc6e12-f71f-48ca-9406-0c8ed4cd3573",
+    "item": {},
+    "cliCommands": [
+        "set system name-server 4.2.2.2",
+        "set system name-server 8.8.8.8",
+        ""
+    ],
+    "@exportedInstanceId": "4cbc6e12-f71f-48ca-9406-0c8ed4cd3573",
+    "@name": "DnsServer__cli__1721141460151c4e4",
+    "@description": ""
+}

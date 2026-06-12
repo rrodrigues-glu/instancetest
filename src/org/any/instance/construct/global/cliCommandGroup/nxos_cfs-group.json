@@ -1,0 +1,30 @@
+{
+    "regEx": "^eth$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_cfs-cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            ""
+        ]
+    },
+    "maskCommands": [
+        ""
+    ],
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@description": "",
+    "@source": {
+        "instanceName": "nxos_cfs-group"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "322b7757-47a2-47ef-85e7-a048e0c9daae",
+    "@id": "322b7757-47a2-47ef-85e7-a048e0c9daae",
+    "@name": "nxos_cfs-group"
+}

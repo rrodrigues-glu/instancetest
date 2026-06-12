@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "acl-snmp.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_snmp-acl_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "nxos_snmp-acl_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "5b0e08b0-65b1-4b88-a9e2-78c08ad0a4bd",
+    "@id": "5b0e08b0-65b1-4b88-a9e2-78c08ad0a4bd",
+    "@name": "nxos_snmp-acl_grp",
+    "@description": ""
+}

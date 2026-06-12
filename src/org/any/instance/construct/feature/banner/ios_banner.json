@@ -1,0 +1,23 @@
+{
+    "featureConcept": {
+        "name": " Macro Feature",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_banner_grp-macro.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_banner_grp-macro1.json"
+            ]
+        }
+    },
+    "form": {
+        "banner": {
+            "comment": null
+        }
+    },
+    "@exportedInstanceId": "cafb24b1-0469-455e-92f4-59236f25b049",
+    "@id": "cafb24b1-0469-455e-92f4-59236f25b049",
+    "@type": {
+        "ref": "/sys/type/construct/feature/banner.jtype"
+    },
+    "@name": "ios_banner",
+    "@description": ""
+}

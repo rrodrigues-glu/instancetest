@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip access-list extended Local-telephony-ACL",
+        " permit udp any range 49152 65535 any range 49152 65535",
+        "!"
+    ],
+    "advanced": {
+        "filter": "platform",
+        "platform": "WS-C65.+|C2960X"
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-acl-sweden_cli"
+    },
+    "@exportedInstanceId": "2c109bb5-1e75-4b98-b4b2-b4be7f1a3458",
+    "@id": "2c109bb5-1e75-4b98-b4b2-b4be7f1a3458",
+    "@name": "ios_cat6500-qos-acl-sweden_cli",
+    "@description": ""
+}

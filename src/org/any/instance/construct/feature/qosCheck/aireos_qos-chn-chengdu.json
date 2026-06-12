@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR3504 Chengdu China",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/aireos_wlan-qos-3_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/aireos_wlan-qos-4_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-chn-chengdu"
+    },
+    "@exportedInstanceId": "bcb9b0bb-1454-4151-8983-f37844448979",
+    "@id": "bcb9b0bb-1454-4151-8983-f37844448979",
+    "@name": "aireos_qos-chn-chengdu",
+    "@description": ""
+}

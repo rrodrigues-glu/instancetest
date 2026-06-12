@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "clock timezone PST -7 0",
+        "clock summer-time PDT recurring",
+        "!",
+        "ntp server 10.12.1.11",
+        "ntp server 10.12.2.11",
+        "ntp server $context.ntp.server[*].ip",
+        "!",
+        "ntp source $context.portMap.MGNT1.name",
+        "!",
+        "ntp panic update"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ntp-server_cli"
+    },
+    "@exportedInstanceId": "8751a00f-353b-4604-bf0e-15557d38ca4a",
+    "@id": "8751a00f-353b-4604-bf0e-15557d38ca4a",
+    "@name": "ios_ntp-server_cli",
+    "@description": ""
+}

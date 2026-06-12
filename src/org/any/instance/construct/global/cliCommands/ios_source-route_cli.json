@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_source-route_cli"
+    },
+    "@exportedInstanceId": "1114b0a3-bfe4-480d-9d15-7c9312597502",
+    "@id": "1114b0a3-bfe4-480d-9d15-7c9312597502",
+    "@name": "ios_source-route_cli",
+    "@description": ""
+}

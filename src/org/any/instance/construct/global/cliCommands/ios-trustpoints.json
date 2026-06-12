@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "crypto pki trustpoint $context.trustpoints[*].name",
+        " enrollment retry count $context.trustpoints[*].enrollment.retryCount",
+        " enrollment url $context.trustpoints[*].enrollment.url",
+        " serial-number",
+        " fingerprint $context.trustpoints[*].enrollment.fingerprint",
+        " subject-name $context.trustpoints[*].enrollment.subjectName",
+        " revocation-check $context.trustpoints[*].revocationCheck",
+        " rsakeypair $context.trustpoints[*].name $context.trustpoints[*].keySize",
+        " vrf $context.trustpoints[*].enrollment.vrf.name"
+    ],
+    "advanced": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios-trustpoints"
+    },
+    "@exportedInstanceId": "b6b63fe7-ae74-4a99-b767-ddf9aa509941",
+    "@id": "b6b63fe7-ae74-4a99-b767-ddf9aa509941",
+    "@name": "ios-trustpoints",
+    "@description": ""
+}

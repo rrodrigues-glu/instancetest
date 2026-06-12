@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/snmp/ios_snmp.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "SNMP_Assembly"
+    },
+    "@exportedInstanceId": "4751fff8-0c00-4390-927b-0062e39b007b",
+    "@id": "4751fff8-0c00-4390-927b-0062e39b007b",
+    "@name": "SNMP_Assembly",
+    "@description": ""
+}

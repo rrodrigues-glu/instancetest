@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "GigabitEthernet.+|Port-channel.+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_intf-iview_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "^interface",
+        "^description",
+        "^switchport",
+        "^spanning-tree",
+        "channel-group",
+        "shutdown"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_intf-iview_grp"
+    },
+    "@exportedInstanceId": "9666db81-e21d-4232-b7db-c577f165b2c8",
+    "@id": "9666db81-e21d-4232-b7db-c577f165b2c8",
+    "@name": "ios_intf-iview_grp",
+    "@description": ""
+}

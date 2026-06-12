@@ -1,0 +1,20 @@
+{
+    "trustAnyHttpsCert": true,
+    "type": "https",
+    "ip": "10.1.100.156",
+    "_defaultPort": "yes",
+    "baseUrlPath": "/api",
+    "userName": "admin",
+    "password": {
+        "@ref": "/secret/sys/credentials/secret/API-Control.json"
+    },
+    "_secType": "basicAuth",
+    "name": "3rdPartyApi",
+    "@exportedInstanceId": "7ce0c44d-691f-4f40-8d4e-f5b0c8579479",
+    "@id": "7ce0c44d-691f-4f40-8d4e-f5b0c8579479",
+    "@type": {
+        "ref": "/sys/type/construct/global/apiReportProvider.jtype"
+    },
+    "@name": "GluControl",
+    "@description": ""
+}

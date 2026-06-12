@@ -1,0 +1,25 @@
+{
+    "domains": {
+        "modules": {
+            "aaa": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/aaa/ios_aaa-Copy-1.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "b4faa35f-2b5a-46c1-9aea-ef0752c0ab74",
+    "@id": "b4faa35f-2b5a-46c1-9aea-ef0752c0ab74",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "@name": "ios_SwitchAssembly",
+    "@description": ""
+}

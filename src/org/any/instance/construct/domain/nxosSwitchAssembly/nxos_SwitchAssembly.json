@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {}
+    },
+    "interfaces": {},
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "nxos_SwitchAssembly"
+    },
+    "@exportedInstanceId": "84ae7308-1764-408e-96ac-2f4445fb356c",
+    "@id": "84ae7308-1764-408e-96ac-2f4445fb356c",
+    "@name": "nxos_SwitchAssembly",
+    "@description": ""
+}

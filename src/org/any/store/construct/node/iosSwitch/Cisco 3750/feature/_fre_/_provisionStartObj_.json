@@ -1,0 +1,12 @@
+{
+    "version": "3.0.0",
+    "provisionedActions": [
+        {
+            "typeName": "networkDiagnosticReport",
+            "actionKey": "/org/Romualdo/instance/construct/script/networkDiagnosticReport/networkDiagnosticReport.json",
+            "jnib": "/sys/jnib/scripts/networkDiagnosticReport/networkDiagnosticReport.jnib",
+            "actionTypeKey": "/org/Romualdo/type/construct/script/networkDiagnosticReport.jtype",
+            "timeStamp": 1666278661342
+        }
+    ]
+}

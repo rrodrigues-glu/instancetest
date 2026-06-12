@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "DMVPN-.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_dmvpn-ikev2-policy_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ikev2-policy_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "b59a282a-e6be-4658-9ae9-b447d36e73b7",
+    "@id": "b59a282a-e6be-4658-9ae9-b447d36e73b7",
+    "@name": "ios_dmvpn-ikev2-policy_grp",
+    "@description": ""
+}

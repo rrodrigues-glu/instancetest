@@ -1,0 +1,17 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@id": "f5ef54c2-fe7e-4bd1-8508-913bb89231a3",
+    "item": {},
+    "cliCommands": [
+        "set system syslog user * any emergency",
+        "set system syslog file messages any notice",
+        "set system syslog file messages authorization info",
+        "set system syslog file interactive-commands interactive-commands any",
+        ""
+    ],
+    "@exportedInstanceId": "f5ef54c2-fe7e-4bd1-8508-913bb89231a3",
+    "@name": "Syslog__cli__17211414601514977",
+    "@description": ""
+}

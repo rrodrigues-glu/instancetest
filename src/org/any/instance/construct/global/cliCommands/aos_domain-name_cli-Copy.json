@@ -1,0 +1,19 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/AOSSW_Dns-Copy-1.json"
+    },
+    "cliCommands": [
+        "ip dns server-address priority 2 $context.dns.domainName",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "7f5c2e1b-2f72-4ddf-94a0-7419c7f393dd",
+    "@id": "7f5c2e1b-2f72-4ddf-94a0-7419c7f393dd",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "aos_domain-name_cli-Copy",
+    "@description": ""
+}

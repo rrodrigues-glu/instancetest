@@ -1,0 +1,52 @@
+{
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "campusSwitch": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/BO001.json"
+    },
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.1.81",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco SW.json"
+        },
+        "port": 22,
+        "type": "ssh",
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "associations": {
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/iosSwitchAssembly/Banner_Assembly.json"
+        },
+        "provider": "local"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "personae": {},
+    "provisioning": {
+        "type": "advanced"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "iosSwitch": {
+        "enabled": true
+    },
+    "@exportedInstanceId": "f89ca9ba-2b60-4797-b8dd-7d0d4065ed71",
+    "@id": "f89ca9ba-2b60-4797-b8dd-7d0d4065ed71",
+    "@type": {
+        "ref": "/sys/type/construct/node/iosSwitch.jtype"
+    },
+    "@name": "Cisco 3750",
+    "@description": ""
+}

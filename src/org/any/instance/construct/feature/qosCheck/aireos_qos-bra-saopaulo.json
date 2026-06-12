@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for AIR5508 Sao Paulo Brazil",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/aireos_qos_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "AIR-CT5508"
+    },
+    "@source": {
+        "instanceName": "aireos_qos-bra-saopaulo"
+    },
+    "@exportedInstanceId": "0da9f368-8ba5-48df-9648-2e9e1a389c3d",
+    "@id": "0da9f368-8ba5-48df-9648-2e9e1a389c3d",
+    "@name": "aireos_qos-bra-saopaulo",
+    "@description": ""
+}

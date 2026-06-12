@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_ntp-method-1_pst.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$context.customFields.Region == West"
+        ]
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_ntp-method-1_pst"
+    },
+    "@exportedInstanceId": "16b72ad6-e1e1-42cf-abc0-1b5c0490429b",
+    "@id": "16b72ad6-e1e1-42cf-abc0-1b5c0490429b",
+    "@name": "ios_ntp-method-1_pst",
+    "@description": ""
+}

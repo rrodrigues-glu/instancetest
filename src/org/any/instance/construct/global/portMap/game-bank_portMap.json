@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/portMap.jtype"
+    },
+    "map": [
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/MGNT1.json"
+            },
+            "name": "Vlan5",
+            "extendedName": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "game-bank_portMap"
+    },
+    "@exportedInstanceId": "21e0a901-5360-407c-ae9a-f724b8bb5744",
+    "@id": "21e0a901-5360-407c-ae9a-f724b8bb5744",
+    "@name": "game-bank_portMap",
+    "@description": ""
+}

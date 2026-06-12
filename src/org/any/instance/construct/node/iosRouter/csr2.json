@@ -1,0 +1,64 @@
+{
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "wanRouter": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/BO001.json"
+    },
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.0.0.28",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+        },
+        "port": 22,
+        "type": "ssh",
+        "proxyList": [
+            {
+                "ip": "10.1.100.57",
+                "credentials": {
+                    "@ref": "/secret/sys/credentials/deviceUserPass/Cisco CSR.json"
+                },
+                "port": 22,
+                "type": "ssh",
+                "sshParam": ""
+            }
+        ],
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "associations": {
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/iosRouterAssembly/Hostname_Assembly.json"
+        },
+        "provider": "local"
+    },
+    "personae": {},
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "persona": {
+        "id": 0,
+        "type": "none"
+    },
+    "iosRouter": {
+        "enabled": true
+    },
+    "@exportedInstanceId": "77b18df5-9e1d-4f92-8ba6-c2c8d7ec44f9",
+    "@id": "77b18df5-9e1d-4f92-8ba6-c2c8d7ec44f9",
+    "@type": {
+        "ref": "/sys/type/construct/node/iosRouter.jtype"
+    },
+    "@name": "csr2",
+    "@description": ""
+}

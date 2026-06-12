@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_errdisable-recovery_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_errdisable-recovery_grp"
+    },
+    "@exportedInstanceId": "33e85a3e-6227-4645-84be-9b2490460643",
+    "@id": "33e85a3e-6227-4645-84be-9b2490460643",
+    "@name": "ios_errdisable-recovery_grp",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/WLC_apSummary.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "WLC_apSummary"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "1d4489f4-fc13-4b65-89c6-8547262b6047",
+    "@id": "1d4489f4-fc13-4b65-89c6-8547262b6047",
+    "@name": "WLC_apSummary",
+    "@description": ""
+}

@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip ssh source-interface $context.portMap.MGNT1.name",
+        "ip ssh version 2"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ssh_cli"
+    },
+    "@exportedInstanceId": "520fe2e7-970a-4192-b849-d7e62871c66a",
+    "@id": "520fe2e7-970a-4192-b849-d7e62871c66a",
+    "@name": "ios_ssh_cli",
+    "@description": ""
+}

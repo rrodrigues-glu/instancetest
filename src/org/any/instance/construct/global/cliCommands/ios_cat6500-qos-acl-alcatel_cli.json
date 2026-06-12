@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip access-list extended Local-telephony-ACL",
+        " remark deny Aspera Traffic",
+        " deny udp any any range 33001 33002",
+        " deny udp any range 33001 33002 any",
+        " permit udp any any range 32000-33167",
+        " permit udp any range 32000-33167 any",
+        "!"
+    ],
+    "advanced": {
+        "filter": "platform",
+        "platform": "WS-C65.+|C2960X"
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-acl-alcatel_cli"
+    },
+    "@exportedInstanceId": "d2c8c13c-ba16-4939-85d0-9f9882dbae9e",
+    "@id": "d2c8c13c-ba16-4939-85d0-9f9882dbae9e",
+    "@name": "ios_cat6500-qos-acl-alcatel_cli",
+    "@description": ""
+}

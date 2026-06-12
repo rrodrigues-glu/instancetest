@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/dns.jtype"
+    },
+    "@id": "187306f2-96b2-4e97-b5c3-9fdcf5dc6ac9",
+    "featureConcept": {
+        "name": "DNS Feature",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/dns__cliGrp__17211414601512de.json"
+            ]
+        }
+    },
+    "form": {
+        "dns": {
+            "domainName": "",
+            "server": []
+        }
+    },
+    "@exportedInstanceId": "187306f2-96b2-4e97-b5c3-9fdcf5dc6ac9",
+    "@name": "dns__1721141460151",
+    "@description": ""
+}

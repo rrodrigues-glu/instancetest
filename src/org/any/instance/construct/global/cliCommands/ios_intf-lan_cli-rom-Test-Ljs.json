@@ -1,0 +1,29 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Intf2-rom-Test-Ljs.json"
+    },
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " description Backbone_L3",
+        "{% assign SwitchRole = customFields.VarField %}",
+        "{% if SwitchRole == \"CORE1\" %}",
+        " ip address 10.35.253.2 255.255.255.0",
+        "{% elsif SwitchRole == \"CORE2\" %}",
+        " ip address 10.35.253.3 255.255.255.0",
+        "{% endif %}",
+        " no ip redirects",
+        " no ipv6 redirects",
+        " ip pim sparse-mode",
+        " !"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "c4bc2136-e518-4b17-a6dd-906b5b8755cb",
+    "@id": "c4bc2136-e518-4b17-a6dd-906b5b8755cb",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_intf-lan_cli-rom-Test-Ljs",
+    "@description": ""
+}

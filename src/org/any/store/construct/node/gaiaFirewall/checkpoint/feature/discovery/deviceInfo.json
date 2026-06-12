@@ -1,0 +1,102 @@
+{
+    "hostname": "NYC415FW02",
+    "vendor": "checkpoint",
+    "os": "gaia",
+    "path": "/sys/jnib/features/deviceDetect/checkpoint/gaia/",
+    "sku": "CP (i440FX + PIIX, 1996)",
+    "software": {
+        "version": "R81",
+        "major": "81",
+        "minor": "",
+        "build": "995000045"
+    },
+    "hardware": {
+        "serialNumber": "APPLIANCE",
+        "sku": "CP (i440FX + PIIX, 1996)"
+    },
+    "detectedSerialNumber": "APPLIANCE",
+    "uptime": "140d5h34m",
+    "type": {
+        "name": "gaiaFirewall",
+        "base": "baseFirewall"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "eth0": {
+                "configured": {
+                    "enabled": true,
+                    "duplex": "full",
+                    "speed": "1000M",
+                    "ipv4Address": "10.0.0.22/24"
+                },
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "duplex": "full",
+                    "speed": "1000M",
+                    "macAddress": "50:09:00:06:00:00",
+                    "ipv4Address": "10.0.0.22/24"
+                },
+                "mediaType": "ethernet",
+                "type": "l3"
+            },
+            "eth0:1": {
+                "configured": {
+                    "enabled": false,
+                    "ipv4Address": "192.168.1.1/24"
+                },
+                "operational": {
+                    "status": "down",
+                    "macAddress": "",
+                    "ipv4Address": "192.168.1.1/24"
+                },
+                "type": "l3"
+            },
+            "eth1": {
+                "configured": {
+                    "enabled": true,
+                    "duplex": "full",
+                    "speed": "1000M",
+                    "ipv4Address": "10.254.10.5/24"
+                },
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "duplex": "full",
+                    "speed": "1000M",
+                    "macAddress": "50:09:00:06:00:01",
+                    "ipv4Address": "10.254.10.5/24"
+                },
+                "mediaType": "ethernet",
+                "type": "l3"
+            },
+            "lo": {
+                "configured": {
+                    "enabled": false,
+                    "ipv4Address": "127.0.0.1/8"
+                },
+                "operational": {
+                    "status": "down",
+                    "mtu": "65536",
+                    "macAddress": "",
+                    "ipv4Address": "127.0.0.1/8"
+                },
+                "mediaType": "loopback",
+                "type": "l3"
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 0,
+                "use": 0,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1698315330205,
+            "utcDateTime": "Thu, 26 Oct 2023 10:15:30 GMT"
+        }
+    }
+}

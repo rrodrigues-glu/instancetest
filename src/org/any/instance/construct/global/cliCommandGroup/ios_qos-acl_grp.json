@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "acl.qos.+|AutoQos",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_qos-acl_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "ios_qos-acl_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "b8b4464b-d9e9-405d-9ca1-ec342bb0a7b6",
+    "@id": "b8b4464b-d9e9-405d-9ca1-ec342bb0a7b6",
+    "@name": "ios_qos-acl_grp",
+    "@description": ""
+}

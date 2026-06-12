@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "crypto ikev2 profile DMVPN-IKE-PROFILE-$context.networks[*].overlayNetwork.id",
+        " match fvrf $context.networks[*].underlyingIntf.vrf",
+        " match identity remote address 0.0.0.0",
+        " authentication local pre-share",
+        " authentication remote pre-share",
+        " keyring local DMVPN-KEYRING-$context.networks[*].overlayNetwork.id",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_dmvpn-ikev2-profile_cli"
+    },
+    "@exportedInstanceId": "af40be06-2862-4d6d-986b-ee8fd7606a39",
+    "@id": "af40be06-2862-4d6d-986b-ee8fd7606a39",
+    "@name": "ios_dmvpn-ikev2-profile_cli",
+    "@description": ""
+}

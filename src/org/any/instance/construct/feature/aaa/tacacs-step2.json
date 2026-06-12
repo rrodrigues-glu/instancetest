@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/aaa.jtype"
+    },
+    "featureConcept": {
+        "name": "Tacacs Migration - Step 2",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_tacacs-remove-step2_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_tacacs-add-step2_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "aaa": [
+            {
+                "name": "Gluware-ACS",
+                "srcIntOverride": true
+            }
+        ]
+    },
+    "@source": {
+        "instanceName": "tacacs-step2"
+    },
+    "@exportedInstanceId": "67082471-0ddb-4272-ab4e-f9c720f6fdf6",
+    "@id": "67082471-0ddb-4272-ab4e-f9c720f6fdf6",
+    "@name": "tacacs-step2",
+    "@description": ""
+}

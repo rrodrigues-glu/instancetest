@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^Local-telephony-ACL$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_cat6500-qos-acl-luxembourg_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-acl-luxembourg_grp"
+    },
+    "@exportedInstanceId": "c53c232e-5e64-4ad2-8ec8-a1d46f64c174",
+    "@id": "c53c232e-5e64-4ad2-8ec8-a1d46f64c174",
+    "@name": "ios_cat6500-qos-acl-luxembourg_grp",
+    "@description": ""
+}

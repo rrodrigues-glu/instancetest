@@ -1,0 +1,21 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Intf2-rom-Dennisbgp2.json"
+    },
+    "cliCommands": [
+        "router bgp $context.portMap[*].name",
+        " address-family ipv4",
+        "  neighbor {$discover.neighip.global.neigh.ipbgp} advertisement-interval 10",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "807d5528-0969-4198-a980-fd1e7aa926cb",
+    "@id": "807d5528-0969-4198-a980-fd1e7aa926cb",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_intf-lan_cli-Dennisbgp2",
+    "@description": ""
+}

@@ -1,0 +1,522 @@
+{
+    "hostname": "6300m-cx1",
+    "vendor": "hpe",
+    "os": "arubaoscx",
+    "path": "/sys/jnib/features/deviceDetect/hpe/arubaoscx/",
+    "sku": "JL662A",
+    "software": {
+        "version": "FL.10.05.0011",
+        "major": "10",
+        "minor": "05",
+        "revision": "0011",
+        "train": "FL"
+    },
+    "hardware": {
+        "serialNumber": "SG9AKN10JL",
+        "sku": "JL662A",
+        "family": "6300",
+        "series": "6300M"
+    },
+    "detectedSerialNumber": "SG9AKN10JL",
+    "uptime": "89w6d15h35m",
+    "type": {
+        "name": "arubaoscxSwitch",
+        "base": "dcSwitch"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "1/1/1": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:67",
+                    "duplex": "Full-duplex",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/2": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:68",
+                    "duplex": "Full-duplex",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/3": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:65",
+                    "duplex": "Full-duplex",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/4": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:66",
+                    "duplex": "Full-duplex",
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/5": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:63",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "100",
+                        "vlanName": "MarkAndy"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/6": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:64",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/7": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:61",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/8": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:62",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/9": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5f",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/10": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:60",
+                    "duplex": "Full-duplex",
+                    "trunk": {
+                        "nativeVlanId": "1",
+                        "vlans": "1,2,100,105,200"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/11": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5d",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/12": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5e",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/13": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5b",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/14": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5c",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/15": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:59",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/16": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:5a",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/17": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:57",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/18": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:58",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/19": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:55",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/20": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:56",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/21": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:53",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/22": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:54",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/23": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:51",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/24": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:52",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/25": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:50",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/26": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:4f",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "200",
+                        "vlanName": "NEW VLAN"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/27": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:4e",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "1/1/28": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:4d",
+                    "duplex": "Full-duplex",
+                    "access": {
+                        "vlanId": "1"
+                    },
+                    "mtu": "1500"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "vlan1": {
+                "operational": {
+                    "status": "adminShut",
+                    "macAddress": "88:3a:30:a2:f3:40"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l2"
+            },
+            "vlan100": {
+                "operational": {
+                    "status": "adminShut",
+                    "speed": "0 Mb/s",
+                    "macAddress": "88:3a:30:a2:f3:40",
+                    "trunk": {
+                        "nativeVlanId": "1",
+                        "vlans": "1,2,100,105,200"
+                    },
+                    "ipv4Address": "10.255.100.2/24"
+                },
+                "configured": {
+                    "enabled": true
+                },
+                "type": "l3"
+            },
+            "mgmt": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "88:3a:30:a2:f3:41",
+                    "ipv4Address": "10.150.3.5/27",
+                    "ipv6Address": "fe80::8a3a:30ff:fea2:f341/64"
+                },
+                "type": "l3",
+                "config": {
+                    "ipv6Address": "dhcp",
+                    "enabled": true,
+                    "ipv4Address": "10.150.3.5/27"
+                }
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 29,
+                "use": 0,
+                "free": 29
+            }
+        },
+        "recordTime": {
+            "utcTime": 1710175504096,
+            "utcDateTime": "Mon, 11 Mar 2024 16:45:04 GMT"
+        }
+    }
+}

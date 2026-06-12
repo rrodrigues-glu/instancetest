@@ -1,0 +1,25 @@
+{
+    "map": [
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/MGMT.json"
+            },
+            "name": "Vlan1005",
+            "extendedName": ""
+        },
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/LOOPBACK.json"
+            },
+            "name": "Loopback0",
+            "extendedName": ""
+        }
+    ],
+    "@exportedInstanceId": "2483a54a-be7c-4e4b-9f84-96bfc687565c",
+    "@id": "2483a54a-be7c-4e4b-9f84-96bfc687565c",
+    "@type": {
+        "ref": "/sys/type/construct/global/portMap.jtype"
+    },
+    "@name": "Routed Port Map-5",
+    "@description": ""
+}

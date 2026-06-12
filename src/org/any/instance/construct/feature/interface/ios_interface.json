@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/interface.jtype"
+    },
+    "featureConcept": {
+        "name": "[ Hard Rock - GAME ROOM Interfaces ] ",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_intf-mgmt_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_intf-iview_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "intf": {}
+    },
+    "@source": {
+        "instanceName": "ios_interface"
+    },
+    "@exportedInstanceId": "557e0962-2985-4279-a4ed-3ca0f6a9aad2",
+    "@id": "557e0962-2985-4279-a4ed-3ca0f6a9aad2",
+    "@name": "ios_interface",
+    "@description": ""
+}

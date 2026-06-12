@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show cdp neighbors detail",
+    "rootEntry": "no",
+    "keyLineRegEx": "Interface: (?<localPort>[\\/\\w]+)",
+    "groupName": "cdp",
+    "discover": {
+        "neighbors": {
+            "expressions": [
+                "Device ID: (?<deviceId>[-.()\\w]+)",
+                "Interface: (?<localPort>[\\/\\w]+),\\s+Port ID \\(outgoing port\\): (?<remotePort>[\\/\\w]+)",
+                "Holdtime : (?<holdTime>\\d+)",
+                "\\), Version (?<version>\\d+\\.\\d+(?:\\([.\\w]+\\))*(?:\\.\\d+)*)\\.?(?<build>\\w+)*,? (?:(?:RELEASE|MAINTENANCE INTERIM) SOFTWARE|CUST-SPECIAL:V\\w+SR(\\w+))*",
+                "VTP Management Domain: '(?<vtpDomain>[-\\w]+)'"
+            ]
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "IOS_cdpNeighborsDetail2"
+    },
+    "@exportedInstanceId": "d3552c49-ef89-4462-a8b8-cd702c20e9b5",
+    "@id": "d3552c49-ef89-4462-a8b8-cd702c20e9b5",
+    "@name": "IOS_cdpNeighborsDetail2",
+    "@description": ""
+}

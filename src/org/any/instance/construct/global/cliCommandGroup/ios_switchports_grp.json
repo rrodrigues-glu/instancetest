@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_switchports_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": [
+            "$discover.vlan.trunkMode.enabled == true"
+        ]
+    },
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_switchports_grp"
+    },
+    "@exportedInstanceId": "6bd14146-d973-471e-952f-8091d73d9754",
+    "@id": "6bd14146-d973-471e-952f-8091d73d9754",
+    "@name": "ios_switchports_grp",
+    "@description": ""
+}

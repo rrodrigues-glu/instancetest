@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/aireos_wlan-qos_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [
+        "wlan qos 1 .+"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "aireos_wlan-qos-1_grp"
+    },
+    "@exportedInstanceId": "c2991d68-2935-47a2-b4e4-e1f28fda7654",
+    "@id": "c2991d68-2935-47a2-b4e4-e1f28fda7654",
+    "@name": "aireos_wlan-qos-1_grp",
+    "@description": ""
+}

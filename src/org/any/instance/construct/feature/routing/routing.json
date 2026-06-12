@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/routing.jtype"
+    },
+    "featureConcept": {
+        "name": "Routing",
+        "cliCommandGroups": {}
+    },
+    "form": {
+        "distributionLayer": {
+            "ipv4": {
+                "routingProtocol": {}
+            }
+        }
+    },
+    "@source": {
+        "instanceName": "routing"
+    },
+    "@exportedInstanceId": "0eb7f0d4-263c-4736-82d4-532d300bf70a",
+    "@id": "0eb7f0d4-263c-4736-82d4-532d300bf70a",
+    "@name": "routing",
+    "@description": ""
+}

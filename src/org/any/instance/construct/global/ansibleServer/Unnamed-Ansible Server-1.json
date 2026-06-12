@@ -1,0 +1,12 @@
+{
+    "ip": "",
+    "userName": "",
+    "type": "ssh",
+    "@exportedInstanceId": "5e24d4a6-727d-4b2e-a01a-f33047d658c9",
+    "@id": "5e24d4a6-727d-4b2e-a01a-f33047d658c9",
+    "@type": {
+        "ref": "/sys/type/construct/global/ansibleServer.jtype"
+    },
+    "@name": "Unnamed-Ansible Server-1",
+    "@description": ""
+}

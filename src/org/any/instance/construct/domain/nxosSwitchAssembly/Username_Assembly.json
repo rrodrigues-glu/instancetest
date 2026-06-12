@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "username": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/username/nxos_username-Copy-1.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "8a9c48cc-bf5a-4dbf-af45-ebfe1f40475e",
+    "@id": "8a9c48cc-bf5a-4dbf-af45-ebfe1f40475e",
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "@name": "Username_Assembly",
+    "@description": ""
+}

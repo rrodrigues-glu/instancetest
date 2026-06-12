@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "snmp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/snmp/aos_snmp-v2c-Copy.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "e0b22370-854d-4172-8136-e8e7cf00385d",
+    "@id": "e0b22370-854d-4172-8136-e8e7cf00385d",
+    "@type": {
+        "ref": "/sys/type/construct/domain/arubaosSwitchAssembly.jtype"
+    },
+    "@name": "arubaos_SwitchAssembly",
+    "@description": ""
+}

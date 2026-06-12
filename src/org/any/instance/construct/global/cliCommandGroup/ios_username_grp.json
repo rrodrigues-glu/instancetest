@@ -1,0 +1,25 @@
+{
+    "regEx": "netadmin",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_username_cli.json"
+        ]
+    },
+    "advanced": {
+        "renderingConditions": []
+    },
+    "maskCommands": [
+        "username yusaf"
+    ],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "70c557b2-d4ef-4a9b-98f3-e790f5fcf6b0",
+    "@id": "70c557b2-d4ef-4a9b-98f3-e790f5fcf6b0",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_username_grp",
+    "@description": ""
+}

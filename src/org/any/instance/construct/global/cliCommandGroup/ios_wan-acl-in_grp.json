@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "acl-wan-.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_wan-acl-in_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "ios_wan-acl-in_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "5987d64f-45c8-4e52-8c02-fd4cb7b16fac",
+    "@id": "5987d64f-45c8-4e52-8c02-fd4cb7b16fac",
+    "@name": "ios_wan-acl-in_grp",
+    "@description": ""
+}

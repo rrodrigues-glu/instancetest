@@ -1,0 +1,47 @@
+{
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.3.5",
+        "type": "ssh",
+        "port": 22,
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "sshParam": ""
+    },
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "arubaoscxSwitch": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "dcSwitch": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/Romualdo.json"
+    },
+    "@exportedInstanceId": "e5ff93be-bece-4b3f-9294-730f40bed49e",
+    "@id": "e5ff93be-bece-4b3f-9294-730f40bed49e",
+    "@type": {
+        "ref": "/sys/type/construct/node/arubaoscxSwitch.jtype"
+    },
+    "@name": "CX",
+    "@description": ""
+}

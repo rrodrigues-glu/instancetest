@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "mpls",
+    "showCmds": [
+        "show run | sec mpls"
+    ],
+    "mode": "basic",
+    "keyCliLine": "",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_Mpls"
+    },
+    "@exportedInstanceId": "4e54ad31-9b23-4980-a947-c6849704e249",
+    "@id": "4e54ad31-9b23-4980-a947-c6849704e249",
+    "@name": "NXOS_Mpls",
+    "@description": ""
+}

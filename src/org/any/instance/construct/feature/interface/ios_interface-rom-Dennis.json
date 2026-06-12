@@ -1,0 +1,21 @@
+{
+    "featureConcept": {
+        "name": "Interface",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_intf-lan_grp-rom-Dennisbgp2.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_intf-lan_grp-rom-Dennisbgp1.json"
+            ]
+        }
+    },
+    "form": {
+        "intf": {}
+    },
+    "@exportedInstanceId": "5fb22d50-41ce-4fa3-801d-2469128935c3",
+    "@id": "5fb22d50-41ce-4fa3-801d-2469128935c3",
+    "@type": {
+        "ref": "/sys/type/construct/feature/interface.jtype"
+    },
+    "@name": "ios_interface-rom-Dennis",
+    "@description": ""
+}

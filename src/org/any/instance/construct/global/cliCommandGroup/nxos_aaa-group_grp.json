@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "tacacs.+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_aaa-group_cli.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@source": {
+        "instanceName": "nxos_aaa-group_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "2eaf239a-a7c1-4f4b-bb3d-c5c653a55839",
+    "@id": "2eaf239a-a7c1-4f4b-bb3d-c5c653a55839",
+    "@name": "nxos_aaa-group_grp",
+    "@description": ""
+}

@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip scp server enable"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_scp-server_cli"
+    },
+    "@exportedInstanceId": "3e245d69-4473-4588-a309-bc8cc435c3b6",
+    "@id": "3e245d69-4473-4588-a309-bc8cc435c3b6",
+    "@name": "ios_scp-server_cli",
+    "@description": ""
+}

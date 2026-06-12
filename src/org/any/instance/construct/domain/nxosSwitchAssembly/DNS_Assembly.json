@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "dns": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/dns/nxos_dns.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "DNS_Assembly"
+    },
+    "@exportedInstanceId": "5b37620d-2d62-4b24-9f5e-a75202ff9c1c",
+    "@id": "5b37620d-2d62-4b24-9f5e-a75202ff9c1c",
+    "@name": "DNS_Assembly",
+    "@description": ""
+}

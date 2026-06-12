@@ -1,0 +1,22 @@
+{
+    "domains": {
+        "modules": {
+            "interface": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/interface/ios_interface-rom-Test.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@exportedInstanceId": "247ae96b-4ec5-4cea-88c5-b02772736ea1",
+    "@id": "247ae96b-4ec5-4cea-88c5-b02772736ea1",
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosRouterAssembly.jtype"
+    },
+    "@name": "iosRouterAssembly",
+    "@description": ""
+}

@@ -1,0 +1,47 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "srxRouter": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "wanRouter": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.2.11",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/admin.json"
+        },
+        "type": "ssh",
+        "port": 22,
+        "terminalType": "xterm"
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/0010C.json"
+    },
+    "@exportedInstanceId": "908a17e9-835b-4210-ab13-2aed8407f47b",
+    "@id": "908a17e9-835b-4210-ab13-2aed8407f47b",
+    "@type": {
+        "ref": "/sys/type/construct/node/srxRouter.jtype"
+    },
+    "@name": "Juniper",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/NXOS_show_interface.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "NXOS_show_interface"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "8cb0697f-4ed1-4bcb-918d-089435e40ce8",
+    "@id": "8cb0697f-4ed1-4bcb-918d-089435e40ce8",
+    "@name": "NXOS_show_interface",
+    "@description": ""
+}

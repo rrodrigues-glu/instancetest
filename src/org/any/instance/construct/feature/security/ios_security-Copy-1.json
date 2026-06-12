@@ -1,0 +1,20 @@
+{
+    "featureConcept": {
+        "name": "Security WAN ACL",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_wan-acl-in_grp-Copy-1.json"
+            ]
+        }
+    },
+    "form": {
+        "comment": null
+    },
+    "@exportedInstanceId": "bb7ddfec-c1e5-4388-8cf6-b831fd55b713",
+    "@id": "bb7ddfec-c1e5-4388-8cf6-b831fd55b713",
+    "@type": {
+        "ref": "/sys/type/construct/feature/security.jtype"
+    },
+    "@name": "ios_security-Copy-1",
+    "@description": ""
+}

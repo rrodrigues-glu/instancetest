@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat3750 Switches",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat3750-qos-mls_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat3750-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat3750-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "C3750"
+    },
+    "@source": {
+        "instanceName": "ios_cat3750-qos"
+    },
+    "@exportedInstanceId": "bec53526-9893-402a-b9b5-06594f0d9033",
+    "@id": "bec53526-9893-402a-b9b5-06594f0d9033",
+    "@name": "ios_cat3750-qos",
+    "@description": ""
+}

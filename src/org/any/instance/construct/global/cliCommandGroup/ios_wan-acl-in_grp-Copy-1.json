@@ -1,0 +1,21 @@
+{
+    "regEx": "copp-(system-)?acl-.+-WSP$",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_wan-acl-in_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "72891d19-fec0-429a-95a3-50b66eac2836",
+    "@id": "72891d19-fec0-429a-95a3-50b66eac2836",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_wan-acl-in_grp-Copy-1",
+    "@description": ""
+}

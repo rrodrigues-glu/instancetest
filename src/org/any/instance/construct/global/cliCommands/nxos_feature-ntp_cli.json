@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "feature ntp"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "nxos_feature-ntp_cli"
+    },
+    "@exportedInstanceId": "6fc43f66-3db2-4b12-877a-faac408a3301",
+    "@id": "6fc43f66-3db2-4b12-877a-faac408a3301",
+    "@name": "nxos_feature-ntp_cli",
+    "@description": ""
+}

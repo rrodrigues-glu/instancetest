@@ -1,0 +1,58 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/stackPortMap.jtype"
+    },
+    "stack": [
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        },
+        {
+            "switchPortMap": {
+                "@ref": "/org/instance/construct/global/switchPortMap/iosSwitch_NAC.json"
+            }
+        }
+    ],
+    "aggregated": {},
+    "namingConventions": {
+        "portNamingPolicies": {}
+    },
+    "@source": {
+        "instanceName": "stack_iosSwitch_NAC"
+    },
+    "@exportedInstanceId": "d1649c66-2cba-486f-aaaf-d97379824707",
+    "@id": "d1649c66-2cba-486f-aaaf-d97379824707",
+    "@name": "stack_iosSwitch_NAC",
+    "@description": ""
+}

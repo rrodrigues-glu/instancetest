@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_nac-global_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_nac-global_grp"
+    },
+    "@exportedInstanceId": "67ad7c2e-7f16-40cd-b41e-e062e10e21ce",
+    "@id": "67ad7c2e-7f16-40cd-b41e-e062e10e21ce",
+    "@name": "ios_nac-global_grp",
+    "@description": ""
+}

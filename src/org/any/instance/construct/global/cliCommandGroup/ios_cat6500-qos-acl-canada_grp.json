@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^Local-telephony-ACL$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_cat6500-qos-acl-canada_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-acl-canada_grp"
+    },
+    "@exportedInstanceId": "a9369eaa-cdff-4646-940e-0cebd548fe73",
+    "@id": "a9369eaa-cdff-4646-940e-0cebd548fe73",
+    "@name": "ios_cat6500-qos-acl-canada_grp",
+    "@description": ""
+}

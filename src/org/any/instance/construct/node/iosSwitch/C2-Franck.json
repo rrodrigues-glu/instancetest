@@ -1,0 +1,51 @@
+{
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "campusSwitch": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/BO001.json"
+    },
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.1.13",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "port": 22,
+        "type": "ssh",
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "associations": {
+        "assembly": {
+            "@ref": "/org/instance/construct/domain/iosSwitchAssembly/Switchports_Assembly.json"
+        },
+        "provider": "local"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "iosSwitch": {
+        "enabled": true
+    },
+    "@exportedInstanceId": "52b8f2ba-b001-4a32-97f3-54c0ea1f3c91",
+    "@id": "52b8f2ba-b001-4a32-97f3-54c0ea1f3c91",
+    "@type": {
+        "ref": "/sys/type/construct/node/iosSwitch.jtype"
+    },
+    "@name": "C2-Franck",
+    "@description": ""
+}

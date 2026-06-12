@@ -1,0 +1,33 @@
+{
+    "hostname": "b2250.gluware.lab",
+    "vendor": "f5",
+    "os": "tmos",
+    "path": "/sys/jnib/features/deviceDetect/f5/tmos/",
+    "sku": "BIG-IP VPR-B2250",
+    "software": {
+        "version": "14.1.4",
+        "major": "14",
+        "minor": "1",
+        "revision": "4",
+        "patch": "",
+        "build": "0.0.11",
+        "train": ""
+    },
+    "hardware": {
+        "serialNumber": "CHS402189S",
+        "sku": "BIG-IP VPR-B2250"
+    },
+    "detectedSerialNumber": "CHS402189S",
+    "type": {
+        "name": "tmosServerLoadBalancer",
+        "base": "baseServerLoadBalancer"
+    },
+    "licenses": [
+        {
+            "name": "LTM",
+            "package": "Base",
+            "target": "C2400"
+        }
+    ],
+    "ignoreDups": true
+}

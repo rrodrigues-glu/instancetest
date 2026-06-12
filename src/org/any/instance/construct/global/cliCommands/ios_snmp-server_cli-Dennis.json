@@ -1,0 +1,19 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Snmp-testJames.json"
+    },
+    "cliCommands": [
+        "snmp-server contact {{ snmp.contact }}",
+        "snmp-server user rwa network-admin auth md5 0x19fa3debe2b53"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "569b424e-938a-4841-a511-969e2ce39d3a",
+    "@id": "569b424e-938a-4841-a511-969e2ce39d3a",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_snmp-server_cli-Dennis",
+    "@description": ""
+}

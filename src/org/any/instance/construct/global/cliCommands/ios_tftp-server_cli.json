@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_tftp-server_cli"
+    },
+    "@exportedInstanceId": "405a1558-fccc-4969-9a7d-a75f55ecd7b9",
+    "@id": "405a1558-fccc-4969-9a7d-a75f55ecd7b9",
+    "@name": "ios_tftp-server_cli",
+    "@description": ""
+}

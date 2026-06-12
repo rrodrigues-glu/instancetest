@@ -1,0 +1,20 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "logging host $context.syslog.server[*].ip #context.syslog.server[*].advanced",
+        "logging source-interface $context.portMap.MGNT1.name"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_syslog-server_cli"
+    },
+    "@exportedInstanceId": "8f9ebf07-da78-4e42-96e5-7800074fbdb5",
+    "@id": "8f9ebf07-da78-4e42-96e5-7800074fbdb5",
+    "@name": "ios_syslog-server_cli",
+    "@description": ""
+}

@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/security.jtype"
+    },
+    "featureConcept": {
+        "name": "Prefix-list",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_prefix-list-grp.json"
+            ]
+        }
+    },
+    "form": {
+        "comment": null
+    },
+    "@source": {
+        "instanceName": "ios_prefix-list"
+    },
+    "@exportedInstanceId": "95d35b98-230c-4422-b27d-68ae7a1eda48",
+    "@id": "95d35b98-230c-4422-b27d-68ae7a1eda48",
+    "@name": "ios_prefix-list",
+    "@description": ""
+}

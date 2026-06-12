@@ -1,0 +1,28 @@
+{
+    "name": "Ip",
+    "vendors": {
+        "hpe": {
+            "type": [
+                "arubaos"
+            ]
+        }
+    },
+    "showCmds": [
+        "show running-config | include authorized-managers"
+    ],
+    "keyCliLine": "",
+    "rootEntryFlag": true,
+    "mode": "basic",
+    "boundaries": {
+        "start": "ip"
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "@exportedInstanceId": "f36eed8d-0eed-49fa-9046-bbfb93c3662f",
+    "@id": "f36eed8d-0eed-49fa-9046-bbfb93c3662f",
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "@name": "AOSSW_Ip-Copy",
+    "@description": ""
+}

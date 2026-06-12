@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "^AutoQoS-Police-CiscoPhone$",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_cat3750-qos-pmap_cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "ios_cat3750-qos-pmap_grp"
+    },
+    "@exportedInstanceId": "73d25512-eabf-4e01-a6bb-7cca2ee2fb19",
+    "@id": "73d25512-eabf-4e01-a6bb-7cca2ee2fb19",
+    "@name": "ios_cat3750-qos-pmap_grp",
+    "@description": ""
+}

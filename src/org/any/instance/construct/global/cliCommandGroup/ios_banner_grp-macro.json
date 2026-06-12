@@ -1,0 +1,22 @@
+{
+    "regEx": ".+",
+    "ignoreDelete": false,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios_banner_cli-macroCLI1.json",
+            "/org/instance/construct/global/cliCommands/ios_banner_cli-macroCLI2.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "309b2511-41bd-479c-94f0-5c95891b409b",
+    "@id": "309b2511-41bd-479c-94f0-5c95891b409b",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "@name": "ios_banner_grp-macro",
+    "@description": ""
+}

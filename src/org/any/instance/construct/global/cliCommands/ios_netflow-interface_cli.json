@@ -1,0 +1,22 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap.ISP1.name",
+        " ip flow monitor $context.flow.monitor.name input",
+        " ip flow monitor $context.flow.monitor.name output",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_netflow-interface_cli"
+    },
+    "@exportedInstanceId": "d7f97a89-d4ee-4a97-b7b1-001af6890e48",
+    "@id": "d7f97a89-d4ee-4a97-b7b1-001af6890e48",
+    "@name": "ios_netflow-interface_cli",
+    "@description": ""
+}

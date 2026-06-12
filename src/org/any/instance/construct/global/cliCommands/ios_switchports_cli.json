@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "interface $context.switchPorts[*].name",
+        " switchport trunk allowed vlan $context.vlandb.vlan[*].id",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_switchports_cli"
+    },
+    "@exportedInstanceId": "88a5de2b-640f-4255-ba9a-78685e93939c",
+    "@id": "88a5de2b-640f-4255-ba9a-78685e93939c",
+    "@name": "ios_switchports_cli",
+    "@description": ""
+}

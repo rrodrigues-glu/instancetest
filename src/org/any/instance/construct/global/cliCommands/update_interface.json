@@ -1,0 +1,17 @@
+{
+    "item": {},
+    "cliCommands": [
+        "interface $context.portMap[*].name",
+        " description {{ location.site.location }}"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "5f93920a-9b00-406b-9ae1-6d557e8bc764",
+    "@id": "5f93920a-9b00-406b-9ae1-6d557e8bc764",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "update_interface",
+    "@description": ""
+}

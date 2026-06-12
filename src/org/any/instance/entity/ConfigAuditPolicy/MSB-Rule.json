@@ -1,0 +1,113 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "New rule",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "IF_THEN_ELSE",
+      "description": "",
+      "enable": true,
+      "scope": "",
+      "scopeSeparateResults": false,
+      "ifExpression": {
+        "$and": [
+          {
+            "$or": [
+              {
+                "$or": [
+                  {
+                    "$or": [
+                      {
+                        "$or": [
+                          {
+                            "$or": [
+                              {
+                                "$or": [
+                                  {
+                                    "latestConfig": {
+                                      "$regex": "(?<!\\n)^((?!ElisityNetFlowRecord).)*$(?!\\n)",
+                                      "$options": "mis"
+                                    }
+                                  },
+                                  {
+                                    "latestConfig": {
+                                      "$exists": false
+                                    }
+                                  }
+                                ]
+                              }
+                            ]
+                          }
+                        ]
+                      }
+                    ]
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^ip http secure-server"
+            ]
+          },
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_not_contain_regex",
+            "value": [
+              "no ip http secure-server"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "elseExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no ip http secure-server"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "description": "",
+  "name": "MSB-Rule",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "5c99e8fa-2863-4dc3-872f-d10720e8f577",
+  "createdBy": "admin",
+  "createdOn": 1714146193338,
+  "updatedBy": "admin",
+  "updatedOn": 1714753311410,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

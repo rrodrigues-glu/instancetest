@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "line aux 0",
+        " exec-timeout 15 0",
+        " no exec",
+        " stopbits 1",
+        " password 7 095C4F1A0A1218000F",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_line-aux_cli"
+    },
+    "@exportedInstanceId": "0ed80e98-78cd-420c-b1b6-c14d9636833f",
+    "@id": "0ed80e98-78cd-420c-b1b6-c14d9636833f",
+    "@name": "ios_line-aux_cli",
+    "@description": ""
+}

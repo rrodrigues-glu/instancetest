@@ -1,0 +1,11 @@
+{
+    "communityString": "Demo",
+    "access": "community",
+    "@exportedInstanceId": "4571df9e-48ba-4bac-93e4-266a9bf7ea13",
+    "@id": "4571df9e-48ba-4bac-93e4-266a9bf7ea13",
+    "@type": {
+        "ref": "/sys/type/construct/global/merakiNetworkSnmpSettings.jtype"
+    },
+    "@name": "Meraki Network SNMP Settings-1",
+    "@description": ""
+}

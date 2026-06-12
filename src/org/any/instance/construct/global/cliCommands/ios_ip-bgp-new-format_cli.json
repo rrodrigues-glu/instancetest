@@ -1,0 +1,19 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "ip bgp-community new-format"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_ip-bgp-new-format_cli"
+    },
+    "@exportedInstanceId": "bd4b4f8c-9f00-4476-9db6-0eb369b80733",
+    "@id": "bd4b4f8c-9f00-4476-9db6-0eb369b80733",
+    "@name": "ios_ip-bgp-new-format_cli",
+    "@description": ""
+}

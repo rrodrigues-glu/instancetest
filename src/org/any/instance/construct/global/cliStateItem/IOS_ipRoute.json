@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStateItem.jtype"
+    },
+    "cmd": "show ip route",
+    "rootEntry": "yes",
+    "groupName": "routes",
+    "discover": {
+        "table": {
+            "expressions": [
+                "(?<type>^[A-Z])\\*?\\s*(?<destination>.+)\\s\\[(?<ad>\\d*)\\/(?<c>\\d*)]\\svia\\s(?<nextHop>.+)",
+                "\\s*(?<subnet>.+)\\sis variably subnetted,(?<subnetCount>.+)\\ssubnets,(?:\\s*(?<maskCount>.+)\\smasks)*",
+                "(?<type>[a-zA-Z])\\s*(?<source>.+)\\sis directly connected,\\s(?<interfaceName>.+)",
+                "\\s*(?<subnet>.+)\\sis subnetted,(?<subnetCount>.+)\\ssubnets"
+            ],
+            "localKey": "destination, source",
+            "preserveLocalKey": true,
+            "preserveMultipleValues": false
+        }
+    },
+    "options": {},
+    "@source": {
+        "instanceName": "IOS_ipRoute"
+    },
+    "@exportedInstanceId": "cfd51ffb-ca38-459a-9c68-cd2d4d5b2900",
+    "@id": "cfd51ffb-ca38-459a-9c68-cd2d4d5b2900",
+    "@name": "IOS_ipRoute",
+    "@description": ""
+}

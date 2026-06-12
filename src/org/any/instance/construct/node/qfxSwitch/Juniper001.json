@@ -1,0 +1,48 @@
+{
+    "configState": "managed",
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "qfxSwitch": {
+        "enabled": true
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "dcSwitch": {
+        "enabled": true
+    },
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.2.8",
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/root_Juniper.json"
+        },
+        "type": "ssh",
+        "port": 22,
+        "terminalType": "xterm",
+        "sshParam": ""
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/0010C.json"
+    },
+    "@exportedInstanceId": "e253ed65-8a6f-4368-8309-4cee58ffce69",
+    "@id": "e253ed65-8a6f-4368-8309-4cee58ffce69",
+    "@type": {
+        "ref": "/sys/type/construct/node/qfxSwitch.jtype"
+    },
+    "@name": "Juniper001",
+    "@description": ""
+}

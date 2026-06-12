@@ -1,0 +1,29 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/location.jtype"
+    },
+    "site": {
+        "name": "RU001",
+        "description": "Managed by EMEIA",
+        "location": "Kazan, Russia, CESA",
+        "contact": "",
+        "type": "branch",
+        "techContact": "",
+        "sitePath": "/"
+    },
+    "assignments": {
+        "ids": []
+    },
+    "allocations": {},
+    "cloud": {
+        "provider": "none"
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "RU001"
+    },
+    "@exportedInstanceId": "9682be58-2589-4168-8c14-ae928a3ef041",
+    "@id": "9682be58-2589-4168-8c14-ae928a3ef041",
+    "@name": "RU001",
+    "@description": ""
+}

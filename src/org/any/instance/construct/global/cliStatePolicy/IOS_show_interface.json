@@ -1,0 +1,23 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliStatePolicy.jtype"
+    },
+    "list": [
+        {
+            "item": {
+                "@ref": "/org/instance/construct/global/cliStateItem/IOS_show_interface.json"
+            },
+            "params": "",
+            "includePattern": ".+",
+            "excludePattern": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "IOS_show_interface"
+    },
+    "privilegeMode": false,
+    "@exportedInstanceId": "08832e59-10a1-4b3d-bf0b-3d6f5cc61643",
+    "@id": "08832e59-10a1-4b3d-bf0b-3d6f5cc61643",
+    "@name": "IOS_show_interface",
+    "@description": ""
+}

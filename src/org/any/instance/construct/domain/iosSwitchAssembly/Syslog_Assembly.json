@@ -1,0 +1,31 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "syslog": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/syslog/ios_syslog-adv.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "Syslog_Assembly"
+    },
+    "@exportedInstanceId": "39d36bd7-019e-447e-8e00-f93fe64ee25c",
+    "@id": "39d36bd7-019e-447e-8e00-f93fe64ee25c",
+    "@name": "Syslog_Assembly",
+    "@description": ""
+}

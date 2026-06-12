@@ -1,0 +1,36 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/switchportProfiling.jtype"
+    },
+    "featureConcept": {
+        "name": "switchPortProfilling",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/interface_target.json"
+            ]
+        }
+    },
+    "form": {
+        "profiles": [
+            {
+                "name": "findTargetInt",
+                "filter": {
+                    "mode": "include",
+                    "rules": {
+                        "@ref": "/org/instance/construct/global/switchportFilter/switchportFilter.json"
+                    }
+                },
+                "macro": {
+                    "name": "MacroName01"
+                }
+            }
+        ]
+    },
+    "@source": {
+        "instanceName": "switchportProfiling"
+    },
+    "@exportedInstanceId": "88c6a009-9df8-46bb-ab35-8f2e2f225c6a",
+    "@id": "88c6a009-9df8-46bb-ab35-8f2e2f225c6a",
+    "@name": "switchportProfiling",
+    "@description": ""
+}

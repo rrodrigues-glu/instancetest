@@ -1,0 +1,21 @@
+{
+    "item": {
+        "@ref": "/org/instance/construct/global/conceptItem/IOS_Router-rom-Test.json"
+    },
+    "cliCommands": [
+        "router ospf 100",
+        " network 10.10.10.1 0.0.0.3 area 0",
+        " router-id $discover.intf.GigabitEthernet1.ipaddr.value",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "846d3122-d673-49f0-81f4-11ac4198a8bb",
+    "@id": "846d3122-d673-49f0-81f4-11ac4198a8bb",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "ios_router-ospf_cli-rom-Test",
+    "@description": ""
+}

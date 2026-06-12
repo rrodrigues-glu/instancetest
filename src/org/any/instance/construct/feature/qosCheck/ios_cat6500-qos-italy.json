@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/feature/qosCheck.jtype"
+    },
+    "featureConcept": {
+        "name": "QoS Model for Cat6500 Sup2T Switches (Italy PBX Phones)",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-acl-italy_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-cmap_grp.json",
+                "/org/instance/construct/global/cliCommandGroup/ios_cat6500-qos-pmap_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "platform": "WS-C65.+"
+    },
+    "@source": {
+        "instanceName": "ios_cat6500-qos-italy"
+    },
+    "@exportedInstanceId": "e4325b94-a56c-4393-8cf1-ac1fc437e7be",
+    "@id": "e4325b94-a56c-4393-8cf1-ac1fc437e7be",
+    "@name": "ios_cat6500-qos-italy",
+    "@description": ""
+}

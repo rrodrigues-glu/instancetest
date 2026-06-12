@@ -1,0 +1,35 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/portMap.jtype"
+    },
+    "map": [
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/VLAN200.json"
+            },
+            "name": "Vlan200",
+            "extendedName": ""
+        },
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/VLAN400.json"
+            },
+            "name": "Vlan400",
+            "extendedName": ""
+        },
+        {
+            "refName": {
+                "@ref": "/org/instance/construct/global/lanInterface/VLAN600.json"
+            },
+            "name": "Vlan600",
+            "extendedName": ""
+        }
+    ],
+    "@source": {
+        "instanceName": "eosSwitch_portMap"
+    },
+    "@exportedInstanceId": "e7eba7ce-f52b-4f66-afb4-57d1318e1b8b",
+    "@id": "e7eba7ce-f52b-4f66-afb4-57d1318e1b8b",
+    "@name": "eosSwitch_portMap",
+    "@description": ""
+}

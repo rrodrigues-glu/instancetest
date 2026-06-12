@@ -1,0 +1,1463 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "MAJOR",
+      "name": "1.1.1 Enable 'aaa new-model'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This command enables the AAA access control system.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa new-model"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.2 Enable 'aaa authentication login'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Sets authentication, authorization and accounting (AAA) authentication at login.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa authentication login"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.3 Enable 'aaa authentication enable default'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access privileged EXEC mode when they use the enable command.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa authentication enable default"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.4 Set 'login authentication for 'line con 0'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch using the serial console port.",
+      "scopeSeparateResults": true,
+      "scope": "con",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.5 Set 'login authentication for 'line tty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch using the TTY port.",
+      "scopeSeparateResults": true,
+      "scope": "tty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.6 Set 'login authentication for 'line vty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Authenticates users who access the router or switch remotely through the VTY port.",
+      "scopeSeparateResults": true,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "login authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.7 Set 'login authentication for 'ip http'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If account management functions are not automatically enforced, an attacker could gain privileged access to a vital element of the network security architecture",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^ip http secure-server",
+              "^ip http authentication"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.8 Set 'aaa accounting' to log all privileged use commands using 'commands 15'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Runs accounting for all commands at the specified privilege level.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting commands (1[0-5]|[1-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.9 Set 'aaa accounting connection'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Provides information about all outbound connections made from the network access server.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting connection"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.10 Set 'aaa accounting exec'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Provides information about all outbound connections made from the network access server.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting exec"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.11 Set 'aaa accounting network'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Runs accounting for all network-related service requests.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting network"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.1.12 Set 'aaa accounting system'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Performs accounting for all system-level events not associated with users, such as reloads.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^aaa accounting system"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.1 Set 'privilege 1' for local users",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Sets the privilege level for the user.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "username \\S+ privilege (1[0-5]|[1-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOSXE_Username"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.2 Set 'transport input ssh' for 'line vty' connections",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Selects the Secure Shell (SSH) protocol.",
+      "scopeSeparateResults": true,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "transport input ssh"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.3 Set 'no exec' for 'line aux 0'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The 'no exec' command restricts a line to outgoing connections only.",
+      "scopeSeparateResults": true,
+      "scope": "aux",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no exec"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.4 Create 'access-list' for use with 'line vty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Access lists control the transmission of packets on an interface, control Virtual Terminal Line (VTY) access, and restrict the contents of routing updates. The Cisco IOS software stops checking the extended access list after a match occurs.",
+      "scopeSeparateResults": true,
+      "scope": "allow_ssh_in",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              " permit tcp host \\S+ any eq 22",
+              " deny   ip any any"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_IpAclRuleAndRemarks"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.5 Set 'access-class' for 'line vty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The 'access-class' setting restricts incoming and outgoing connections between a particular vty (into a Cisco device) and the networking devices associated with addresses in an access list.",
+      "scopeSeparateResults": true,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "access-class \\S+ in"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.6 Set 'exec-timeout' to less than or equal to 10 minutes for 'line aux 0'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If no input is detected during the interval, the EXEC facility resumes the current connection. If no connections exist, the EXEC facility returns the terminal to the idle state and disconnects the incoming session.",
+      "scopeSeparateResults": true,
+      "scope": "aux",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "exec-timeout (10|[0-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.7 Set 'exec-timeout' to less than or equal to 10 minutes 'line console 0'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If no input is detected during the interval, the EXEC facility resumes the current connection. If no connections exist, the EXEC facility returns the terminal to the idle state and disconnects the incoming session",
+      "scopeSeparateResults": true,
+      "scope": "con",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "exec-timeout (10|[0-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.8 Set 'exec-timeout' less than or equal to 10 minutes 'line tty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If no input is detected during the interval, the EXEC facility resumes the current connection. If no connections exist, the EXEC facility returns the terminal to the idle state and disconnects the incoming session.",
+      "scopeSeparateResults": true,
+      "scope": "tty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "exec-timeout (10|[0-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.9 Set 'exec-timeout' to less than or equal to 10 minutes 'line vty'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If no input is detected during the interval, the EXEC facility resumes the current connection. If no connections exist, the EXEC facility returns the terminal to the idle state and disconnects the incoming session.",
+      "scopeSeparateResults": true,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "exec-timeout (10|[0-9])\\b"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.10 Set 'transport input none' for 'line aux 0'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "When you want to allow only an outgoing connection on a line, use the no exec command.",
+      "scopeSeparateResults": true,
+      "scope": "vty",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "transport input none"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_LineConVty"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.11 Set 'http Secure-server' limit",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Device management includes the ability to control the number of administrators and management sessions that manage a device. Limiting the number of allowed administrators and sessions per administrator based on account type, role, or access type is helpful in limiting risks related to denial-of-service (DoS) attacks.",
+      "scopeSeparateResults": true,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "ip http max-connections 2"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_Http"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.2.12 Set 'exec-timeout' to less than or equal to 10 min on 'ip http'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If no input is detected during the interval, the EXEC facility resumes the current connection. If no connections exist, the EXEC facility returns the terminal to the idle state and disconnects the incoming session.",
+      "scopeSeparateResults": true,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "ip http timeout-policy idle 600 life"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_Http"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.3.1 Set the 'banner-text' for 'banner exec'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This command specifies a message to be displayed when an EXEC process is created (a line is activated, or an incoming connection is made to a vty). Follow this command with one or more blank spaces and a delimiting character of your choice. Then enter one or more lines of text, terminating the message with the second occurrence of the delimiting character. When a user connects to a router, the message-of-the-day (MOTD) banner appears first, followed by the login banner and prompts. After the user logs in to the router, the EXEC banner or incoming banner will be displayed, depending on the type of connection. For a reverse Telnet login, the incoming banner will be displayed. For all other connections, the router will display the EXEC banner.",
+      "scopeSeparateResults": false,
+      "scope": "exec",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "banner exec"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOSXE_Banner"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.3.2 Set the 'banner-text' for 'banner login'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Follow the banner login command with one or more blank spaces and a delimiting character of your choice. Then enter one or more lines of text, terminating the message with the second occurrence of the delimiting character. When a user connects to the router, the message-of-the-day (MOTD) banner (if configured) appears first, followed by the login banner and prompts. After the user successfully logs in to the router, the EXEC banner or incoming banner will be displayed, depending on the type of connection. For a reverse Telnet login, the incoming banner will be displayed. For all other connections, the router will display the EXEC banner.",
+      "scopeSeparateResults": false,
+      "scope": "login",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "banner login"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOSXE_Banner"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.3.3 Set the 'banner-text' for 'banner motd'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This MOTD banner is displayed to all terminals connected and is useful for sending messages that affect all users (such as impending system shutdowns). Use the no exec-banner or no motd-banner command to disable the MOTD banner on a line. The no exec-banner command also disables the EXEC banner on the line. When a user connects to the router, the MOTD banner appears before the login prompt. After the user logs in to the router, the EXEC banner or incoming banner will be displayed, depending on the type of connection. For a reverse Telnet login, the incoming banner will be displayed. For all other connections, the router will display the EXEC banner.",
+      "scopeSeparateResults": false,
+      "scope": "motd",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "banner motd"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOSXE_Banner"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.3.4 Set the 'banner-text' for 'webauth banner'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This banner is displayed to all terminals connected and is useful for sending messages that affect all users (such as impending system shutdowns). Use the no exec-banner or no motd-banner command to disable the banner on a line. The no exec-banner command also disables the EXEC banner on the line.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "ip admission auth-proxy-banner http .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.4.1 Set 'password' for 'enable secret' ",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The enable secret command provides better security by storing the enable secret password using a nonreversible cryptographic function. The added layer of security encryption provides is useful in environments where the password crosses the network or is stored on a TFTP server.",
+      "scopeSeparateResults": true,
+      "scope": "secret",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "enable secret"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_EnableSecret"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.4.2 Enable 'service password-encryption'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "When password encryption is enabled, the encrypted form of the passwords is displayed when a more system:running-config command is entered.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "service password-encryption"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.4.3 Set 'username secret' for all local users",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The username secret command provides an additional layer of security over the username password. It also provides better security by encrypting the password using non reversible MD5 encryption and storing the encrypted text. The added layer of MD5 encryption is useful in environments in which the password crosses the network or is stored on a TFTP server.",
+      "scopeSeparateResults": true,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "username \\S+ secret \\S+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "conceptItem": "IOS_Username"
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.1 Set 'no snmp-server' to disable SNMP when unused",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "If not in use, disable simple network management protocol (SNMP), read and write access.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no snmp-server"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.2 Unset 'private' for 'snmp-server community'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "An SNMP community string permits read-only access to all objects.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no snmp-server community private"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.3 Unset 'public' for 'snmp-server community'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "An SNMP community string permits read-only access to all objects.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no snmp-server community public"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.4 Do not set 'RW' for any 'snmp-server community'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Specifies read-write access. Authorized management stations can both retrieve and modify MIB objects.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "no snmp-server community (?!public|private)\\S+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.5 Set the ACL for each 'snmp-server community'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "This feature specifies a list of IP addresses that are allowed to use the community string to gain access to the SNMP agent.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "snmp-server community \\S+ ro ((10|[0-9])|(\\S+))"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.6 Create an 'access-list' for use with SNMP",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "You can use access lists to control the transmission of packets on an interface, control Simple Network Management Protocol (SNMP) access, and restrict the contents of routing updates. The Cisco IOS software stops checking the extended access list after a match occurs.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "permit ((10|[0-9])|(\\S+))",
+              "deny any log"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.7 Set 'snmp-server host' when using SNMP",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "SNMP notifications can be sent as traps to authorized management systems.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^snmp-server host .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.8 Set 'snmp-server enable traps snmp'",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "SNMP notifications can be sent as traps to authorized management systems.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "snmp-server enable traps snmp authentication linkup linkdown coldstart"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.9 Set 'priv' for each 'snmp-server group' using SNMPv3",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Specifies authentication of a packet with encryption when using SNMPv3",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "snmp-server group \\S+ v3 priv"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.5.10 Require 'aes 128' as minimum for 'snmp-server user' when using SNMPv3",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Specify the use of a minimum of 128-bit AES algorithm for encryption when using SNMPv3.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "snmp-server user \\S+\\s\\S+ v3 auth sha \\S+ priv aes 128 \\S+ ((10|[0-9])|(\\S+))"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.6.1 Configure Login Block",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "All login parameters are disabled by default. You must issue the login block-for command, which enables default login functionality, before using any other login commands. After the login block-for command is enabled, the following defaults are enforced: A default login delay of one second 94 | P a g e All login attempts made via Telnet or SSH are denied during the quiet period; that is, no ACLs are exempt from the login period until the login quiet-mode access-class command is issued.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^login block-for .+",
+              "^login quiet-mode access class .+",
+              "^login delay .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.6.2 AutoSecure",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The AutoSecure feature secures a router by using a single CLI command to disable common IP services that can be exploited for network attacks, enable IP services and features that can aid in the defense of a network when under attack, and simplify and harden the security configuration of the router.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^auto secure (management|forwarding) .+",
+              "^enable password .+",
+              "^security authentication failure rate .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.6.3 Configuring Kerberos",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "The primary use of Kerberos is to verify that users and the network services they use are really who and what they claim to be. To accomplish this, a trusted Kerberos server issues tickets to users. These tickets, which have a limited lifespan, are stored in a user’s credential cache and can be used in place of the standard username-and-password authentication mechanism.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^kerberos .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    },
+    {
+      "severity": "MAJOR",
+      "name": "1.6.4 Configure Web interface",
+      "os": "ios",
+      "source": "LATEST",
+      "type": "SIMPLE",
+      "description": "Web-based authentication is an ingress-only feature. You can configure web-based authentication only on access ports. Web-based authentication is not supported on trunk ports, EtherChannel member ports, or dynamic trunk ports.",
+      "scopeSeparateResults": false,
+      "scope": "",
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "^ip admission .+"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "conceptItemId": null,
+      "enable": true,
+      "commandSet": "all",
+      "commandSetResult": {
+        "type": "basicMode"
+      }
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "NIST CIS - Cisco IOS 16 Benchmark",
+  "description": "This Audit Policy is created based on NIST CIS v1.1.0 - 09-09-2020",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "d3209859-0371-46ea-a70c-f29b3ed3744c",
+  "createdBy": "admin",
+  "createdOn": 1666175654684,
+  "updatedBy": "admin",
+  "updatedOn": 1668525517516,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 0
+}

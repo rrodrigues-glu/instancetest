@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/nxosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "aaa": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/aaa/nxos_aaa.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "boot": {
+        "firmware": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "AAA_Assembly"
+    },
+    "@exportedInstanceId": "ef5e94c1-60ac-4e24-abec-3129247931a6",
+    "@id": "ef5e94c1-60ac-4e24-abec-3129247931a6",
+    "@name": "AAA_Assembly",
+    "@description": ""
+}

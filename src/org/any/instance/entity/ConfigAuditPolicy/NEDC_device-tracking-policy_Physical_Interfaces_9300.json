@@ -1,0 +1,49 @@
+{
+  "permissionLevel": "auditManageLevel1",
+  "rules": [
+    {
+      "severity": "INFO",
+      "name": "Device_tracking_policy_physical_interfaces",
+      "os": "ios",
+      "source": "LATEST",
+      "commandSetResult": {
+        "type": "basicMode"
+      },
+      "type": "SIMPLE",
+      "description": "",
+      "enable": true,
+      "scope": "TwentyFiveGigE1/1/1|TwentyFiveGigE2/1/1",
+      "scopeSeparateResults": true,
+      "thenExpression": {
+        "condition": "AND",
+        "rules": [
+          {
+            "id": "latestConfig",
+            "field": "latestConfig",
+            "type": "string",
+            "input": "textarea",
+            "operator": "must_contain_regex",
+            "value": [
+              "device-tracking attach-policy TRUNK"
+            ]
+          }
+        ],
+        "valid": true
+      },
+      "commandSetName": "All",
+      "commandSet": "all",
+      "conceptItem": "IOS_Intf"
+    }
+  ],
+  "runLevel": "auditRunLevel1",
+  "name": "NEDC_device-tracking-policy_Physical_Interfaces_9300",
+  "description": "",
+  "tid": "6eacd32b-8d9c-4b13-8b83-060e81ca1079",
+  "id": "a31e8108-e31c-4c9d-85ef-cf0b925f0c6c",
+  "createdBy": "admin",
+  "createdOn": 1755792187779,
+  "updatedBy": "admin",
+  "updatedOn": 1755793523118,
+  "lastAuditErrorMsg": "",
+  "lastAuditDevicesSkippedCount": 65
+}

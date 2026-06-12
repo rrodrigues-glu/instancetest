@@ -1,0 +1,15 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/vlan.jtype"
+    },
+    "id": 600,
+    "name": "DATA6",
+    "@source": {
+        "instanceName": "600_vlan"
+    },
+    "alias": "",
+    "@exportedInstanceId": "e4f8401d-3b58-4f23-bf69-445e68bdfa57",
+    "@id": "e4f8401d-3b58-4f23-bf69-445e68bdfa57",
+    "@name": "600_vlan",
+    "@description": ""
+}

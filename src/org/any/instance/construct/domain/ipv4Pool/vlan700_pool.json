@@ -1,0 +1,30 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/ipv4Pool.jtype"
+    },
+    "description": "",
+    "type": "ipv4",
+    "summary": "10.10.70.0/24",
+    "reservations": [],
+    "ranges": [
+        {
+            "name": {
+                "@ref": "/org/instance/construct/global/subnetRange/reserved_subnet.json"
+            },
+            "ips": [
+                "10.10.70.10-10.10.70.254"
+            ]
+        }
+    ],
+    "allocationMode": "hostBased",
+    "options": {
+        "oversubscribingMode": false
+    },
+    "@source": {
+        "instanceName": "vlan700_pool"
+    },
+    "@exportedInstanceId": "043682fd-619b-4227-a1c5-7b2c85acc3d5",
+    "@id": "043682fd-619b-4227-a1c5-7b2c85acc3d5",
+    "@name": "vlan700_pool",
+    "@description": ""
+}

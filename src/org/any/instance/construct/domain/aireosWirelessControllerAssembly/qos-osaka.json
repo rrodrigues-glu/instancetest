@@ -1,0 +1,25 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/aireosWirelessControllerAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qos": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qos/aireos_qos-jap-osaka.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "qos-osaka"
+    },
+    "@exportedInstanceId": "cae1af70-ac85-4249-be0a-5f7e7f7a7b42",
+    "@id": "cae1af70-ac85-4249-be0a-5f7e7f7a7b42",
+    "@name": "qos-osaka",
+    "@description": ""
+}

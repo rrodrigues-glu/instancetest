@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": "(^eth.+|^Eth.+|^Ethernet.+)",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_intf-Eth-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "removeSyntax": {
+        "list": []
+    },
+    "@source": {
+        "instanceName": "nxos_intf-Eth_group"
+    },
+    "@exportedInstanceId": "0cda54eb-a275-4440-8656-14f8e92cd396",
+    "@id": "0cda54eb-a275-4440-8656-14f8e92cd396",
+    "@name": "nxos_intf-Eth_group",
+    "@description": ""
+}

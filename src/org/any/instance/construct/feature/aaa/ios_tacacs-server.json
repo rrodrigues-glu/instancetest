@@ -1,0 +1,39 @@
+{
+    "featureConcept": {
+        "name": "Tacacs Server",
+        "cliCommandGroups": {
+            "@ref": [
+                "/org/instance/construct/global/cliCommandGroup/ios_aaa-tacacs-server_grp.json"
+            ]
+        }
+    },
+    "form": {
+        "aaa": [
+            {
+                "name": "GluwAAAre",
+                "tacacs": [
+                    {
+                        "name": "tacacs1",
+                        "ip": "10.50.50.252",
+                        "key": {
+                            "@ref": "/secret/sys/credentials/secret/testJean.json"
+                        },
+                        "timeout": 5
+                    },
+                    {
+                        "name": "tacacs2",
+                        "ip": "10.55.55.252",
+                        "timeout": 30
+                    }
+                ]
+            }
+        ]
+    },
+    "@exportedInstanceId": "8af39aa8-61d2-4c86-a8a0-0d9767caa9cd",
+    "@id": "8af39aa8-61d2-4c86-a8a0-0d9767caa9cd",
+    "@type": {
+        "ref": "/sys/type/construct/feature/aaa.jtype"
+    },
+    "@name": "ios_tacacs-server",
+    "@description": ""
+}

@@ -1,0 +1,528 @@
+{
+    "vendor": "juniper",
+    "os": "junos",
+    "path": "/sys/jnib/features/deviceDetect/juniper/junos/",
+    "sku": "SRX345",
+    "software": {
+        "version": "18.4R3-S4.2",
+        "major": "18",
+        "minor": "4",
+        "revision": "S4",
+        "spin": "2",
+        "build": "3",
+        "type": "R"
+    },
+    "hardware": {
+        "serialNumber": "CZ5117AF1033",
+        "sku": "SRX345",
+        "components": {},
+        "family": "SRX",
+        "series": "345"
+    },
+    "detectedSerialNumber": "CZ5117AF1033",
+    "uptime": "39d8h31m",
+    "type": {
+        "name": "srxRouter",
+        "base": "baseFirewall"
+    },
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "gr-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ip-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "lsq-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1504"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "lt-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d8:b1:22:a2:d1:01",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "mt-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "sp-0/0/0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "800mbps",
+                    "mtu": "9192"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ge-0/0/1": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:02",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/2": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:03",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/3": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:04",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/4": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:05",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/5": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:06",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/6": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:07",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/7": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:08",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/8": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:09",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/9": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0a",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/10": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0b",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/11": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0c",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/12": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0d",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/13": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0e",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/14": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:0f",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "ge-0/0/15": {
+                "operational": {
+                    "status": "down",
+                    "macAddress": "d8:b1:22:a2:d1:10",
+                    "speed": "1000mbps",
+                    "duplex": "Full-duplex",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l2"
+            },
+            "esi": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "fti0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "fxp0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d8:b1:22:a2:d1:00",
+                    "speed": "1000mbps",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "fxp2": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "00:00:00:00:00:00",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "gre": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ipip": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "irb": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d8:b1:22:a2:d1:b0",
+                    "ipv4Address": "192.168.2.1/24",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up",
+                    "ipv4Address": "192.168.2.1/24"
+                },
+                "type": "l3"
+            },
+            "jsrv": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "d8:b1:22:a2:d1:80",
+                    "ipv4Address": "128.0.0.127/2",
+                    "speed": "Unspecified",
+                    "mtu": "1514"
+                },
+                "configured": {
+                    "status": "up"
+                },
+                "type": "l3"
+            },
+            "lo0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unspecified",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "lsi": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "mtun": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pimd": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pime": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "pp0": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unspecified",
+                    "mtu": "1532"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ppd0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "ppe0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "800mbps",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "rbeb": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "st0": {
+                "operational": {
+                    "status": "up",
+                    "speed": "Unspecified",
+                    "mtu": "9192"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "tap": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            "vtep": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            },
+            ".local.": {
+                "operational": {
+                    "status": "up",
+                    "macAddress": "Unspecified",
+                    "speed": "Unlimited",
+                    "mtu": "Unlimited"
+                },
+                "configured": {
+                    "status": "up"
+                }
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 15,
+                "use": 0,
+                "free": 15
+            }
+        },
+        "recordTime": {
+            "utcTime": 1719232606158,
+            "utcDateTime": "Mon, 24 Jun 2024 12:36:46 GMT"
+        }
+    }
+}

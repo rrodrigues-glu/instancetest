@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "ntp": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/ntp/ios_ntp-hostname.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "NTP_Hostname"
+    },
+    "@exportedInstanceId": "6dadaf11-7b24-442f-bbfa-36466dfec147",
+    "@id": "6dadaf11-7b24-442f-bbfa-36466dfec147",
+    "@name": "NTP_Hostname",
+    "@description": ""
+}

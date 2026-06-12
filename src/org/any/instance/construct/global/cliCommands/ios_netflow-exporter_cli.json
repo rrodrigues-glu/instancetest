@@ -1,0 +1,26 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "flow exporter $context.flow.exporter[*].name",
+        " description $context.flow.exporter[*].description",
+        " destination $context.flow.exporter[*].destination.ip",
+        " transport udp $context.flow.exporter[*].destination.port",
+        " source $context.portMap.MGNT1.name",
+        " option interface-table",
+        " option application-table",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_netflow-exporter_cli"
+    },
+    "@exportedInstanceId": "6c7f95dc-41c1-46b9-9ab5-a8743a7a27ee",
+    "@id": "6c7f95dc-41c1-46b9-9ab5-a8743a7a27ee",
+    "@name": "ios_netflow-exporter_cli",
+    "@description": ""
+}

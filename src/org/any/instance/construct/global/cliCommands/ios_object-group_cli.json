@@ -1,0 +1,21 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "item": {},
+    "cliCommands": [
+        "object-group network DC1_VPN",
+        " 10.192.{$context.portMap[*].ipv4.subnet.octet3}.0 255.255.255.0",
+        "!"
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@source": {
+        "instanceName": "ios_object-group_cli"
+    },
+    "@exportedInstanceId": "33222c4d-8e5b-40d9-bfb8-8ab52c68327e",
+    "@id": "33222c4d-8e5b-40d9-bfb8-8ab52c68327e",
+    "@name": "ios_object-group_cli",
+    "@description": ""
+}

@@ -1,0 +1,97 @@
+{
+    "hostname": "NYC415CC06",
+    "vendor": "cisco",
+    "os": "ios",
+    "path": "/sys/jnib/features/deviceDetect/cisco/ios/",
+    "sku": "IOSv",
+    "software": {
+        "version": "15.7(3)M3",
+        "major": "15",
+        "minor": "7",
+        "revision": "3",
+        "train": "M",
+        "build": "3",
+        "patch": "",
+        "apiVersion": "15.7(3)M3",
+        "drive": "flash0:"
+    },
+    "hardware": {
+        "serialNumber": "9DDH8TS7EJF83POO78B36",
+        "sku": "IOSv",
+        "chassis": {},
+        "components": {}
+    },
+    "detectedSerialNumber": "9DDH8TS7EJF83POO78B36",
+    "uptime": "20w6h7m",
+    "chassis": {},
+    "type": {
+        "name": "iosRouter",
+        "base": "wanRouter"
+    },
+    "licenses": {},
+    "ignoreDups": true,
+    "portsInfo": {
+        "ports": {
+            "GigabitEthernet0/0": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "50:09:00:10:00:00",
+                    "phyMacAddress": "50:09:00:10:00:00",
+                    "ipv4Address": "10.0.0.7/24"
+                },
+                "description": "",
+                "phyVirt": "physical",
+                "type": "l3",
+                "configured": {
+                    "speed": "auto",
+                    "duplex": "auto",
+                    "ipv4Address": "10.0.0.7/24",
+                    "enabled": true
+                },
+                "neighbors": [
+                    {
+                        "macAddress": "50:09:00:02:00:00",
+                        "destinationIpv4Address": "10.0.0.1",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.1"
+                    },
+                    {
+                        "macAddress": "50:09:00:10:00:00",
+                        "destinationIpv4Address": "10.0.0.7",
+                        "discoveryType": "ARP",
+                        "ip": "10.0.0.7"
+                    }
+                ]
+            },
+            "GigabitEthernet0/1": {
+                "operational": {
+                    "status": "up",
+                    "mtu": "1500",
+                    "speed": "1000000 Kbit/sec",
+                    "macAddress": "50:09:00:10:00:01",
+                    "phyMacAddress": "50:09:00:10:00:01"
+                },
+                "description": "",
+                "phyVirt": "physical",
+                "configured": {
+                    "speed": "auto",
+                    "duplex": "auto",
+                    "enabled": true
+                }
+            }
+        },
+        "portSummary": {
+            "switchports": {
+                "total": 0,
+                "use": 0,
+                "free": 0
+            }
+        },
+        "recordTime": {
+            "utcTime": 1698315302735,
+            "utcDateTime": "Thu, 26 Oct 2023 10:15:02 GMT"
+        }
+    }
+}

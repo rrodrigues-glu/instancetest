@@ -1,0 +1,20 @@
+{
+    "item": {},
+    "cliCommands": [
+        "snmp-server community $context.snmp.version.v2c.community[*].name $context.snmp.version.v2c.community[*].accessType $context.snmp.version.v2c.community[*].accessList",
+        "snmp-server location $context.snmp.location",
+        "snmp-server contact $context.snmp.contact",
+        "snmp-server host $context.snmp.version.v2c.community[*].host[*].ip $context.snmp.version.v2c.community[*].name",
+        ""
+    ],
+    "advanced": {
+        "filter": null
+    },
+    "@exportedInstanceId": "c9a0c293-eaaf-4be8-87cd-796f0c581813",
+    "@id": "c9a0c293-eaaf-4be8-87cd-796f0c581813",
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommands.jtype"
+    },
+    "@name": "aos_snmp-server_cli-Copy",
+    "@description": ""
+}

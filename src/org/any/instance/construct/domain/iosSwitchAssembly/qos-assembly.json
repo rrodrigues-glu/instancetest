@@ -1,0 +1,28 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/domain/iosSwitchAssembly.jtype"
+    },
+    "domains": {
+        "modules": {
+            "qosCheck": {
+                "policy": {
+                    "@ref": "/org/instance/construct/feature/qosCheck/qosCheck.json"
+                }
+            }
+        }
+    },
+    "interfaces": {},
+    "agents": {
+        "watchdog": {}
+    },
+    "state": {
+        "assessment": {}
+    },
+    "@source": {
+        "instanceName": "qos-assembly"
+    },
+    "@exportedInstanceId": "5aaa093d-3b40-4c52-b377-21dd8269a668",
+    "@id": "5aaa093d-3b40-4c52-b377-21dd8269a668",
+    "@name": "qos-assembly",
+    "@description": ""
+}

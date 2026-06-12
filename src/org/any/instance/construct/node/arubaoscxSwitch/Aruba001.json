@@ -1,0 +1,47 @@
+{
+    "configState": "managed",
+    "entryConnection": {
+        "connectionMethod": "cliConnection",
+        "ip": "10.150.3.5",
+        "type": "ssh",
+        "port": 22,
+        "credentials": {
+            "@ref": "/secret/sys/credentials/deviceUserPass/Admin User.json"
+        },
+        "sshParam": ""
+    },
+    "associations": {
+        "provider": "local"
+    },
+    "persona": {
+        "type": "none"
+    },
+    "hardware": {
+        "vendor": "auto",
+        "expectedSerialNumber": "auto"
+    },
+    "provisioning": {
+        "type": "advanced"
+    },
+    "arubaoscxSwitch": {
+        "enabled": true
+    },
+    "options": {
+        "connectionEnabled": true,
+        "previewMode": false,
+        "forcedAttachedStorage": false
+    },
+    "dcSwitch": {
+        "enabled": true
+    },
+    "site": {
+        "@ref": "/org/instance/construct/domain/location/0010C.json"
+    },
+    "@exportedInstanceId": "a4f39dd8-6cfd-4f82-99e0-78d9dfb7e04f",
+    "@id": "a4f39dd8-6cfd-4f82-99e0-78d9dfb7e04f",
+    "@type": {
+        "ref": "/sys/type/construct/node/arubaoscxSwitch.jtype"
+    },
+    "@name": "Aruba001",
+    "@description": ""
+}

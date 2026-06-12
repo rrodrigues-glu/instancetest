@@ -1,0 +1,27 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/ios-trustpoints.json"
+        ]
+    },
+    "maskCommands": [],
+    "advanced": {
+        "renderingConditions": []
+    },
+    "@firstLoad": true,
+    "@source": {
+        "instanceName": "ios-trustpoint"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "d0db7d3e-3543-453c-b130-c9f7dacf1d91",
+    "@id": "d0db7d3e-3543-453c-b130-c9f7dacf1d91",
+    "@name": "ios-trustpoint",
+    "@description": ""
+}

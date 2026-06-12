@@ -1,0 +1,24 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/cliCommandGroup.jtype"
+    },
+    "regEx": ".+",
+    "ignoreDelete": true,
+    "cliBlocks": {
+        "@ref": [
+            "/org/instance/construct/global/cliCommands/nxos_netflow-exporter-cli.json"
+        ]
+    },
+    "advanced": {},
+    "maskCommands": [],
+    "@source": {
+        "instanceName": "nxos_netflow-exporter_grp"
+    },
+    "removeSyntax": {
+        "list": []
+    },
+    "@exportedInstanceId": "8ffd7440-ee0f-4f38-af6c-c9f8f68e4bea",
+    "@id": "8ffd7440-ee0f-4f38-af6c-c9f8f68e4bea",
+    "@name": "nxos_netflow-exporter_grp",
+    "@description": ""
+}

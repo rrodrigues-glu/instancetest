@@ -1,0 +1,32 @@
+{
+    "@type": {
+        "ref": "/sys/type/construct/global/conceptItem.jtype"
+    },
+    "name": "crypto",
+    "showCmds": [
+        "sh run | sec \"crypto key\""
+    ],
+    "mode": "basic",
+    "keyCliLine": "crypto key .+",
+    "rootEntryFlag": false,
+    "boundaries": {
+        "start": null
+    },
+    "discover": {},
+    "removeSyntax": {},
+    "vendors": {
+        "cisco": {
+            "type": [
+                "nxos"
+            ],
+            "level": null
+        }
+    },
+    "@source": {
+        "instanceName": "NXOS_Crytpo"
+    },
+    "@exportedInstanceId": "c12728af-58ce-4dd9-bc15-8dc3582753b5",
+    "@id": "c12728af-58ce-4dd9-bc15-8dc3582753b5",
+    "@name": "NXOS_Crytpo",
+    "@description": ""
+}
