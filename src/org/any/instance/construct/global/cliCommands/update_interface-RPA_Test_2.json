@@ -17,6 +17,6 @@
     "@type": {
         "ref": "/sys/type/construct/global/cliCommands.jtype"
     },
-    "@name": "update_interface-RPA_Test",
+    "@name": "update_interface-RPA_Test_2",
     "@description": ""
 }

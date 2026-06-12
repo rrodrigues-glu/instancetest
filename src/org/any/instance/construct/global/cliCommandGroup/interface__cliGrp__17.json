@@ -3,7 +3,7 @@
     "ignoreDelete": true,
     "cliBlocks": {
         "@ref": [
-            "/org/instance/construct/global/cliCommands/update_interface-RPA_Test.json"
+            "/org/instance/construct/global/cliCommands/update_interface-RPA_Test_2.json"
         ]
     },
     "advanced": {},
